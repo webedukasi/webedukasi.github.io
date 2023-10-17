@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoh Soal Euler - BELAJAR</title>
+    <meta name="description" content="Contoh Soal Euler, , , , , , , 0, , , , , , 0, contoh-soal-euler, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contoh Soal Euler - BELAJAR" />
+    <meta property="og:description" content="Contoh Soal Euler, , , , , , , 0, , , , , , 0, contoh-soal-euler, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contoh Soal Euler - BELAJAR" />
+    <meta name="twitter:description" content="Contoh Soal Euler, , , , , , , 0, , , , , , 0, contoh-soal-euler, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://webedukasi.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://webedukasi.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://webedukasi.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://webedukasi.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://webedukasi.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://webedukasi.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://webedukasi.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://webedukasi.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://webedukasi.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://webedukasi.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Contoh Soal Euler</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">Ryan087814795346</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Contoh+Soal+Euler" alt="Contoh Soal Euler">
+                    </div>
+                    <p></p>
+                    <p>Sebutkan teorema Euler(leonhard Euler)</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-teorema-eulerleonhard-euler">1.
+                                            Sebutkan teorema Euler(leonhard Euler)</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tentukan-pada-graf-mana-yang-merupakan-lintasan-euler-dan-yang-merupakan-sirkuit-euler%e2%80%8b">2.
+                                            tentukan pada graf mana yang merupakan lintasan euler dan yang merupakan sirkuit euler​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#euler-pangkat-tak-hingga-berapa">3.
+                                            euler pangkat tak hingga berapa?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-sebuah-tabel-untuk-membuktikan-kaidah-euler">4.
+                                            Buatlah sebuah  tabel untuk membuktikan Kaidah Euler!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebuah-bangun-ikosahedron-mempunyai-banyak-sisi-dan-titik-sudut-berturut-turut-20-dan-12-dengan-menggunakan-rumus-euler-banyak-rusuk-bangun-tersebut-adalah-%e2%80%8b">5.
+                                            sebuah bangun ikosahedron mempunyai banyak sisi dan titik sudut berturut turut 20 dan 12. Dengan menggunakan rumus Euler, banyak rusuk bangun tersebut adalah.....​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berdasarkan-rumus-euler-jika-banyak-sisi-7-dan-banyak-rusuk-13-maka-banyak-titik-sudut-bangun-ruang-tersebut-adalah">6.
+                                            berdasarkan rumus Euler, jika banyak sisi 7 dan banyak rusuk 13 maka banyak titik sudut bangun ruang tersebut adalah.... </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tolong-bantu-ada-yang-tau-siapa-penemu-teori-lintasan-euler">7.
+                                            Tolong bantu, ada yang tau siapa penemu Teori Lintasan Euler?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#quiz-math-limit-eulerselesaikan-dgn-menggunakan-cara-yg-jelas-%e2%80%8b">8.
+                                            Quiz Math - Limit EulerSelesaikan dgn menggunakan cara yg jelas.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tentukan-solusi-umum-persamaan-differensial-cauchy-euler-x2-y-125y-0">9.
+                                            Tentukan solusi umum persamaan differensial Cauchy-Euler x2 y" +1,25y = 0</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-persamaan-euler">10.
+                                            pengertian persamaan euler</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-sebuah-graf-dengan-lima-simpul-yang-mempunyai-sirkuit-euler-dan-tidak-mempunyai-sirkuit-hamilton">11.
+                                            Buatlah sebuah graf dengan lima simpul yang mempunyai sirkuit euler dan tidak mempunyai sirkuit hamilton!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#ubahlah-bentuk-desimal-berikut-ini-ke-bentuk-pecahan-menggunakan-metode-euler-dan-deret-waktu-tak-hingga-0452452452">12.
+                                            Ubahlah bentuk desimal berikut ini ke bentuk pecahan menggunakan metode euler dan deret waktu tak hingga 0,452452452</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#hitunglah-luas-daerah-di-bawah-kurva-fx1x-x1-dan-xeeeuler">13.
+                                            Hitunglah luas daerah di bawah kurva f(x)=1/x , x=1 , dan x=e
+(e=euler)</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pertanyaanjika-sekarang-bulan-junimaka-239%e2%81%b4%c2%b3-bulan-datang-adalah-menggunakan-modulophi-euler%e2%80%8b">14.
+                                            pertanyaanjika sekarang bulan Juni,maka 239⁴³ bulan datang adalah...#menggunakan modulo/phi euler?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berdasarkan-rumus-euler-jika-banyak-sisi-7-dan-banyak-rusuk-13-maka-banyak-titik-sudut-bangun-ruang-tersebut-adalah">15.
+                                            Berdasarkan rumus Euler, jika banyak sisi 7 dan banyak rusuk 13, maka banyak titik sudut bangun ruang tersebut adalah...</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buat-lintasan-yang-mungkin-transversable-euler-hamilton-%e2%80%8b">16.
+                                            Buat Lintasan yang Mungkin (transversable , euler , hamilton ) ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#limit-tak-hingga-fungsi-euler%e2%80%8b">17.
+                                            Limit tak hingga fungsi euler​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tentukan-mana-di-antara-graf-graf-yang-memiliki-sirkuit-euler">18.
+                                            tentukan mana di antara graf graf yang memiliki sirkuit euler</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apakah-semua-bangun-ruang-memenuhi-rumus-euler">19.
+                                            Apakah semua bangun ruang memenuhi rumus euler?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#suatu-bidang-memiliki-12-titik-sudut-dan-30-rusuk-berapa-banyak-sisinya-gunakan-rumus-euler%e2%80%8b">20.
+                                            suatu bidang memiliki 12 titik sudut dan 30 rusuk Berapa banyak Sisinya gunakan rumus Euler​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#perusahaan-kontraktor-euler-dikontrak-untuk-membangun-sebuah-jembatan-tambahan-di-konigsberg-sedemikian-sehingga-ada-lintasan-euler-yang-melalui-setiap-jembatan-dimana-jembatan-tambahan-itu-harus-dib">21.
+                                            Perusahaan kontraktor Euler dikontrak untuk membangun sebuah jembatan tambahan di Konigsberg sedemikian sehingga ada lintasan Euler yang melalui setiap jembatan. Dimana jembatan tambahan itu harus dibangun? Gambarkan grafnya.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#rumus-euler-jika-banyak-sisi-5-dan-titik-sudut-6">22.
+                                            rumus euler jika banyak sisi 5 dan titik sudut 6</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-yang-dimaksud-dengan-bilangan-e-bilangan-euler">23.
+                                            Jelaskan yang dimaksud dengan bilangan e (bilangan euler)</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-kerjakan-soal-dibawah-ini-dengan-menggunakan-metode-euler-dan-deret-waktu-tak-hingga-a-0452452452452452-b-0-982349823498234-c-03249249249249249-d-099345345345345345-e-02345325632">24.
+                                            1. Kerjakan soal dibawah ini dengan menggunakan Metode Euler dan Deret Waktu tak Hingga...a) 0,452452452452452...b) 0.982349823498234...c) 0,3249249249249249...d) 0,99345345345345345...e) 0,2345325632563256...  Tolong bantu jawab ya,soal kalkulus ini​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berdasarkan-rumus-euler-jika-banyak-sisi-7-dan-rusuk-13-maka-banyak-titik-sudut-bangun-ruang-tersebut-adalah">25.
+                                            berdasarkan rumus euler jika banyak sisi 7 dan rusuk 13 maka banyak titik sudut bangun ruang tersebut adalah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#4-perusahaan-kontraktor-euler-dikontrak-untuk-membangun-sebuah-jembatan-tambahan-di-konigsberg-sedemikian-sehingga-ada-lintasan-euler-yang-melalui-setiap-jembatan-dimana-jembatan-tambahan-itu-harus">26.
+                                            4.	Perusahaan kontraktor Euler dikontrak untuk membangun sebuah jembatan tambahan di Konigsberg sedemikian sehingga ada lintasan Euler yang melalui setiap jembatan. Dimana jembatan tambahan itu harus dibangun? Gambarkan grafnya.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#ubahlah-bentuk-desimal-berikut-ke-bentuk-pecahan-menggunakan-metode-euler-dan-deret-waktu-tak-terhingga0234234234234012345345345">27.
+                                            ubahlah bentuk desimal berikut ke bentuk pecahan menggunakan metode euler dan deret waktu tak terhingga0,2342342342340,12345345345</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#quis-3apakah-bilangan-e-bilangan-euler-adalah-irasional%e2%80%8b">28.
+                                            QUIS #3Apakah bilangan e (bilangan Euler) adalah irasional?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-sebuah-tabel-untuk-membuktikan-kaidah-euler">29.
+                                            Buatlah sebuah  tabel untuk membuktikan Kaidah Euler!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-dimaksud-dengan-bilangan-euler-kapan-ditemukan-bilangan-ini-dan-bagaimana-cara-menemukan-bilangan-ini-apa-kegunaan-dari-bilangan-tersebut-tolong-jelaskan">30.
+                                            Apa yang dimaksud dengan Bilangan Euler? Kapan ditemukan bilangan ini dan bagaimana cara menemukan bilangan ini? Apa kegunaan dari bilangan tersebut? Tolong jelaskan!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#4-berdasarkan-rumus-euler-lengkapilah-daftar-berikut-ini%e2%80%8b">31.
+                                            4. Berdasarkan rumus Euler, lengkapilah daftar berikut ini​ </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#dengan-menggunakan-rumus-euler-hitunglah-jumlah-wilayah-graph-di-atas-no-3">32.
+                                            Dengan menggunakan rumus Euler hitunglah jumlah wilayah graph di atas (no. 3)</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berdasarkan-rumus-euler-lengkalilah-daftar-berikut-ini">33.
+                                            Berdasarkan rumus euler , lengkalilah daftar berikut ini</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berapakah-rusuksisi-dan-titik-sudut-pada-bangun-ruang-bolaapakah-bola-termasuk-rumus-euler">34.
+                                            berapakah rusuk,sisi dan titik sudut pada bangun ruang bola?apakah bola termasuk rumus euler?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berdasarkan-rumus-euler-jika-banyak-sisi-7-dan-banyak-rusuk-13-maka-banyak-titik-sudut-bangun-ruang-tersebut-adalah">35.
+                                            Berdasarkan rumus Euler, jika banyak sisi 7 dan banyak rusuk 13 maka banyak titik sudut bangun ruang tersebut adalah...</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#078976547654ubahlah-bentuk-desimal-ke-pecahan-menggunakan-metode-euler-dan-deret-waktu-tak-hingga">36.
+                                            0,78976547654
+Ubahlah bentuk desimal ke pecahan menggunakan metode euler dan deret waktu tak hingga</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#selesaikan-persamaan-diferensial-berikut-ini-menggunakan-metode-euler-dydx1-xy-e-x">37.
+                                            Selesaikan persamaan diferensial berikut ini menggunakan metode Euler dy/dx=(1-xy) e^-x</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#ini-ttg-limiit-barisan-bilangan-euler-materi-pengayaan-mhn-yg-bisa-bantu">38.
+                                            ini ttg limiit barisan bilangan Euler. Materi pengayaan. mhn yg bisa bantu</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagaimana-pendapat-leonhard-euler-tentang-induksi-matematika">39.
+                                            Bagaimana pendapat leonhard euler tentang induksi matematika</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#hitung-diferensialdydt-yt3-9-8y-dari-8-sampai-dengan-9-h-025-dan-h-02-menggunakan-metode-euler%e2%80%8b">40.
+                                            hitung diferensialdy/dt = yt^3 - 9.8y dari 8 sampai dengan 9 h= 0,25 dan h= 0,2 menggunakan metode euler​</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="sebutkan-teorema-eulerleonhard-euler">
+                            1. Sebutkan teorema Euler(leonhard Euler)</h2><br />
+                        Panjang rusuk = R , Bidang sisi = S dan Titik Pojok/sudut = T<br />R = S + T - 2<br />S = R - T + 2<br />T = R - S + 2<br /><br />
+                                            <h2 class="ez-toc-section" id="tentukan-pada-graf-mana-yang-merupakan-lintasan-euler-dan-yang-merupakan-sirkuit-euler%e2%80%8b">
+                            2. tentukan pada graf mana yang merupakan lintasan euler dan yang merupakan sirkuit euler​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>yang sirkui euler yang ke 2</p><br />
+                                            <h2 class="ez-toc-section" id="euler-pangkat-tak-hingga-berapa">
+                            3. euler pangkat tak hingga berapa?</h2><br />
+                        e^∞ = ∞................<br />
+                                            <h2 class="ez-toc-section" id="buatlah-sebuah-tabel-untuk-membuktikan-kaidah-euler">
+                            4. Buatlah sebuah  tabel untuk membuktikan Kaidah Euler!</h2><br />
+                        <p>Pada bangun ruang sisi datar, terdapat hubungan antara banyaknya sisi, banyaknya titik sudut dan banyaknya rusuk. Hubungan tersebut dinamakan Kaidah EULER. Kaidah Euler menyatakan bahwa “Banyaknya sisi ditambah dengan banyaknya titik sudut adalah sama dengan banyaknya rusuk ditambah dengan 2”
+</p><p>(S + T = R + 2)
+</p><p>S = sisi, T = titik sudut, R = Rusuk
+</p><p>Tabel ada di lampiran ini</p><br />
+                                            <h2 class="ez-toc-section" id="sebuah-bangun-ikosahedron-mempunyai-banyak-sisi-dan-titik-sudut-berturut-turut-20-dan-12-dengan-menggunakan-rumus-euler-banyak-rusuk-bangun-tersebut-adalah-%e2%80%8b">
+                            5. sebuah bangun ikosahedron mempunyai banyak sisi dan titik sudut berturut turut 20 dan 12. Dengan menggunakan rumus Euler, banyak rusuk bangun tersebut adalah.....​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>c.30</p><p></p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p><strong>R</strong><strong>u</strong><strong>m</strong><strong>u</strong><strong>s</strong><strong> </strong><strong>E</strong><strong>u</strong><strong>l</strong><strong>e</strong><strong>r</strong><strong> </strong><strong>(</strong><strong> </strong><strong>b</strong><strong>e</strong><strong>r</strong><strong>l</strong><strong>a</strong><strong>k</strong><strong>u</strong><strong> </strong><strong>u</strong><strong>n</strong><strong>t</strong><strong>u</strong><strong>k</strong><strong> </strong><strong>s</strong><strong>e</strong><strong>m</strong><strong>u</strong><strong>a</strong><strong> </strong><strong>b</strong><strong>a</strong><strong>n</strong><strong>g</strong><strong>u</strong><strong>n</strong><strong> </strong><strong>r</strong><strong>u</strong><strong>a</strong><strong>n</strong><strong>g</strong><strong> </strong><strong>)</strong><strong> </strong><strong>:</strong></p><p><strong>S</strong><strong> </strong><strong>+</strong><strong> </strong><strong>T</strong><strong> </strong><strong>-</strong><strong> </strong><strong>R</strong><strong> </strong><strong>=</strong><strong> </strong><strong>2</strong></p><p><strong>d</strong><strong>e</strong><strong>n</strong><strong>g</strong><strong>a</strong><strong>n</strong><strong> </strong><strong>:</strong><strong> </strong><strong>S</strong><strong> </strong><strong>=</strong><strong> </strong><strong>s</strong><strong>i</strong><strong>s</strong><strong>i</strong></p><p><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong>T</strong><strong> </strong><strong>=</strong><strong> </strong><strong>t</strong><strong>i</strong><strong>t</strong><strong>i</strong><strong>k</strong><strong> </strong><strong>s</strong><strong>u</strong><strong>d</strong><strong>u</strong><strong>t</strong></p><p><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong> </strong><strong>R</strong><strong> </strong><strong>=</strong><strong> </strong><strong>r</strong><strong>u</strong><strong>s</strong><strong>u</strong><strong>k</strong></p><p></p><p>S + T - R = 2</p><p>20 + 12 - R = 2</p><p>32 - R = 2</p><p>32 - 2 = 30</p><p></p><p></p><p>maaf kalo salah ◡̈</p><br />
+                                            <h2 class="ez-toc-section" id="berdasarkan-rumus-euler-jika-banyak-sisi-7-dan-banyak-rusuk-13-maka-banyak-titik-sudut-bangun-ruang-tersebut-adalah">
+                            6. berdasarkan rumus Euler, jika banyak sisi 7 dan banyak rusuk 13 maka banyak titik sudut bangun ruang tersebut adalah.... </h2><br />
+                        Berdasarkan rumus Euler :<br /><br />= F (Faces) + E (Edges) = V (Vertices) + 2<br /><br />= Sisi         +      Sudut     =  Rusuk + 2<br /><br />Sehingga penghitungannya menjadi<br /><br /> 7 + banyak sudut = 13 + 2<br />        Banyak sudut = 13 +2 - 7<br />                               <strong>= 8 titik Sudut</strong><br /><br />Semoga membantu <br />
+                                            <h2 class="ez-toc-section" id="tolong-bantu-ada-yang-tau-siapa-penemu-teori-lintasan-euler">
+                            7. Tolong bantu, ada yang tau siapa penemu Teori Lintasan Euler?</h2><br />
+                        leonhard euler<br />klo g salahjawabannya:<br />Leonhard Euler,seorang ahli matematika di Swiss<br />Semoga membantu..<br />Jadikan yang terbaik ya..<br />
+                                            <h2 class="ez-toc-section" id="quiz-math-limit-eulerselesaikan-dgn-menggunakan-cara-yg-jelas-%e2%80%8b">
+                            8. Quiz Math - Limit EulerSelesaikan dgn menggunakan cara yg jelas.​</h2><br />
+                        <p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>............................</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="tentukan-solusi-umum-persamaan-differensial-cauchy-euler-x2-y-125y-0">
+                            9. Tentukan solusi umum persamaan differensial Cauchy-Euler x2 y" +1,25y = 0</h2><br />
+                        <p><strong>Jawaban</strong><strong> </strong><strong>pada</strong><strong> </strong><strong>gambar</strong><strong> </strong></p><p></p><p><strong>Semoga</strong><strong> </strong><strong>membantu</strong><strong>,</strong><strong> </strong><strong>maaf</strong><strong> </strong><strong>jika</strong><strong> </strong><strong>salah</strong><strong> </strong><strong>:</strong><strong>)</strong></p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-persamaan-euler">
+                            10. pengertian persamaan euler</h2><br />
+                        Euler adalah
+salah satu dari metode satu langkah yang paling sederhana sehingga
+memudahkan dalam mempelajari metode lain yang lebih teliti<br />Persmaan Euler adlah Persamaan Yg memudahkan Untuk mencri persamaan Lain. <br /><br />
+                                            <h2 class="ez-toc-section" id="buatlah-sebuah-graf-dengan-lima-simpul-yang-mempunyai-sirkuit-euler-dan-tidak-mempunyai-sirkuit-hamilton">
+                            11. Buatlah sebuah graf dengan lima simpul yang mempunyai sirkuit euler dan tidak mempunyai sirkuit hamilton!</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Berikut adalah contoh graf dengan lima simpul yang memiliki sirkuit Euler, tetapi tidak memiliki sirkuit Hamilton:</p><p></p>Simpul A terhubung ke simpul B dengan salah satu jalur.Simpul B terhubung ke simpul C dengan salah satu jalur.Simpul C terhubung ke simpul D dengan salah satu jalur.Simpul D terhubung ke simpul E dengan salah satu jalur.Simpul E terhubung kembali ke simpul A dengan salah satu jalur.<p></p><p>Graf di atas memiliki sirkuit Euler, karena ada sirkuit yang mengunjungi setiap simpul hanya sekali. Namun, graf tersebut tidak memiliki sirkuit Hamilton, karena tidak ada sirkuit yang mengunjungi setiap simpul hanya sekali tanpa mengulangi jalur.</p><p></p><p>Graf di atas dapat dilihat sebagai berikut:</p><p></p><p>A ---&gt; B ---&gt; C ---&gt; D ---&gt; E ---&gt; A</p><p></p><p>Atau dengan notasi matematis:</p><p></p><p>A -- B -- C -- D -- E -- A</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="ubahlah-bentuk-desimal-berikut-ini-ke-bentuk-pecahan-menggunakan-metode-euler-dan-deret-waktu-tak-hingga-0452452452">
+                            12. Ubahlah bentuk desimal berikut ini ke bentuk pecahan menggunakan metode euler dan deret waktu tak hingga 0,452452452</h2><br />
+                        a = 0,452452452<br />1000a = 100 x 0,452452452 <br />1000a = 452,452452<br /><br />1000a - a = 452,452452 - 0,452452<br />999a = 452<br />a = 452/999<br />
+                                            <h2 class="ez-toc-section" id="hitunglah-luas-daerah-di-bawah-kurva-fx1x-x1-dan-xeeeuler">
+                            13. Hitunglah luas daerah di bawah kurva f(x)=1/x , x=1 , dan x=e
+(e=euler)</h2><br />
+                        L = ∫ (1/x) dx (x = 1 , x = e)<br />   = ln x (x = 1 , x = e)<br />   = ln e - ln 1<br />   = 1 - 0<br />   = 1<br />
+                                            <h2 class="ez-toc-section" id="pertanyaanjika-sekarang-bulan-junimaka-239%e2%81%b4%c2%b3-bulan-datang-adalah-menggunakan-modulophi-euler%e2%80%8b">
+                            14. pertanyaanjika sekarang bulan Juni,maka 239⁴³ bulan datang adalah...#menggunakan modulo/phi euler?​</h2><br />
+                        <p>Pembahasan dengan langkah-langkah: </p><p>jika sekarang bulan Juni,maka 239⁴³ bulan datang adalah bulan <strong>Mei</strong>. </p><p></p><p>#menggunakan modulo/phi euler</p><p></p><p><strong>Pembahasan</strong> </p><p><strong>Diketahui</strong><strong>:</strong><strong> </strong></p><p>Sekarang bulan Juni</p><p></p><p><strong>Ditanya</strong><strong>:</strong><strong> </strong></p><p>239⁴³ bulan yang akan datang</p><p></p><p><strong>Jawab</strong><strong>:</strong><strong> </strong></p><p><strong>1</strong><strong> </strong><strong>tahun</strong><strong> </strong><strong>=</strong><strong> </strong><strong>12</strong><strong> </strong><strong>bulan</strong><strong> </strong>maka </p><p>Menggunakan Modulo 12</p><p>[tex] \: \: \: {239}^{43} (mod \:  \: 12) \\  \equiv \:  \:  {(240 - 1)}^{43} (mod \:  \: 12) \\  \equiv \:  \:  {( - 1)}^{43} (mod \:  \: 12) \\ \equiv \:  \:  ( - 1) \: \: (mod \:  \: 12) \\ \equiv \:  \:  11 \: \: (mod \:  \: 12) \\ \\ artinya \:  \:  {239}^{43}  \:  \: bulan \:  \: yang \:  \: akan \:  \: datang \:  \: adalah \\ satu \:  \: bulan \:  \: sebelum \:  \: bulan \:  \: juni \\ yaitu \:  \: bulan \:  \: mei \:  \:  \\  \\ [/tex]</p><p>239⁴³ bulan datang adalah bulan <strong>Mei</strong>. </p><p></p><p><strong>Detail Jawaban</strong> </p><p>Kategori : Teori Bilangan</p><p>Mapel : SBMPTN</p><p></p><p></p><p>#TingkatkanPrestasimu</p><br />
+                                            <h2 class="ez-toc-section" id="berdasarkan-rumus-euler-jika-banyak-sisi-7-dan-banyak-rusuk-13-maka-banyak-titik-sudut-bangun-ruang-tersebut-adalah">
+                            15. Berdasarkan rumus Euler, jika banyak sisi 7 dan banyak rusuk 13, maka banyak titik sudut bangun ruang tersebut adalah...</h2><br />
+                        [tex]\textit{Graph} [/tex]<br /><br />[tex]\textit{Euler Characteristics Formula} [/tex]<br />[tex] V - E + F = \chi [/tex]<br />[tex] \chi = 2, \, \textit{for planar graph} [/tex]<br /><br />[tex]\textit{Given a planar graph with following properties,} [/tex]<br />[tex]\textit{Faces} = 7 [/tex]<br />[tex]\textit{Edges} =13 [/tex]<br />[tex]\textit{Find Vertices.} [/tex]<br /><br />[tex] V - E + F = \chi [/tex]<br />[tex] V - 13 + 7 = 2 [/tex]<br />[tex] V = 2 + 13 - 7 [/tex]<br />[tex] V = 8 [/tex]<br /><br />
+                                            <h2 class="ez-toc-section" id="buat-lintasan-yang-mungkin-transversable-euler-hamilton-%e2%80%8b">
+                            16. Buat Lintasan yang Mungkin (transversable , euler , hamilton ) ​</h2><br />
+                        <p><strong>Lintasan transversal:</strong> I -B-D-F</p><p><strong>Lintasan Euler:</strong> Tidak ada, karena ada dua simpul (A dan D) dengan derajat ganjil (jumlah tepi yang terhubung ke simpul tersebut).</p><p><strong>Lintasan Hamilton:</strong> A-D, F-A, I-C, B-K, D-H</p><strong>Penjelasan dengan langkah-langkah:</strong><p>Lintasan-lintasan yang mungkin pada suatu graf dapat digolongkan menjadi tiga jenis, yaitu lintasan transversal (transversable), lintasan Euler, dan lintasan Hamilton. Berikut adalah penjelasan singkat mengenai ketiganya:</p><p><strong>Lintasan Transversal (Transversable Path):</strong></p><p>Lintasan transversal adalah lintasan yang melalui setiap sisi (edge) dari graf tepat satu kali, tetapi tidak harus melewati setiap simpul (vertex) tepat satu kali. Artinya, graf dapat memiliki beberapa simpul yang tidak terlewati oleh lintasan ini.</p><p><strong>Lintasan Euler:</strong></p><p>Lintasan Euler adalah lintasan yang melalui setiap sisi (edge) dari graf tepat satu kali dan melewati setiap simpul (vertex) tepat satu kali. Dengan kata lain, graf harus terhubung secara lengkap tanpa ada simpul yang terlewat.</p><p><strong>Lintasan Hamilton:</strong></p><p>Lintasan Hamilton adalah lintasan yang melalui setiap simpul (vertex) dari graf tepat satu kali. Artinya, graf harus memiliki lintasan yang mengunjungi setiap simpul tepat satu kali tanpa harus melewati setiap sisi (edge) tepat satu kali.</p><p><strong>Catatan:</strong></p><p><strong>Lintasan Euler dan Lintasan Hamilton</strong> biasanya hanya ada pada jenis-jenis graf tertentu. Misalnya, lintasan Euler hanya mungkin ada pada graf <strong>Euler, </strong>sedangkan lintasan Hamilton hanya mungkin ada pada graf Hamilton.</p><p><strong>Graf yang memiliki lintasan Euler disebut graf Euler</strong>, dan graf yang memiliki lintasan Hamilton disebut graf Hamilton.</p><p><strong>Lintasan transversal:</strong> I -B-D-F</p><p><strong>Lintasan Euler:</strong> Tidak ada, karena ada dua simpul (A dan D) dengan derajat ganjil (jumlah tepi yang terhubung ke simpul tersebut).</p><p><strong>Lintasan Hamilton:</strong> A-D, F-A, I-C, B-K, D-H</p>Pelajari Lebih Lanjut<p>Pelajari lebih lanjut materi tentang sirkuit Euler maupun siklus Hamilton https://brainly.in/question/50910478</p><p><strong>#BelajarBersamaBrainly#SPJ1</strong></p><br />
+                                            <h2 class="ez-toc-section" id="limit-tak-hingga-fungsi-euler%e2%80%8b">
+                            17. Limit tak hingga fungsi euler​</h2><br />
+                        <p><strong>Jawab:</strong></p><p>Perhatikan, jika</p><p>                      [tex]\displaystyle L = \lim_{x\rightarrow \infty}(1-10x+25x^2)^\frac{\cos(6/x)}{\sin(12/x)}[/tex]</p><p>maka</p><p>                [tex]\displaystyle \log(L) = \lim_{x\rightarrow \infty} \frac{\cos(6/x)}{\sin(12/x)}\log(1-10x+25x^2)[/tex]</p><p>karena [tex]\lim_{x \rightarrow \infty} \cos(6/x) = \cos(0) = 1[/tex] , kita bisa pisahkan [tex]\cos(6/x)[/tex] pada persamaan diatas</p><p>               [tex]\displaystyle \log(L) =  \bigg(\lim_{x\rightarrow \infty}  \cos(6/x) \bigg) \bigg(\lim_{x\rightarrow \infty} \frac{1}{\sin(12/x)}\log(1-10x+25x^2)\bigg)[/tex]</p><p>                           [tex]\displaystyle = \lim_{x\rightarrow \infty} \frac{\log(1-10x+25x^2)}{\sin(12/x)}[/tex]</p><p>Perhatikan bahwa</p><p>                  [tex]\displaystyle\lim_{x\rightarrow \infty} \log(1-10x+25x^2) = +\infty[/tex]    dan</p><p>                  [tex]\displaystyle\lim_{x\rightarrow \infty} \frac{1}{\sin(12/x)} = +\infty[/tex]</p><p>maka </p><p>      [tex]\log(L)  \displaystyle = \lim_{x\rightarrow \infty} \frac{\log(1-10x+25x^2)}{\sin(12/x)}  = +\infty[/tex]</p><p>didapat</p><p>                             [tex]L = \displaystyle e^{+\infty} = +\infty[/tex]</p><p>  </p><p></p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="tentukan-mana-di-antara-graf-graf-yang-memiliki-sirkuit-euler">
+                            18. tentukan mana di antara graf graf yang memiliki sirkuit euler</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p>Sirkuit Euler ialah sirkuit yang melewati masing-masing sisi di dalam graf tepat satu kali.Graf yang mempunyai lintasan Euler disebut juga grafsemi-Euler (semi-Eulerian graph) sedangkan Graf yang mempunyai sirkuit Euler disebut juga graf Euler (Eulerian graph).</p><br />
+                                            <h2 class="ez-toc-section" id="apakah-semua-bangun-ruang-memenuhi-rumus-euler">
+                            19. Apakah semua bangun ruang memenuhi rumus euler?</h2><br />
+                        <p><strong>Jawab:</strong></p><p>Tidak semua bangun ruang memenuhi rumus euler, karena terdapat bangun ruang yang tidak memenuhi rumus euler yaitu bangun ruang yang memiliki lubang di dalamnya.</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="suatu-bidang-memiliki-12-titik-sudut-dan-30-rusuk-berapa-banyak-sisinya-gunakan-rumus-euler%e2%80%8b">
+                            20. suatu bidang memiliki 12 titik sudut dan 30 rusuk Berapa banyak Sisinya gunakan rumus Euler​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>20 </p><p></p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>RUMUS EULER</p><p></p><p>V - E + F = 2</p><p>12 - 30 + F = 2</p><p>-18 + F = 2</p><p>        F = 2 + 18</p><p>        F = 20 ✔</p><p></p><p>V = Vertex (titik sudut)</p><p>E = Edge (Rusuk)</p><p>F = Face (Sisi)</p><p></p><p><strong>K</strong><strong>e</strong><strong>t</strong><strong>e</strong><strong>r</strong><strong>a</strong><strong>n</strong><strong>g</strong><strong>a</strong><strong>n</strong><strong> </strong><strong>:</strong></p><p>Semoga membantu.</p><p>Have a nice day :)</p><br />
+                                            <h2 class="ez-toc-section" id="perusahaan-kontraktor-euler-dikontrak-untuk-membangun-sebuah-jembatan-tambahan-di-konigsberg-sedemikian-sehingga-ada-lintasan-euler-yang-melalui-setiap-jembatan-dimana-jembatan-tambahan-itu-harus-dib">
+                            21. Perusahaan kontraktor Euler dikontrak untuk membangun sebuah jembatan tambahan di Konigsberg sedemikian sehingga ada lintasan Euler yang melalui setiap jembatan. Dimana jembatan tambahan itu harus dibangun? Gambarkan grafnya.</h2><br />
+                        <p><strong>Jawaban:</strong></p><p><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>&gt;</strong><strong>sebuah jembatan direncanakan selesai dibangun dalam waktu 36 hari oleh 28 pekerja oleh karena suatu hal pembangunan jembatan tersebut harus selesai dalam waktu 16 hari untuk mempercepat selesainya pembangunan jembatan tersebut maka diperlukan tambahan pekerja sebanyak</strong><strong> </strong><strong>3</strong><strong>5</strong><strong> </strong><strong>orang</strong><strong> </strong><strong>:</strong> Dalam jembatan tambahan itu harus dibangun sesuai dengan sebuah jembatan tambahan di Konigsberg sedemikian sehingga ada lintasan Euler yang melalui setiap jembatan, membangun jembatan ini mereka bekerja sama dengan sebuah Perusahaan kontraktor Euler dikontrak untuk membangun sebuah jembatan tambahan di Konigsberg. </p><p><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong></p><p><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>&gt;</strong><strong>D</strong><strong>e</strong><strong>t</strong><strong>a</strong><strong>i</strong><strong>l</strong><strong> </strong><strong>Jawaban</strong></p><p><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>&gt;</strong><strong>m</strong><strong>a</strong><strong>p</strong><strong>e</strong><strong>l</strong><strong>:</strong><strong>T</strong><strong>i</strong><strong>k</strong></p><p><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>&gt;</strong><strong>k</strong><strong>e</strong><strong>l</strong><strong>a</strong><strong>s</strong><strong>:</strong><strong>1</strong><strong>0</strong></p><p><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>&gt;</strong><strong>m</strong><strong>a</strong><strong>t</strong><strong>e</strong><strong>r</strong><strong>i</strong><strong>:</strong><strong>membangun sebuah jembatan tambahan di Konigsberg </strong></p><p><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>&gt;</strong><strong>k</strong><strong>a</strong><strong>t</strong><strong>a</strong><strong> </strong><strong>kunci</strong><strong>:</strong><strong>jembatan tambahan</strong><strong> </strong><strong>di</strong><strong> </strong><strong>bangun</strong><strong> </strong><strong>dengan</strong><strong> </strong><strong>berkerjasama</strong><strong> </strong><strong>dengan</strong><strong> </strong><strong>Perusahaan kontraktor Euler</strong></p><p><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong><strong>_</strong></p><br />
+                                            <h2 class="ez-toc-section" id="rumus-euler-jika-banyak-sisi-5-dan-titik-sudut-6">
+                            22. rumus euler jika banyak sisi 5 dan titik sudut 6</h2><br />
+                        sisi = F (5)<br />titik sudut = E (6)<br />F+E=V+2<br />5+6=V+2<br />V=11-2<br />=9<br /><br />rusukny 9<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-yang-dimaksud-dengan-bilangan-e-bilangan-euler">
+                            23. Jelaskan yang dimaksud dengan bilangan e (bilangan euler)</h2><br />
+                        <p>Bilangan euler adalah konstanta matematika yang kira-kira sama dengan 2,71828, dan dapat dicirikan dalam banyak cara. Ini adalah dasar dari logaritma natural. Ini adalah limit dari saat n mendekati tak terhingga, sebuah ekspresi yang muncul dalam studi bunga majemuk</p><p>Bilangan Euler (e) adalah bilangan irasional yang bernilai 2,718281828… (dan seterusnya). Bilangan ini dinamakan bilangan Euler sebagai penghargaan kepada ahli matematika Swiss yang menemukannya, Leonhard Euler.Sebagai contoh, bilangan π berasal dari rasio keliling dan diameter lingkaran (π = keliling/diameter).</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="1-kerjakan-soal-dibawah-ini-dengan-menggunakan-metode-euler-dan-deret-waktu-tak-hingga-a-0452452452452452-b-0-982349823498234-c-03249249249249249-d-099345345345345345-e-02345325632">
+                            24. 1. Kerjakan soal dibawah ini dengan menggunakan Metode Euler dan Deret Waktu tak Hingga...a) 0,452452452452452...b) 0.982349823498234...c) 0,3249249249249249...d) 0,99345345345345345...e) 0,2345325632563256...  Tolong bantu jawab ya,soal kalkulus ini​</h2><br />
+                        <p>Ayo berusaha</p><p>Jangan menyerahh</p><br />
+                                            <h2 class="ez-toc-section" id="berdasarkan-rumus-euler-jika-banyak-sisi-7-dan-rusuk-13-maka-banyak-titik-sudut-bangun-ruang-tersebut-adalah">
+                            25. berdasarkan rumus euler jika banyak sisi 7 dan rusuk 13 maka banyak titik sudut bangun ruang tersebut adalah</h2><br />
+                        Rumus = <br />S + T = R + 2<br />= 7 + T = 13 + 2<br />= 7 + T = 15<br />T = 15 - 7<br />T = <strong>8 </strong>R + 2 = S + T<br />13 + 2 = 7 + T<br />15 = 7 + T<br />15 - 7 = T<br />8 = Titik sudut<br /><br />
+                                            <h2 class="ez-toc-section" id="4-perusahaan-kontraktor-euler-dikontrak-untuk-membangun-sebuah-jembatan-tambahan-di-konigsberg-sedemikian-sehingga-ada-lintasan-euler-yang-melalui-setiap-jembatan-dimana-jembatan-tambahan-itu-harus">
+                            26. 4.	Perusahaan kontraktor Euler dikontrak untuk membangun sebuah jembatan tambahan di Konigsberg sedemikian sehingga ada lintasan Euler yang melalui setiap jembatan. Dimana jembatan tambahan itu harus dibangun? Gambarkan grafnya.</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p><strong>4.	Pertama-tama, kita sederhanakan gambar jembatan Königsberg.</strong></p><p><strong>
+</strong></p><p><strong>  </strong></p><p><strong>Kedua, gambar jembatan Königsberg dapat disederhanakan lagi menjadi bentuk graf.
+</strong></p><p><strong></strong></p><p><strong>  
+</strong></p><p><strong>Ketiga, setelah disederhanakan menjadi bentuk graf, dapat dengan mudah diketahui terdapat:
+</strong></p><p><strong>•	4 titik, yaitu A, B, C, dan D,
+</strong></p><p><strong>•	4 titik berderajat ganjil, yaitu A, B, C, dan D,
+</strong></p><p><strong>•	tidak ada titik yang berderajat genap.
+</strong></p><p><strong>Dengan demikian, dapat diambil sebuah kesimpulan bahwa jembatan Königsberg ini bukanlah lintasan Euler sehingga tidak dapat dilintasi hanya dengan satu kali jalan. Riddle solved!
+</strong></p><p><strong></strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="ubahlah-bentuk-desimal-berikut-ke-bentuk-pecahan-menggunakan-metode-euler-dan-deret-waktu-tak-terhingga0234234234234012345345345">
+                            27. ubahlah bentuk desimal berikut ke bentuk pecahan menggunakan metode euler dan deret waktu tak terhingga0,2342342342340,12345345345</h2><br />
+                        0,234234234234 = 234/999<br />
+                                            <h2 class="ez-toc-section" id="quis-3apakah-bilangan-e-bilangan-euler-adalah-irasional%e2%80%8b">
+                            28. QUIS #3Apakah bilangan e (bilangan Euler) adalah irasional?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Ya bilangan e (bilangan Euler) adalah irasional. Bilangan irasional adalah bilangan yang tidakahan sederhana atau desimal berulang. Bilangan e didefinisikan sebagai hasil dari batas tak hingga (limit) dari (1 + 1/n)^n saat n mendekati tak hingga. Pembuktian bahwa bilangan e adalah irasional pertama kali diberikan oleh Leonhard Euler pada abad ke-18. Pembuktian ini mengandalkan sifat eksponensial dan penggunaan deret tak hingga. </p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-sebuah-tabel-untuk-membuktikan-kaidah-euler">
+                            29. Buatlah sebuah  tabel untuk membuktikan Kaidah Euler!</h2><br />
+                        <p>R+2=S+T
+</p><p>
+</p><p>Keterangan:
+</p><p>Rusuk=12
+</p><p>Sisi=6
+</p><p>Titik Sudut=8
+</p><p>
+</p><p>No.	Nama Bangun	R	S	T	R+2	S+T
+</p><p>1	Kubus	12	6	8	14	14
+</p><p>2	Balok	12	6	8	14	14
+</p><p>3	Prisma Segi  5	15	7	10	17	17
+</p><p>4	Limas Segi 4	8	5	5	10	10
+</p><p>
+</p><p>Dari data pada table di atas dapat dibuktikan bahwa R+2=S+T.
+</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="apa-yang-dimaksud-dengan-bilangan-euler-kapan-ditemukan-bilangan-ini-dan-bagaimana-cara-menemukan-bilangan-ini-apa-kegunaan-dari-bilangan-tersebut-tolong-jelaskan">
+                            30. Apa yang dimaksud dengan Bilangan Euler? Kapan ditemukan bilangan ini dan bagaimana cara menemukan bilangan ini? Apa kegunaan dari bilangan tersebut? Tolong jelaskan!</h2><br />
+                        e adalah bilangan dimana gradien (kemiringan) dari fungsif( x)=ex pada setiap titiknya sama dengan nilai (tinggi) fungsi tersebut pada titik yang sama.<br />
+                                            <h2 class="ez-toc-section" id="4-berdasarkan-rumus-euler-lengkapilah-daftar-berikut-ini%e2%80%8b">
+                            31. 4. Berdasarkan rumus Euler, lengkapilah daftar berikut ini​ </h2><br />
+                        <p>Jawab:</p><p>a. S+T=R+2</p><p>    5+6=R+2</p><p>        11=R+2</p><p>        R=11-2</p><p>        R=9</p><p>b. S+T=R+2</p><p>    S+10=15+2</p><p>    S+10=17</p><p>          S=17-10</p><p>          S=7</p><p>c. S+T=R+2</p><p>    4+T=6+2</p><p>    4+T=8</p><p>        T=8-4</p><p>        T=4</p><p>d.  S+T=R+2</p><p>     9+9=R+2</p><p>        18=R+2</p><p>         R=18-2</p><p>         R=16</p><p>e. S+T=R+2</p><p>    S+1=1+2</p><p>    S+1=3</p><p>        S=3-1</p><p>        S=2</p><p>f. S+T=R+2</p><p>   13+T=19+2</p><p>   13+T=21</p><p>         T=21-13</p><p>         T=8</p><p>g. S+T=R+2</p><p>    9+7=R+2</p><p>       16=R+2</p><p>        R=16-2</p><p>        R=14</p><p>•Pembahasan dengan langkah-langkah:</p><p>  Banyak sisi (S)</p><p>  Banyak titik sudut (T)</p><p>  Banyak rusuk (R)</p><p>• Rumus =</p><p>   S+T=R+2</p><br />
+                                            <h2 class="ez-toc-section" id="dengan-menggunakan-rumus-euler-hitunglah-jumlah-wilayah-graph-di-atas-no-3">
+                            32. Dengan menggunakan rumus Euler hitunglah jumlah wilayah graph di atas (no. 3)</h2><br />
+                        rumus Euler untuk wilayah graph adalah<br /><br />r = e - v + 2<br /><br />keterangan:<br />r = regions, banyaknya wilayah<br />e = edges, banyaknya garis/busur<br />v = vertices, banyaknya vertex/titik<br />2 = angka 2 aja kok, kata Euler<br /><br />jadi di gambar itu v ada 7,  e ada 11<br />jadi<br /><br />r = 11 - 7 + 2<br />= 6, jadi ada 6 regions atau wilayah ✔️<br /><br />keliatan di gambar, ada R1, R2, ..., R6 <br /><br />semoga jelas dan membantu<br />
+                                            <h2 class="ez-toc-section" id="berdasarkan-rumus-euler-lengkalilah-daftar-berikut-ini">
+                            33. Berdasarkan rumus euler , lengkalilah daftar berikut ini</h2><br />
+                        <p>Jawaban nya (D) </p><p></p><p> Maaf kalo salah </p><br />
+                                            <h2 class="ez-toc-section" id="berapakah-rusuksisi-dan-titik-sudut-pada-bangun-ruang-bolaapakah-bola-termasuk-rumus-euler">
+                            34. berapakah rusuk,sisi dan titik sudut pada bangun ruang bola?apakah bola termasuk rumus euler?</h2><br />
+                        Rusuk : 0 <br />Sisi : 1 <br />Titik sudut : 0 <br />
+                                            <h2 class="ez-toc-section" id="berdasarkan-rumus-euler-jika-banyak-sisi-7-dan-banyak-rusuk-13-maka-banyak-titik-sudut-bangun-ruang-tersebut-adalah">
+                            35. Berdasarkan rumus Euler, jika banyak sisi 7 dan banyak rusuk 13 maka banyak titik sudut bangun ruang tersebut adalah...</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Berdasarkan rumus Euler :</p><p></p><p>= F (Faces) + E (Edges) = V (Vertices) + 2</p><p></p><p>= Sisi         +      Sudut     =  Rusuk + 2</p><p></p><p>Sehingga penghitungannya menjadi</p><p></p><p> 7 + banyak sudut = 13 + 2</p><p>        Banyak sudut = 13 +2 - 7</p><p>                               = 8 titik Sudut</p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="078976547654ubahlah-bentuk-desimal-ke-pecahan-menggunakan-metode-euler-dan-deret-waktu-tak-hingga">
+                            36. 0,78976547654
+Ubahlah bentuk desimal ke pecahan menggunakan metode euler dan deret waktu tak hingga</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>78976547654</p><p>___________</p><p>10000000000</p><p>tu puas gak</p><br />
+                                            <h2 class="ez-toc-section" id="selesaikan-persamaan-diferensial-berikut-ini-menggunakan-metode-euler-dydx1-xy-e-x">
+                            37. Selesaikan persamaan diferensial berikut ini menggunakan metode Euler dy/dx=(1-xy) e^-x</h2><br />
+                        [tex]\frac{dy}{dx} = (1-xy)e^{-x}[/tex]<br /><br />[tex]\frac{1}{1-xy} dy=e^{-x}dx [/tex] (1)<br /><br />Kita tahu bahwa<br />[tex] \frac{d(1-xy)}{dy} = x[/tex]<br /><br />[tex]dy =  \frac{1}{x} d(1-xy)[/tex] (2)<br /><br />Substitusi Persamaan (2) ke (1)<br />[tex]\frac{1}{x}\frac{d(1-xy)}{1-xy} =e^{-x}dx[/tex]<br />[tex] \frac{1}{x} [/tex] ∫ [tex]\frac{d(1-xy)}{(1-xy)}=[/tex]∫[tex]e^{-x}dx[/tex]<br />Setelah di integral akan menjadi<br />[tex] \frac{1}{x}.Ln(1-xy) = -e^{-x} [/tex]<br /><br />mentok pak disini hehe wkwkwk<br /><br />ini bawahnya jawaban coba2 wkwkwk<br />[tex] \frac{1}{x}.Ln(1-xy) = -e^{-x} [/tex]<br />Asumsikan (1-xy) = z<br />[tex] \frac{1}{x}.Ln(z) = -e^{-x} [/tex]<br /><br />dengan berbekal ini<br />[tex]Ln(z) = e^{-z}[/tex]<br />maka<br /><br />[tex] \frac{1}{x}.e^{-z} = -e^{-x} [/tex]<br />substitusi z lagi<br />[tex] \frac{1}{x}.e^{-(1-xy)} = -e^{-x} [/tex]<br />lanjuutttt<br />[tex](x^{-1}e^{-(1-xy)})^{-1} = (-1.e^{-x})^{-1}[/tex]<br />[tex](x.e^{(1-xy)}) = (-e^{x})[/tex]<br /><br />di Ln in gak si? kwakkwkkawk ane gatau semua syarat2nya, belajar PD dari fisika doang<br /><br /><br /><br />
+                                            <h2 class="ez-toc-section" id="ini-ttg-limiit-barisan-bilangan-euler-materi-pengayaan-mhn-yg-bisa-bantu">
+                            38. ini ttg limiit barisan bilangan Euler. Materi pengayaan. mhn yg bisa bantu</h2><br />
+                        Mapel : Matematika<br />Tingkat : Kuliah<br />Materi : Kalkulus<br /><br />Pembahasan :<br />Terlampir...saya pakai latex, ya.<br />[tex]$\begin{align}\lim_{n \to \infty}\left(\frac{n^2+3n+2}{n^2+5n+1}\right)^{\frac{n^2+1}{n+1}}&amp;=\lim_{n \to \infty} \left(\frac{n^2+5n+2-2n}{n^2+5n+1}\right)^{\frac{n^2+1}{n+1}} \\ &amp;=\lim_{n \to \infty}\left(1+\frac{1-2n}{n^2+5n+1}\right)^{\frac{n^2+1}{n+1}} \\ &amp;=\lim_{n \to \infty}e^{\ln\left(1+\frac{1-2n}{n^2+5n+1}\right)^{\frac{n^2+1}{n+1}}} \\ &amp;=e^{-2} \\ &amp;=\frac{1}{e^2}\end{align}[/tex]<br /><br />N.B. : Buat langkah yang udah dikasih ln nya, harusnya dimanipulasi lagi karena itu masih tak hingga kali nol, tapi saya anggap udah ngerti bentuk euler.<br /><br /><br />
+                                            <h2 class="ez-toc-section" id="bagaimana-pendapat-leonhard-euler-tentang-induksi-matematika">
+                            39. Bagaimana pendapat leonhard euler tentang induksi matematika</h2><br />
+                        Induksi Matematika  merupakan pembuktian deduktif, meski namanya induksi. Induksi matematika atau disebut juga induksi lengkap sering dipergunakan untuk pernyataan-pernyataan yang menyangkut bilangan-bilangan asli. <br /><br />
+                                            <h2 class="ez-toc-section" id="hitung-diferensialdydt-yt3-9-8y-dari-8-sampai-dengan-9-h-025-dan-h-02-menggunakan-metode-euler%e2%80%8b">
+                            40. hitung diferensialdy/dt = yt^3 - 9.8y dari 8 sampai dengan 9 h= 0,25 dan h= 0,2 menggunakan metode euler​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Untuk menghitung diferensial dengan menggunakan metode Euler, kita perlu menggunakan pendekatan iteratif untuk memperkirakan nilai fungsi y pada titik-titik waktu yang berbeda.</p><p></p><p>Dalam kasus ini, kita ingin menghitung nilai y pada interval waktu 8 hingga 9 dengan menggunakan dua nilai langkah yang berbeda, yaitu h = 0,25 dan h = 0,2.</p><p></p><p>Langkah-langkahnya adalah sebagai berikut:</p><p></p><p>1. Tentukan nilai awal y pada t = 8. Misalkan kita menyebutnya y0.</p><p>2. Tentukan nilai h (langkah waktu), yaitu h = 0,25 dan h = 0,2.</p><p>3. Gunakan rumus iteratif Euler untuk memperbarui nilai y pada setiap langkah waktu:</p><p></p><p>   y(n+1) = y(n) + h * (dy/dt)</p><p></p><p>   di mana n adalah langkah iterasi.</p><p></p><p>4. Lakukan iterasi sesuai dengan jumlah langkah yang dibutuhkan untuk mencapai t = 9.</p><p></p><p>Mari kita hitung dengan menggunakan h = 0,25 terlebih dahulu:</p><p></p><p>Dalam hal ini, kita akan menghitung nilai y dari t = 8 hingga t = 9 dengan menggunakan h = 0,25.</p><p></p><p>y0 = nilai awal = y(8)</p><p></p><p>Langkah-langkah iterasi Euler adalah sebagai berikut:</p><p></p><p>n = 0:</p><p>t0 = 8</p><p>y(8) = y0</p><p></p><p>n = 1:</p><p>t1 = t0 + h = 8 + 0,25 = 8,25</p><p>y(8,25) = y(8) + 0,25 * (dy/dt) = y(8) + 0,25 * (y(8) * t0^3 - 9,8 * y(8))</p><p></p><p>n = 2:</p><p>t2 = t1 + h = 8,25 + 0,25 = 8,5</p><p>y(8,5) = y(8,25) + 0,25 * (dy/dt) = y(8,25) + 0,25 * (y(8,25) * t1^3 - 9,8 * y(8,25))</p><p></p><p>Lakukan iterasi ini sampai mencapai t = 9.</p><p></p><p>Sekarang, mari kita hitung dengan menggunakan h = 0,2:</p><p></p><p>Dalam hal ini, kita akan menghitung nilai y dari t = 8 hingga t = 9 dengan menggunakan h = 0,2.</p><p></p><p>Langkah-langkah iterasi Euler adalah sebagai berikut:</p><p></p><p>n = 0:</p><p>t0 = 8</p><p>y(8) = y0</p><p></p><p>n = 1:</p><p>t1 = t0 + h = 8 + 0,2 = 8,2</p><p>y(8,2) = y(8) + 0,2 * (dy/dt) = y(8) + 0,2 * (y(8) * t0^3 - 9,8 * y(8))</p><p></p><p>n = 2:</p><p>t2 = t1 + h = 8,2 + 0,2 = 8,4</p><p>y(8,4) = y(8,2) + 0,2 * (dy/dt) = y(8,2) + 0,2 * (y(8,2) * t1^3 - 9,8 * y(8,2))</p><p></p><p>Lakukan iterasi ini sampai mencapai t = 9.</p><p></p><p>Mohon diingat bahwa dalam metode Euler, semakin kecil langkah waktu (h) yang digunakan, semakin akurat hasil perhitungannya.</p><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/NgxfW6S2_Zw?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>matematika</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-bentuk-usaha-tetap.html">Contoh Soal Bentuk Usaha Tetap</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-bangun-ruang-balok-dan-jawabannya.html">Contoh Soal Bangun Ruang Balok Dan Jawabannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-cnc-kelas-12.html">Contoh Soal Cnc Kelas 12</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-distributif-perkalian-terhadap-penjumlahan.html">Contoh Soal Distributif Perkalian Terhadap Penjumlahan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-adverb-clause.html">Contoh Soal Adverb Clause</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/puplis.html">Puplis</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/citilink-indonesia.html">Citilink Indonesia</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/lyrics-only-love-can-hurt-like-this-paloma-faith.html">Lyrics Only Love Can Hurt Like This Paloma Faith</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/bussiness-s.html">Bussiness s</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/72-22.html">72 22</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-analisis-biaya.html">Contoh Soal Analisis Biaya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-dfd-dan-jawabannya.html">Contoh Soal Dfd Dan Jawabannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/bayar-imei-iphone.html">Bayar Imei Iphone</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/bahasa-inggrisnya-asam-lambung.html">Bahasa Inggrisnya Asam Lambung</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-faktor-faktor-yang-mempengaruhi-laju-reaksi.html">Contoh Soal Faktor Faktor Yang Mempengaruhi Laju Reaksi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-un-2018-smk.html">Contoh Soal Un 2018 Smk</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/gamila-mustika-burhan.html">Gamila Mustika Burhan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/subunit-protein.html">Subunit Protein</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/suami-patricia-gouw.html">Suami Patricia Gouw</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/transduality.html">Transduality</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://webedukasi.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://webedukasi.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://webedukasi.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://webedukasi.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://webedukasi.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/1d/a7/d8/1da7d80839196eccc4a624ab91e5ccbf.js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>

@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoh Soal Interpolasi Polinomial - BELAJAR</title>
+    <meta name="description" content="Contoh Soal Interpolasi Polinomial, , , , , , , 0, , , , , , 0, contoh-soal-interpolasi-polinomial, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contoh Soal Interpolasi Polinomial - BELAJAR" />
+    <meta property="og:description" content="Contoh Soal Interpolasi Polinomial, , , , , , , 0, , , , , , 0, contoh-soal-interpolasi-polinomial, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contoh Soal Interpolasi Polinomial - BELAJAR" />
+    <meta name="twitter:description" content="Contoh Soal Interpolasi Polinomial, , , , , , , 0, , , , , , 0, contoh-soal-interpolasi-polinomial, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://webedukasi.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://webedukasi.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://webedukasi.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://webedukasi.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://webedukasi.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://webedukasi.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://webedukasi.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://webedukasi.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://webedukasi.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://webedukasi.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Contoh Soal Interpolasi Polinomial</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">syalikaayu2774</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Contoh+Soal+Interpolasi+Polinomial" alt="Contoh Soal Interpolasi Polinomial">
+                    </div>
+                    <p></p>
+                    <p>Apakah yang dimaksud dengan interpolasi polinomial?</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apakah-yang-dimaksud-dengan-interpolasi-polinomial">1.
+                                            Apakah yang dimaksud dengan interpolasi polinomial?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#metode-numeriktexbuatlah-2-contoh-soal-dan-penyelesaiannya-dengan-menggunakan-interpolasi-linier-dan-interpolasi-kuadratiktex%e2%80%8b">2.
+                                            metode numerik[tex]Buatlah 2 contoh soal dan penyelesaiannya dengan menggunakan Interpolasi linier dan Interpolasi kuadratik[/tex]​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-polinomial">3.
+                                            contoh soal polinomial?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-polinomial-berderajat-5">4.
+                                            contoh soal polinomial berderajat 5</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#hak-interpolasi-adalah">5.
+                                            Hak interpolasi adalah?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-cerita-penerapan-polinomial-dalam-kehidupan-sehari-harijawaban-dan-caranya-ya">6.
+                                            contoh soal cerita penerapan polinomial dalam kehidupan sehari-hari+jawaban dan caranya ya </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-polinomial">7.
+                                            contoh soal polinomial</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kasih-aku-2-soal-dong-beserta-jawabannya-contoh-soal-yang-melibatkan-polinomial-dalam-kehidupan-sehari-hari%e2%80%8b">8.
+                                            kasih aku 2 soal dong beserta jawabannya contoh soal yang melibatkan polinomial dalam kehidupan sehari hari​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-dimaksud-tentang-polinomial-tunggal-dan-berikan-contoh-soalnya">9.
+                                            Apa yang dimaksud tentang polinomial tunggal, dan berikan contoh soalnya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-2-contoh-soal-perkalian-polinomial-bersusun-%e2%80%8b">10.
+                                            buatlah 2 contoh soal perkalian polinomial bersusun ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-penerapan-polinomial-dalam-kehidupan-sehari-hari">11.
+                                            contoh soal penerapan polinomial dalam kehidupan sehari hari</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-prediksi-jumlah-penduduk-dengan-interpolasi-kuadrik">12.
+                                            Contoh prediksi jumlah penduduk dengan interpolasi kuadrik?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-polinomial-dalam-kehidupan-sehari-hari-beserta-jawaban">13.
+                                            Contoh soal polinomial dalam kehidupan sehari hari beserta jawaban</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-penerapan-polinomial-dalam-kehidupan-sehari-hari">14.
+                                            Contoh soal penerapan polinomial dalam kehidupan sehari hari</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tolong-berikan-contoh-soal-tentang-suku-banyak-atau-polinomial">15.
+                                            tolong berikan contoh soal tentang suku banyak atau polinomial</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-contoh-soal-tentang-pemfaktoran-polinomial">16.
+                                            contoh-contoh soal tentang pemfaktoran polinomial</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-polinomial-dan-pembahasan">17.
+                                            contoh soal polinomial dan pembahasan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-contoh-soal-tentang-pemfaktoran-polinomial">18.
+                                            contoh-contoh soal tentang pemfaktoran polinomial</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#hitung-interpolasi-dari-bj-0-9003hitung-interpolasi-dari-665-bb">19.
+                                            Hitung interpolasi dari BJ 0.9003
+Hitung interpolasi dari 66,5% b/b</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-perbedaan-antara-interpolasi-lagrange-dengan-interpolasi-newton">20.
+                                            Apa perbedaan antara interpolasi lagrange dengan interpolasi newton</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#ada-yang-tau-contoh-soal-penerapan-polinomial-dalam-kehidupan-sehari-hari-butuh-pisan">21.
+                                            Ada yang tau contoh soal penerapan polinomial dalam kehidupan sehari-hari? butuh pisan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-5-contoh-soal-tentang-faktorisasi-polinomial">22.
+                                            Buatlah 5 contoh soal tentang faktorisasi polinomial</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buat-contoh-soal-tentang-persamaan-polinomial">23.
+                                            Buat contoh soal tentang persamaan polinomial!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berikan-contoh-jenis-soal-cerita-polinomial-dalam-kehidupan-sehari-hari%e2%80%8b">24.
+                                            berikan contoh jenis soal cerita polinomial dalam kehidupan sehari-hari​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#soal-soal-bab-polinomial">25.
+                                            soal-soal bab polinomial </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-arti-dari-polinomial-dan-contohnya">26.
+                                            Apa arti dari polinomial dan contohnya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-soal-interpolasi-sebanyak-10-soal%e2%80%8b">27.
+                                            buatlah soal interpolasi sebanyak 10 soal​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tunjukkan-4-ayat-ttg-interpolasi-yang-terdapat-dalam-kitab-sebelum-al-quran-dan-4-contoh-interpolasinya">28.
+                                            Tunjukkan 4 ayat ttg interpolasi yang terdapat dalam kitab sebelum al Quran! Dan 4 contoh interpolasinya!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-polinomial-berderajat-4-yang-memiliki-4-akar-dengan-cara-mengerjakanya">29.
+                                            contoh soal polinomial berderajat 4 yang memiliki 4 akar dengan cara mengerjakanya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berilah-contoh-soal-tentang-polinomial">30.
+                                            Berilah contoh soal tentang polinomial</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-dimaksud-nilai-polinomial-dan-sebutkan-contoh-soalnya">31.
+                                            apa yang dimaksud nilai polinomial dan sebutkan contoh soalnya?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-tentang-pembagian-polinomial">32.
+                                            contoh soal tentang pembagian polinomial</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#soal-soal-masalah-nyata-tentang-polinomial">33.
+                                            soal soal masalah nyata tentang polinomial</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-contoh1-perkalian-polinomial2-pembagian-polinomial">34.
+                                            buatlah contoh:
+1. perkalian polinomial
+2. pembagian polinomial</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-polinomial-28%e2%80%8b">35.
+                                            contoh soal polinomial 2^8​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-polinomial-berderajat-5">36.
+                                            contoh soal polinomial berderajat 5</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buat-lah-4-contoh-soal-tentang-pembagian-polinomial-dengan-cara-yang-berbeda-beda%e2%80%8b">37.
+                                            buat lah 4 contoh soal tentang pembagian polinomial dengan cara yang berbeda-beda​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-2-contoh-soal-pembagian-polinomial%e2%80%8b">38.
+                                            buatlah 2 contoh soal pembagian polinomial​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-2-contoh-soal-perkalian-polinomial-bersusun-%e2%80%8b">39.
+                                            buatlah 2 contoh soal perkalian polinomial bersusun ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#interpolasi-dari-4504-berapa">40.
+                                            Interpolasi dari 4,504 berapa</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="apakah-yang-dimaksud-dengan-interpolasi-polinomial">
+                            1. Apakah yang dimaksud dengan interpolasi polinomial?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Bila fungsi cocokan yang digunakan berbentuk polinom, polinom tersebut dinamakan polinom interpolasi. Pekerjaan menginterpolasi titik data dengan sebuah polinom disebut interpolasi (dengan) polinom. Perhitungan men jadi lebih mudah jika f(x) dihampiri dengan polinom p(x).</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="metode-numeriktexbuatlah-2-contoh-soal-dan-penyelesaiannya-dengan-menggunakan-interpolasi-linier-dan-interpolasi-kuadratiktex%e2%80%8b">
+                            2. metode numerik[tex]Buatlah 2 contoh soal dan penyelesaiannya dengan menggunakan Interpolasi linier dan Interpolasi kuadratik[/tex]​</h2><br />
+                        <p><strong>Metode numerik merupakan teknik penyelesaian permsalahn yang diformulasikan secara matematis dengan menggunakan operasi hitungan (aritmatik) yaitu operasi tambah, kurang, kali, dan bagi. Metode ini digunakan karena banyak permasalahan matematis tidak dapat diselesaikan menggunakan metode</strong> <strong>analitik</strong>.</p><p></p><p></p><p><strong>jadikan jawaban tercerdas</strong></p><p><strong>maaf kalo  gak lengkap</strong></p><br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-polinomial">
+                            3. contoh soal polinomial?</h2><br />
+                        contoh soal polinomial 5x + 10 = 5 ∙ x + 5 ∙ 2 = 5(x + 2)<br /><br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-polinomial-berderajat-5">
+                            4. contoh soal polinomial berderajat 5</h2><br />
+                        <br />[tex] {x}^{5}  - 5 {x}^{3}  - 125 {x}^{2}  - 725[/tex]<br />derajat pangkat tertinggi<br />
+                                            <h2 class="ez-toc-section" id="hak-interpolasi-adalah">
+                            5. Hak interpolasi adalah?</h2><br />
+                        <p><strong>Jawaban:</strong></p>Hak Interpelasi: hak DPR untuk meminta keterangan kepada Pemerintah mengenai kebijakan pemerintah yang penting dan strategis serta berdampak luas pada kehidupan bermasyarakat, berbangsa, dan bernegara<p></p><br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-cerita-penerapan-polinomial-dalam-kehidupan-sehari-harijawaban-dan-caranya-ya">
+                            6. contoh soal cerita penerapan polinomial dalam kehidupan sehari-hari+jawaban dan caranya ya </h2><br />
+                        <p>Contoh soal cerita penerapan polinomial dalam kehidupan sehari-hari:</p><p></p><p>Seorang petani memiliki lahan persegi dengan sisi sepanjang 20 meter. Ia ingin membuat sebuah halaman dengan bentuk lingkaran di dalam lahan tersebut untuk dijadikan tempat untuk menanam beberapa tanaman. Jika jari-jari lingkaran yang ingin dibuat adalah 8 meter, berapa luas yang akan didapatkan oleh petani untuk menanam tanaman?</p><p></p><p>Jawaban:</p><p></p><p>Untuk menyelesaikan soal tersebut, kita dapat menggunakan rumus luas lingkaran yaitu L = πr², dimana r adalah jari-jari lingkaran dan π (pi) adalah konstanta yang nilainya sekitar 3,14.</p><p></p><p>Maka, jika jari-jari lingkaran yang ingin dibuat adalah 8 meter, maka luas yang akan didapatkan adalah sebagai berikut:</p><p></p><p>L = πr²</p><p>L = 3,14 x 8²</p><p>L = 3,14 x 64</p><p>L = 200,96 m²</p><p></p><p>Namun, lahan yang dimiliki oleh petani memiliki bentuk persegi, sehingga akan ada bagian di luar lingkaran yang tidak akan digunakan. Oleh karena itu, kita perlu menghitung luas bagian persegi yang tidak digunakan tersebut dan mengurangi dari luas lingkaran yang didapatkan.</p><p></p><p>Luas persegi dengan sisi 20 meter adalah:</p><p></p><p>S = s²</p><p>S = 20²</p><p>S = 400 m²</p><p></p><p>Untuk menghitung luas bagian persegi yang tidak digunakan, kita dapat mengurangi luas lingkaran dari luas persegi.</p><p></p><p>Luas bagian persegi yang tidak digunakan = Luas persegi - Luas lingkaran</p><p>Luas bagian persegi yang tidak digunakan = 400 - 200,96</p><p>Luas bagian persegi yang tidak digunakan = 199,04 m²</p><p></p><p>Maka, luas yang dapat digunakan oleh petani untuk menanam tanaman adalah 200,96 m², dengan mempertimbangkan bentuk lahan yang dimilikinya. Dalam hal ini, rumus luas lingkaran dan persegi digunakan untuk menyelesaikan masalah tersebut, yang merupakan contoh penerapan polinomial dalam kehidupan sehari-hari.</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-polinomial">
+                            7. contoh soal polinomial</h2><br />
+                        contoh soal polinomial:<br />jika x1 dan x2 adalah akar akar persamaan x(kuadrat)-x-6=0. maka persamaan kuadrat baru yang akar akarnya 3x1+2 dan 3x2+2 adalah....<br /><br />
+                                            <h2 class="ez-toc-section" id="kasih-aku-2-soal-dong-beserta-jawabannya-contoh-soal-yang-melibatkan-polinomial-dalam-kehidupan-sehari-hari%e2%80%8b">
+                            8. kasih aku 2 soal dong beserta jawabannya contoh soal yang melibatkan polinomial dalam kehidupan sehari hari​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Tentu! Berikut adalah 2 contoh soal dan jawabannya yang melibatkan polinomial dalam kehidupan sehari-hari:</p><p></p><p>Soal 1:</p><p>Seorang petani memiliki tanah berbentuk persegi panjang dengan luas 48 meter persegi. Panjang tanah tersebut adalah dua kali lebarnya. Tentukan panjang dan lebar tanah tersebut.</p><p></p><p>Jawaban 1:</p><p>Misalkan lebar tanah adalah x meter. Berdasarkan informasi tersebut, dapat dibuat persamaan:</p><p>x * 2x = 48</p><p>2x^2 = 48</p><p>x^2 = 24</p><p>x = √24</p><p></p><p>Jadi, lebar tanah adalah √24 meter atau sekitar 4.899 meter. Panjang tanah adalah 2 * √24 atau sekitar 9.799 meter.</p><p></p><p>Soal 2:</p><p>Sebuah kotak dengan sisi 2x + 1 cm memiliki volume sebesar 192 cm^3. Tentukan panjang sisi kotak tersebut.</p><p></p><p>Jawaban 2:</p><p>Misal sisi kotak adalah S cm. Berdasarkan informasi tersebut, dapat dibuat persamaan:</p><p>(S-1)(S-1)(S-1) = 192</p><p>(S-1)^3 = 192</p><p>S-1 = ∛192</p><p>S-1 = 6</p><p>S = 7</p><p></p><p>Jadi, panjang sisi kotak tersebut adalah 7 cm.</p><br />
+                                            <h2 class="ez-toc-section" id="apa-yang-dimaksud-tentang-polinomial-tunggal-dan-berikan-contoh-soalnya">
+                            9. Apa yang dimaksud tentang polinomial tunggal, dan berikan contoh soalnya</h2><br />
+                        Suku abnyak atau sering disebut dengan polinom merupakan bentuk suku 
+suku dengan nilai banyak yang disusun dari perubah variabel dan 
+konstanta. Operasi yang digunkana hanya penjumlahan, pengurangan, 
+perkalian dan pangkat bilangan bulat tak negative.<br /><br /><p>Diketahui suku banyak p(x) = 2x4 + x2 – 4x + 6</p>
+<p>a. Tentukan derajat, koefisien-koefisien dan suku tetap dari suku banyak p(x)<br />
+b. Tentukan nilai suku banyak p(x) untuk x=-1</p>
+<p><strong>Jawab</strong></p>
+<p>a. P(x) = 2x4 + x2 – 4x + 6<br />
+= 2x4 + 0x3 + 1x2 +(-4)x + 6</p>
+<p>Derajat suku banyak adalah 4<br />
+Koefisien x4 adalah 2<br />
+Koefisien x3 adalah 0<br />
+Koefisien x2 adalah 1<br />
+Koefisien x adalah -4<br />
+Suku tetap adalah 6</p>
+<p>b. P(x) = 2x4 + x2 – 4x + 6<br />
+P(-1)  = 2(-1)4 + (-1)2 – 4(-1) + 6<br />
+= 2 + 1+ 4 + 6<br />
+= 13</p>
+<p>Jadi nilai suku banyak p(x) untuk x=-1 adalah 13</p><br />Bentuk Umum : axn + bxn-1 + cxn-2 + ….+ qx + r<br /><br />dimana, a , b , c , … , q , r adalah konstanta dari suku banyak dalam variabel x berderajat n.<br />Contoh<br />Diketahui suku banyak p(x) = 2x4 + x2 – 4x + 6<br /><br />a. Tentukan derajat, koefisien-koefisien dan suku tetap dari suku banyak p(x)<br />b. Tentukan nilai suku banyak p(x) untuk x=-1<br /><br />Jawab<br /><br />a. P(x) = 2x4 + x2 – 4x + 6<br />= 2x4 + 0x3 + 1x2 +(-4)x + 6<br /><br />Derajat suku banyak adalah 4<br />Koefisien x4 adalah 2<br />Koefisien x3 adalah 0<br />Koefisien x2 adalah 1<br />Koefisien x adalah -4<br />Suku tetap adalah 6<br /><br />b. P(x) = 2x4 + x2 – 4x + 6<br />P(-1)  = 2(-1)4 + (-1)2 – 4(-1) + 6<br />= 2 + 1+ 4 + 6<br />= 13<br /><br />Jadi nilai suku banyak p(x) untuk x=-1 adalah 13<br />
+                                            <h2 class="ez-toc-section" id="buatlah-2-contoh-soal-perkalian-polinomial-bersusun-%e2%80%8b">
+                            10. buatlah 2 contoh soal perkalian polinomial bersusun ​</h2><br />
+                        <p><strong>Cuman punya 1 contoh soal :(</strong></p><br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-penerapan-polinomial-dalam-kehidupan-sehari-hari">
+                            11. contoh soal penerapan polinomial dalam kehidupan sehari hari</h2><br />
+                        Tentukan penyelesaian dari x3 – 2x2 –
+x + 2 = 0?
+
+Jawab :
+
+Faktor-faktor dari konstantanya, yaitu 2,  adalah ±1
+dan ±2 dan faktor-faktor koefisien pangkat tertingginya, yaitu 1, adalah ±1,
+sehingga angka-angka yang perlu dicoba: ±1 dan ±2
+
+Karena jumlah seluruh koefisien + konstantanya = 0 (1 – 2 –
+1 + 2 = 0), maka, pasti x = 1 adalah salah satu faktornya, jadi:
+
+
+
+Jadi x3 – 2x2 – x + 2 = (x –
+1)(x2 – x – 2)
+
+= (x – 1)(x – 2)(x + 1)
+
+x = 1   x = 2   x = –1
+
+Jadi himpunan penyelesaiannya: {–1, 1, 2}<br />
+                                            <h2 class="ez-toc-section" id="contoh-prediksi-jumlah-penduduk-dengan-interpolasi-kuadrik">
+                            12. Contoh prediksi jumlah penduduk dengan interpolasi kuadrik?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Seperti yang telah kita ketahui, terdapat beberapa bagian dari interpolasi, seperti: interpolasi linier (2 titik sampel), kuadratik (3 titik sampel), dan secara umum interpolasi berderajat “n“. Namun kali ini saya memilih untuk menjelaskan metode interpolasi berderajat “n” untuk memprediksi jumlah penduduk pada tahun tertentu. Interpolasi linier merupakan suatu metode yang paling sederhana, karena hanya membutuhkan 2 titik sampel untuk memprediksi suatu nilai tertentu yang terletak diantara kedua titik sampel tersebut.</p><p></p><p>Dari gambar 1 dapat dituliskan suatu formula matematis sebagai berikut</p><p></p><p>y=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}(x-x_{1})+y_{1}</p><p></p><p>Jadi untuk memprediksi suatu nilai Q(x,y) maka membutuhkan 2 nilai sampel yaitu P_{1}(x_{1},y_{1}) dan P_{2}(x_{2},y_{2}). Secara sederhana dapat menggunakan formula matematis seperti yang ditunjukkan sebelumnya. </p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-polinomial-dalam-kehidupan-sehari-hari-beserta-jawaban">
+                            13. Contoh soal polinomial dalam kehidupan sehari hari beserta jawaban</h2><br />
+                        Bisnis menggunakan polinomial ke pasar model, seperti dalam untuk melihat bagaimana menaikkan harga barang akan mempengaruhi penjualan. Selain itu, polinomial digunakan dalam fisika untuk menggambarkan lintasan proyektil. Integral polinomial (penjumlahan polinomial banyak) dapat digunakan untuk mengekspresikan energi, inersia dan perbedaan tegangan, untuk nama beberapa aplikasi.<br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-penerapan-polinomial-dalam-kehidupan-sehari-hari">
+                            14. Contoh soal penerapan polinomial dalam kehidupan sehari hari</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>maaf ini hanya untuk poin</p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>maaf saya minta maaf</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="tolong-berikan-contoh-soal-tentang-suku-banyak-atau-polinomial">
+                            15. tolong berikan contoh soal tentang suku banyak atau polinomial</h2><br />
+                        1.    Diketahui suku banyak ￼ Nilai f(x) untuk x = 3 adalah ...<br />a.    3<br />b.    2<br />c.    1<br />d.    0<br />e.    -1<br />PEMBAHASAN:<br />Kita subtitusikan x = 3 dalam suku banyak ￼<br />￼<br />            = 27 – 18 – 3 – 5<br />            = 9 – 3 – 5<br />            = 1<br />JAWABAN: C<br /><br />2.    Hasil bagi dan sisa pembagian suku banyak ￼dibagi oleh (x – 2) berturut-turut adalah ...<br />a.    (x – 2) dan -3<br />b.    (x – 2) dan 3<br />c.    (x – 2) dan 1<br />d.    (x + 2) dan 3<br />e.    (x + 2) dan -1<br />PEMBAHASAN:<br />Kita selesaikan dengan cara Horner:<br />￼<br />Jadi, hasil baginya (x – 2) dan sisanya 3 <br />JAWABAN: B<br /><br />3.    Suku banyak f(x) dibagi (x – 2) sisanya 24 dan f(x) dibagi (x + 5) sisanya 10. Apabila f(x) tersebut dibagi ￼ sisanya adalah ...<br />a.    x + 34<br />b.    x – 34<br />c.    x + 10<br />d.    2x + 20<br />e.    2x – 20<br />PEMBAHASAN:<br />Rumusnya adalah P(x) = H(x) . pembagi + (px + q)<br />Dari soal diketahui: <br />-    f(x) dibagi (x – 2) sisanya 24, maka:<br />      f(x) = H(x)(x – 2) + 24<br />     Subtitusikan x = 2, maka:<br />     f(2) = H(2)(2 – 2) + (2p + q)<br />           = 2p + q = 24 .... (i)<br />-    f(x) dibagi (x + 5) sisanya 10, maka:<br />      f(x) = H(x)(x + 5) + 10<br />     Subtitusikan dengan x = -5, maka:<br />     f(-5) = H(-5)(-5 + 5) + (-5p + q)<br />            = -5p + q = 10 .... (ii)<br />Eliminasikan persamaan (i) dan (ii):<br />￼<br />subtitusikan p = 2 dalam 2p + q = 24<br />2(2) + q = 24<br />q = 24 – 4<br />q = 20<br />Jika f(x) dibagi ￼ maka:<br />f(x) = H(x)(￼) + (px + q)<br />f(x) = H(x) (x – 2) (x + 5) + (px + q)<br />sisanya adalah px + q = 2x + 20<br />JAWABAN: D<br /><br />4.    Suku banyak ￼dibagi oleh ￼ sisanya sama dengan ...<br />a.    16x + 8<br />b.    16x – 8<br />c.    -8x + 16<br />d.    -8x – 16<br />e.    -8x – 24<br />PEMBAHASAN:<br />Pembaginya adalah: , maka:<br />= 0<br />    (x – 2) (x + 1) = 0<br />     x = 2 dan x = -1<br />Ingat rumus: P(x) = H(x) . pembagi + (px + q), jadi sisanya adalah (px + q), maka:<br />-    x = 2<br />     f(2) = 2p + q <br />     24 – 3(2)3 – 5(2)2 + 2 – 6 = 2p + q<br />     16 – 24 – 20 + 2 – 6 = 2p + q<br />    -32 = 2p + q ... (i)<br />-    x = -1<br />     f(-1) = -p + q <br />     (-1)4 – 3(-1)3 – 5(-1)2 + (-1) – 6 = -p + q<br />     1 + 3 – 5 – 1 – 6 = -p + q <br />    -8 = -p + q ...(ii)<br />Eliminasikan persamaan (i) dan (ii):<br /><br />subtitusikan p = -8 dalam –p + q = -8<br />-(-8) + q = -8<br />q = -16<br />Jadi, sisanya = px + q = -8x - 16<br />JAWABAN: D<br />
+                                            <h2 class="ez-toc-section" id="contoh-contoh-soal-tentang-pemfaktoran-polinomial">
+                            16. contoh-contoh soal tentang pemfaktoran polinomial</h2><br />
+                        contoh: Suatu suku banyak p(x) di bagi oleh (x^2-1) sisanya adalah (12x-23) dan jika dibagi oleh (x-2) sisanya. tentukan sisa pembagian suku banyak oleh (x^2-3x+2)<br /><br />Semoga Bermanfaat<br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-polinomial-dan-pembahasan">
+                            17. contoh soal polinomial dan pembahasan</h2><br />
+                        <p> polinomial atau suku banyak (juga ditulis sukubanyak) adalah pernyataan matematika yang melibatkan jumlahan perkalian pangkat dalam satu atau lebih variabel dengan koefisien. Sebuah polinomial dalam satu variabel dengan koefisien konstan memiliki bentuk seperti berikut:</p>{\displaystyle a_{n}x^{n}+\ldots +a_{2}x^{2}+a_{1}x+a_{0}}<p>Pangkat tertinggi pada suatu polinomial menunjukkan orde atau derajat dari polinomial tersebut.</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-contoh-soal-tentang-pemfaktoran-polinomial">
+                            18. contoh-contoh soal tentang pemfaktoran polinomial</h2><br />
+                        suatu suku banyak p(x) di bagi oleh (x^2-1) sisanya adalah (12x-23) dan jika dibagi oleh (x-2) sisanya 1.tentukan sisa pembagian suku banyak oleh (x^2-3x+2).<br />
+                                            <h2 class="ez-toc-section" id="hitung-interpolasi-dari-bj-0-9003hitung-interpolasi-dari-665-bb">
+                            19. Hitung interpolasi dari BJ 0.9003
+Hitung interpolasi dari 66,5% b/b</h2><br />
+                        <p>maaf saya tidak paham</p><p>maaf yaaa</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="apa-perbedaan-antara-interpolasi-lagrange-dengan-interpolasi-newton">
+                            20. Apa perbedaan antara interpolasi lagrange dengan interpolasi newton</h2><br />
+                        <p>jumlah komputasi polinom newton lebih sedikit dibanding dengan komputasi pada polinom lagrange</p><p></p><p>taksiran galat pada polinom lagrange tdk dapat dihitung secara langsung karena tdk tersedia rumus taksirannya </p><p></p><p></p><p>maaf kalau salah</p><br />
+                                            <h2 class="ez-toc-section" id="ada-yang-tau-contoh-soal-penerapan-polinomial-dalam-kehidupan-sehari-hari-butuh-pisan">
+                            21. Ada yang tau contoh soal penerapan polinomial dalam kehidupan sehari-hari? butuh pisan</h2><br />
+                        polinomial untuk pemodelan fisika.<br />polinomial dalam industri.<br />
+                                            <h2 class="ez-toc-section" id="buatlah-5-contoh-soal-tentang-faktorisasi-polinomial">
+                            22. Buatlah 5 contoh soal tentang faktorisasi polinomial</h2><br />
+                        <p><strong>Jawab:</strong></p><p></p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="buat-contoh-soal-tentang-persamaan-polinomial">
+                            23. Buat contoh soal tentang persamaan polinomial!</h2><br />
+                        <p></p><p>Hasil kali semua x yang memenuhi persamaan 9x3−4x2−x+4−9x2+x−6=0 adalah...</p><p>(A) −10(B) −5√2(C) 5(D) 5√2(E) 10</p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>maaf klo salah okee</p><p>prnh denger pertanyaan inii</p><br />
+                                            <h2 class="ez-toc-section" id="berikan-contoh-jenis-soal-cerita-polinomial-dalam-kehidupan-sehari-hari%e2%80%8b">
+                            24. berikan contoh jenis soal cerita polinomial dalam kehidupan sehari-hari​</h2><br />
+                        <p>Tentu, berikut adalah contoh soal cerita polinomial dalam kehidupan sehari-hari:</p><p></p><p>1. Seorang petani menanam sebuah ladang padi. Dia mengamati bahwa jumlah padi yang dipanen setiap bulan dalam setahun menurut polinomial kuadratik, y = 2x^2 + 5x - 3, di mana x adalah bulan ke dan y adalah jumlah padi dalam kilogram. Berapa jumlah padi yang dipanen di bulan ke-6?</p><p></p><p>2. Seorang arsitek merancang taman dengan bentuk persegi panjang. Panjang taman adalah 4x - 3 meter dan lebarnya adalah 2x + 1 meter. Jika luas taman tersebut adalah polinomial kuadratik, temukan panjang dan lebar taman.</p><p></p><p>3. Seorang penjahit sedang merancang sebuah gaun. Panjang garis yang digunakan untuk membuat gaun adalah polinomial kubik, dinyatakan oleh L(x) = 3x^3 - 2x^2 + 5x + 2, di mana x adalah panjang dari gaun dalam sentimeter dan L menyatakan panjang garis dalam meter. Besarnya panjang garis yang akan digunakan jika panjang gaun adalah 50 cm?</p><p></p><p>4. Seorang pengusaha memperhatikan bahwa laba bisnisnya setiap tahun mengikuti polinomial berorde tiga, y = 2x^3 - 4x^2 + 3x + 5, di mana x adalah tahun dan y adalah laba bisnis dalam ribu dolar. Berapa laba bisnis yang dihasilkan pada tahun ke-2?</p><p></p><p>5. Seorang pelari mencatat waktu tempuhnya di setiap lari. Waktu yang dibutuhkan, dalam detik, adalah polinomial orde dua, dinyatakan oleh W(t) = 3t^2 - 2t + 1, di mana t adalah waktu dalam detik dan W adalah waktu tempuh dalam detik. Berapa lama waktu tempuh pelari tersebut ketika jarak yang ditempuh adalah 10 meter?</p><p></p><p>Semoga contoh-contoh soal cerita polinomial di atas dapat memberikan gambaran tentang bagaimana polinomial dapat diterapkan dalam kehidupan sehari-hari.</p><br />
+                                            <h2 class="ez-toc-section" id="soal-soal-bab-polinomial">
+                            25. soal-soal bab polinomial </h2><br />
+                        Tentukan hasil bagi dan sisa pembagian jika :<br />4x3-6x2-4x-9 dibagi (x-2)akar-akar persamaan kuadrat  adalah c dan d. Persamaan kuadrat baru yang akar-akarnya 2c+1 dan 2d+1 adalah...Jika x1 dan x2 adalah akar-akar persamaan  maka persamaan kuadrat baru yang akar-akarnya 3x1+2 dan 3x2+2 adalah...Akar-akar persamaan kuadrat  adalah c dan d. Jika , maka berapa nilai p?<br />
+                                            <h2 class="ez-toc-section" id="apa-arti-dari-polinomial-dan-contohnya">
+                            26. Apa arti dari polinomial dan contohnya</h2><br />
+                        Dalam matematika, polinomial atau suku banyak (juga ditulis suku banyak) adalah pernyataan matematika yang melibatkan penjumlahan perkalian pangkat dalam satu atau lebih variabel dengan koefisien. Contohnya adalah f(x) = x2 - x - 2 = (x+1)(x-2) dan masih banyak lagi<br />
+                                            <h2 class="ez-toc-section" id="buatlah-soal-interpolasi-sebanyak-10-soal%e2%80%8b">
+                            27. buatlah soal interpolasi sebanyak 10 soal​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>wah bener ni 10 gila bisa mati gua</p><br />
+                                            <h2 class="ez-toc-section" id="tunjukkan-4-ayat-ttg-interpolasi-yang-terdapat-dalam-kitab-sebelum-al-quran-dan-4-contoh-interpolasinya">
+                            28. Tunjukkan 4 ayat ttg interpolasi yang terdapat dalam kitab sebelum al Quran! Dan 4 contoh interpolasinya!</h2><br />
+                        Gatau Gw :p (Sorry) Prank<br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-polinomial-berderajat-4-yang-memiliki-4-akar-dengan-cara-mengerjakanya">
+                            29. contoh soal polinomial berderajat 4 yang memiliki 4 akar dengan cara mengerjakanya</h2><br />
+                        Apabila derajatnya 4 maka perkalianya harus 4 kali contoh 2 derajatnya 4 maka <br />penyelesaianya 2x2x2x2=16<br />
+                                            <h2 class="ez-toc-section" id="berilah-contoh-soal-tentang-polinomial">
+                            30. Berilah contoh soal tentang polinomial</h2><br />
+                        x^2-x-2<br />contoh dr soal polinomial bagian pembagian suku banyak dgn pembagi kuadrat ax^2-bx+c<br />semoga membantu<br />
+                                            <h2 class="ez-toc-section" id="apa-yang-dimaksud-nilai-polinomial-dan-sebutkan-contoh-soalnya">
+                            31. apa yang dimaksud nilai polinomial dan sebutkan contoh soalnya?</h2><br />
+                        nilai polinomial adalah nilai suatu fungsi yang dimasukan sebagai pengganti variabelnya<br />contoh:<br />p(x) = 2x² + 5x + 1<br />nilai p(1) adalah?<br />jawab:<br />p(1) = 2(1)² + 5(1) + 1<br />= 2 + 5 + 1<br />= 8<br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-tentang-pembagian-polinomial">
+                            32. contoh soal tentang pembagian polinomial</h2><br />
+                        pembagian polinom ini konsepnya mirip dengan pembagian bilangan yang dipelajari di SD . pembagian dua polinom dapat diselesaikan dengan dua metode yaitu dengan metode susun dan metode horner. metode susun adalah metode pembagian yang pernah dipelajari waktu SD. hanya pada waktu itu metode susun digunakan untuk pembagian dua bilangan.<br />Contoh soal :<br />2x(pangkat 3) + 3x(pangkat 2) + 5      dibagi    x + 1<br />jadi caranya itu pake paragapit <br />
+                                            <h2 class="ez-toc-section" id="soal-soal-masalah-nyata-tentang-polinomial">
+                            33. soal soal masalah nyata tentang polinomial</h2><br />
+                        Soal <br /><br />Jika nn dan n3+n2+15n−21n2−n−6n3+n2+15n-21n2-n-6 adalah bilangan bulat, maka tentukan banyaknya nilai nn yang memenuhi ?<br /><br /><br />Jawab <br /><br />Langkah pertama kita ubah terlebih dahulu<br /><br />n3+n2+15n-21<br />n2-n-6<br /><br />=an+b+<br />c<br />n-3<br /><br />+<br />d<br />n+2<br /><br /><br />=<br />(an+b)(n-3)(n+2)+c(n+2)+d(n-3)<br />n2-n-6<br /><br /><br />Perhatikan pembilangnya :<br /><br />n3+n2+15n-21≡(an+b)(n-3)(n+2)+c(n+2)+d(n-3)<br /><br />n=3 → 27+9+45-21=c(3+2)<br /><br />n=-2 → -8+4-30-21=d(-2-3)<br /><br />n=0 → 0+0+0-21=b(0-3)(0+2)+c(0+2)+d(0-3)<br /><br />n=1 → 1+1+15-21=(a+b)(1-3)(1+2)+c(1+2)+d(1-3)<br /><br />{  60=5c	-55=-5d 	 -21=-6b+2c-3d	-4=-6a-6b+3c-2d   →   c=12	d=11 	 b=2	a=1  <br /><br />Jadi <br />n3+n2+15n-21<br />n2-n-6<br /><br />=n+2+<br />12<br />n-3<br /><br />+<br />11<br />n+2<br /><br /><br />(n-3) merupakan factor-faktor dari 12<br /><br />n=-9,-3,-1,0,1,2,4,5,6,7,9,15<br /><br />(n+2) merupakan factor-faktor dari 11<br /><br />n=-13,-3,-1,9<br /><br />Irisan kedua nilai n di atas adalah n=-3,-1,9<br /><br />Jadi n dan <br />n3+n2+15n-21<br />n2-n-6<br /><br /> adalah bilangan bulat<br /><br />dipenuhi oleh n=-3 atau n=-1 atau n=9<br /><br />keterangan : untuk <br />12<br />n-3<br /><br /> tidak bulat dan <br />11<br />n+2<br /><br /> juga tidak bulat, maka bentuk <br />12<br />n-3<br /><br />+<br />11<br />n+2<br /><br /> tidak akan pernah bernilai bulat.<br />
+                                            <h2 class="ez-toc-section" id="buatlah-contoh1-perkalian-polinomial2-pembagian-polinomial">
+                            34. buatlah contoh:
+1. perkalian polinomial
+2. pembagian polinomial</h2><br />
+                        <p><strong>Contoh soal</strong></p><p><strong>1. Perkalian polinomial</strong></p>Hasil (x+3)(x²-2) adalahHasil perkalian dari (x² + 4x - 2)(5x + 2) adalah<p><strong>2</strong><strong>.</strong><strong> </strong><strong>P</strong><strong>e</strong><strong>m</strong><strong>b</strong><strong>a</strong><strong>g</strong><strong>i</strong><strong>a</strong><strong>n</strong><strong> </strong><strong>p</strong><strong>o</strong><strong>l</strong><strong>i</strong><strong>n</strong><strong>o</strong><strong>m</strong><strong>i</strong><strong>a</strong><strong>l</strong></p><p></p><p>[tex]{\sf x^{3} + 4x^{2} + 7x + 3 \: dibagi \: x + 2}[/tex]</p><p>hasil h(x) dan sisa s(x) adalah?</p><p>•••</p><p>[tex]{\sf x^{4} - 6x^{3} + 4x^{2} + 14x + 12 \: dibagi \: x - 3}[/tex]</p><p>hasil dan sisa adalah ?</p><p></p>Pembahasan°☆~<p>Bismillah</p><p>Hi! Hi! long time no see</p><p></p><p>Baiklah, kali ini saya akan membahas tentang Perkalian dan Pembagian Polinomial secara singkat ya!</p><p></p>Perkalian Polinomial<p>Perkalian polinomial diterapkan pada 2 persamaan polinomial. Lalu bagaimanakah caranya?</p><p></p><p>[tex]( \sf \: ax ^{3}   + bx^{2}  - cx + d) \times (px^{3} \:  - qx^{2}  + rx + t)[/tex]</p><p></p>! Ingat !<p></p>Koefisien × KoefisienDerajat + Derajat (karena dikali)<p></p><p>Sehingga,</p><p>[tex]( \sf \: apx ^{3 + 3}  - aqx^{3 + 2} + arx^{3 + 1} + atx^{3}   + bpx ^{2 + 3} - bqx^{2 + 2}...dst[/tex]</p><p></p><p>Hasil Akhir </p><p>[tex] \sf \: apx ^{6}  + aqx^{5}...dst[/tex]</p><p></p><p>•••••••••••••</p><p>Keterangan :</p><p>Diurutkan sesuai derajat paling tinggi</p><p></p>Contoh soal perkalian polinomial<p></p><p><strong>S</strong><strong>o</strong><strong>a</strong><strong>l</strong><strong> </strong><strong>1</strong></p><p>Hasil (x+3)(x²-2) adalah</p><p>•••••••••••••</p><p><strong>S</strong><strong>o</strong><strong>a</strong><strong>l</strong><strong> </strong><strong>2</strong><strong> </strong></p><p>Hasil perkalian dari (x² + 4x - 2)(5x + 2) adalah</p><p></p><p><strong>P</strong><strong>e</strong><strong>m</strong><strong>b</strong><strong>a</strong><strong>h</strong><strong>a</strong><strong>s</strong><strong>a</strong><strong>n</strong><strong> </strong><strong>t</strong><strong>e</strong><strong>r</strong><strong>l</strong><strong>a</strong><strong>m</strong><strong>p</strong><strong>i</strong><strong>r</strong><strong> </strong><strong>d</strong><strong>i</strong><strong> </strong><strong>f</strong><strong>o</strong><strong>t</strong><strong>o</strong></p><p></p>Pembagian Polinomial<p></p><p>Pembagian polinomial dapat dilakukan dengan 2 cara,</p><p></p><p>1. Menggunakan pembagian bersusun kebawah</p><p>2. Menggunakan Skema horner</p><p></p><p></p><p></p>Menggunakan cara pembagian bersusun kebawah<p></p><p> Cara ini sama halnya dengan pembagian bersusun pada umumnya, hanya saja pada materi polinomial ini terdapat variabelnya (x, y, dsb).</p><p> Sebelum memasuki tahap pengertian, alangkah baiknya kita membahas ulang bagaimana cara pembagian bersusun kebawah. (Pembahasan terlampir pada foto)</p><p></p><p></p><strong>!</strong><strong> </strong><strong>I</strong><strong>n</strong><strong>g</strong><strong>a</strong><strong>t</strong><strong> </strong><strong>!</strong>Koefisien : KoefisienDerajat - Derajat (karena pembagian)<p></p>Contoh soal pembagian polinomial bersusun kebawah dan skema horner<p></p><p><strong>S</strong><strong>o</strong><strong>a</strong><strong>l</strong><strong> </strong><strong>1</strong></p><p>[tex]{\sf x^{3} + 4x^{2} + 7x + 3 \: dibagi \: x + 2}[/tex]</p><p>Maka hasil h(x) dan sisa s(x) adalah?</p><p></p><p>•••••••••••</p><p><strong>S</strong><strong>o</strong><strong>a</strong><strong>l</strong><strong> </strong><strong>2</strong></p><p>[tex]{\sf x^{4} - 6x^{3} + 4x^{2} + 14x + 12 \: dibagi \: x - 3}[/tex]</p><p>Maka hasil dan sisa adalah ?</p><p></p><p><strong>P</strong><strong>e</strong><strong>m</strong><strong>b</strong><strong>a</strong><strong>h</strong><strong>a</strong><strong>s</strong><strong>a</strong><strong>n</strong><strong> </strong><strong>a</strong><strong>d</strong><strong>a</strong><strong> </strong><strong>d</strong><strong>i</strong><strong> </strong><strong>f</strong><strong>o</strong><strong>t</strong><strong>o</strong></p><p></p><p>__________________________</p><p></p>Pelajari Lebih Lanjut ✧⓵ <p></p><p></p><p>________________________</p><p></p>[tex]{\boxed{\sf DETAIL \: JAWABAN}}[/tex]<p></p><p> </p><p>Mapel : Matematika</p><p></p><p>Kelas : XI SMA</p><p></p><p>Materi : </p><p></p><p>Kata Kunci : </p><p></p><p>Kode Kategorisasi : </p><br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-polinomial-28%e2%80%8b">
+                            35. contoh soal polinomial 2^8​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Diketahui suku banyak p(x) = 2x4 + x2 – 4x + 6</p><p></p><p>a. Tentukan derajat, koefisien-koefisien dan suku tetap dari suku banyak p(x)</p><p>b. Tentukan nilai suku banyak p(x) untuk x=-1</p><p></p><p>Jawab</p><p></p><p>a. P(x) = 2x4 + x2 – 4x + 6</p><p>= 2x4 + 0x3 + 1x2 +(-4)x + 6</p><p></p><p>Derajat suku banyak adalah 4</p><p>Koefisien x4 adalah 2</p><p>Koefisien x3 adalah 0</p><p>Koefisien x2 adalah 1</p><p>Koefisien x adalah -4</p><p>Suku tetap adalah 6</p><p></p><p>b. P(x) = 2x4 + x2 – 4x + 6</p><p>P(-1)  = 2(-1)4 + (-1)2 – 4(-1) + 6</p><p>= 2 + 1+ 4 + 6</p><p>= 13</p><p></p><p>Jadi nilai suku banyak p(x) untuk x=-1 adalah 13</p><p>.</p><p>semoga bermanfaat kak selamat mengerjakan (ʘᴗʘ✿)</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-polinomial-berderajat-5">
+                            36. contoh soal polinomial berderajat 5</h2><br />
+                        apa itu polinomial?<br /><br /><br />klo tau tolong komen nanti akan saya jawab<br />
+                                            <h2 class="ez-toc-section" id="buat-lah-4-contoh-soal-tentang-pembagian-polinomial-dengan-cara-yang-berbeda-beda%e2%80%8b">
+                            37. buat lah 4 contoh soal tentang pembagian polinomial dengan cara yang berbeda-beda​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Pembagian Polinomial</p><p>Pada umumnya, bentuk umum dari pembagian polinomial adalah</p><p></p><p>F(x) = P(x) × H(x) + S(x)</p><p></p><p>Dimana</p><p></p><p>F(x) : suku banyak</p><p>H(x) : hasil bagi</p><p>P(x) : pembagi</p><p>S(x) : sisa</p><p>Sebelum kita memahami metode pembagian polinomial, terlebih dahulu kita harus mengetahui tentang teorema sisa yaitu</p><p></p><p>Misalkan F(x) merupakan polinomial berderajat n,</p><p></p><p>Jika F(x) dibagi (x-k) maka hasilnya adalah F(k)</p><p></p><p>Jika F(x) dibagi (ax-b) maka hasilnya adalah F(b/a)</p><p></p><p>Jika F(x) dibagi (x-a)(x-b)</p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>semoga membantu</p><p>maaf kalo salah</p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-2-contoh-soal-pembagian-polinomial%e2%80%8b">
+                            38. buatlah 2 contoh soal pembagian polinomial​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>contoh soal </p><p>1.  2x² + 3x² + 5</p><p>    ------------------</p><p>           x + 1</p><p></p><p>2.  5x² - 1/2 - 3x²</p><p>     ------------------</p><p>          x + 2</p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-2-contoh-soal-perkalian-polinomial-bersusun-%e2%80%8b">
+                            39. buatlah 2 contoh soal perkalian polinomial bersusun ​</h2><br />
+                        <p>Polinomial adalah suku trrbanyak yang mempunyai pangkat tertinggi (lebih dari satu)
+</p><p>
+</p><p>*Contoh
+</p><p>1). Tent. derajat,koefisien,dari polinomial brk.
+</p><p>2x^6 - 6x^7 + 3x - 5
+</p><p>&gt;&gt; Derajat : 7 (pangkat tertinggi)
+</p><p>&gt;&gt; Koefisien : -6
+</p><p>
+</p><p>2). 5x^3 + 7x + 4
+</p><p>&gt;&gt;Derajat : 3
+</p><p>&gt;&gt;Koefisien : 7
+</p><p>
+</p><p>3). Tentukan hasil penjumlahan suku banyak berikut !.
+</p><p>
+</p><p>F(x) = 3x^4 - 2x^3 + 8 = y
+</p><p>g(x) = -9x^8 - 6x^4 + 7 + 16x = z
+</p><p>
+</p><p>&gt;&gt; F(x)+g(x) = 3x^4 - 2x^3 + 8 +(-9x^8 - 6x^4 + 16x + 7) = 3x^4 - 2x^3 + 8 -9x^8 - 6x^4 +16x +7 = -9x^8 - 3x^4 - 2x^3 + 16x +15.
+</p><p>
+</p><p>4. Tentukan hasil penjumlahan 2 buah suku banyak berikut.
+</p><p>
+</p><p>F(x)=3x^4 - 25x^2 + x + 4
+</p><p>g(x)=2x^3 + ax^2 + 7x - b
+</p><p>
+</p><p>&gt;&gt;penjumlahan
+</p><p>F(x)+g(x)= 3x^4 - 25x^2 + x + 4 +2x^3 + ax^2 + 7x - b
+</p><p>=3x^4 + 2x^3 + x^2(-25+a) + 8 + 4 - b
+</p><p>
+</p><p>&gt;&gt;Pengurangan
+</p><p>f(x)-g(x)=3x^4 -25x^2 +x+4 - (2x^3 + ax^2+7x-b)
+</p><p>= 3x^4- 2x^3 - x^2(25+a) -6x - b + 4
+</p><p>
+</p><p>5). Tent perkalian suku banyak.
+</p><p>
+</p><p>(2x-3) (3x-4) (2x^2-8)
+</p><p>= (6x^2 - 8x - 9x^2 + 12) (2x^2 - 8)
+</p><p>= (6x^2 - 17x + 12) (2x^2 - 8)
+</p><p>= (12x^4 - 48x^2 - 34x^3 + 136x + 24x^2 - 96
+</p><p>= 12x^4 -34x^3 - 24x^2 + 136x - 96
+</p><p>
+</p><p>Maaf jawabnya agak lama
+</p><p>Maaf kalau kurang tepat.
+</p><p>Follow ya!! :)
+</p><p>Beri bintang guys ;)</p><br />
+                                            <h2 class="ez-toc-section" id="interpolasi-dari-4504-berapa">
+                            40. Interpolasi dari 4,504 berapa</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Interpolasi adalah metode untuk memperkirakan nilai di antara dua titik data yang diketahui. Namun, untuk melakukan interpolasi, kita memerlukan lebih banyak informasi atau titik data selain satu nilai tunggal. Jadi, jika Anda ingin menginterpolasi nilai di sekitar 4,504, Anda perlu setidaknya dua titik data yang diketahui yang berada di kedua sisi nilai tersebut.</p><p></p><p></p><p></p><p>Jika Anda hanya memiliki satu nilai 4,504 dan tidak ada titik data lainnya, maka interpolasi tidak dapat dilakukan. Untuk melakukan interpolasi, Anda memerlukan setidaknya dua titik data di sekitar nilai yang ingin Anda estimasi.</p><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/mp2MN9fI-Zo?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>geografi</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/shola-kingsman.html">Shola Kingsman</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/ynag.html">Ynag</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/i-do-adore.html">I Do Adore</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-tentang-explanation-text.html">Contoh Soal Tentang Explanation Text</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/bussiness-s.html">Bussiness s</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-tes-iq-anak-sd-kelas-6.html">Contoh Soal Tes Iq Anak Sd Kelas 6</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/lina-morgana-suicide.html">Lina Morgana Suicide</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-bahasa-sunda.html">Contoh Soal Bahasa Sunda</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/ainan-celeste-cawley-iq.html">Ainan Celeste Cawley Iq</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/hector-bellerin-gay.html">Hector Bellerin Gay</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/pt-di.html">Pt Di</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-reading-comprehension-dan-pembahasannya.html">Contoh Soal Reading Comprehension Dan Pembahasannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/lenovo-tablet-screenshot.html">Lenovo Tablet Screenshot</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/andi-basketball.html">Andi Basketball</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/villain-with-a-crush-naver.html">Villain With A Crush Naver</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-kombinatorika.html">Contoh Soal Kombinatorika</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-limit-fungsi-trigonometri.html">Contoh Soal Limit Fungsi Trigonometri</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/anemia-pernisiosa.html">Anemia Pernisiosa</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/1000mm-to-cm.html">1000mm To Cm</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-k3-beserta-jawabannya.html">Contoh Soal K3 Beserta Jawabannya</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://webedukasi.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://webedukasi.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://webedukasi.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://webedukasi.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://webedukasi.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/1d/a7/d8/1da7d80839196eccc4a624ab91e5ccbf.js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>

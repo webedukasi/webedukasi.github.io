@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoh Soal Cerita Program Linear Metode Simpleks - BELAJAR</title>
+    <meta name="description" content="Contoh Soal Cerita Program Linear Metode Simpleks, , , , , , , 0, , , , , , 0, contoh-soal-cerita-program-linear-metode-simpleks, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contoh Soal Cerita Program Linear Metode Simpleks - BELAJAR" />
+    <meta property="og:description" content="Contoh Soal Cerita Program Linear Metode Simpleks, , , , , , , 0, , , , , , 0, contoh-soal-cerita-program-linear-metode-simpleks, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contoh Soal Cerita Program Linear Metode Simpleks - BELAJAR" />
+    <meta name="twitter:description" content="Contoh Soal Cerita Program Linear Metode Simpleks, , , , , , , 0, , , , , , 0, contoh-soal-cerita-program-linear-metode-simpleks, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://webedukasi.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://webedukasi.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://webedukasi.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://webedukasi.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://webedukasi.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://webedukasi.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://webedukasi.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://webedukasi.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://webedukasi.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://webedukasi.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Contoh Soal Cerita Program Linear Metode Simpleks</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">rayhan3182</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Contoh+Soal+Cerita+Program+Linear+Metode+Simpleks" alt="Contoh Soal Cerita Program Linear Metode Simpleks">
+                    </div>
+                    <p></p>
+                    <p>contoh soal kalimat simpleks</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-kalimat-simpleks">1.
+                                            contoh soal kalimat simpleks</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-simpleks-dan-kompleks">2.
+                                            contoh soal simpleks dan kompleks</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-jelaskan-langkah-langkah-pemecahan-optimal-dengan-metode-simpleks1-jelaskan-langkah-langkah-pemecahan-optimal-dengan-metode-simpleks1-jelaskan-langkah-langkah-pemecahan-optimal-dengan-metode-sim">3.
+                                            1 Jelaskan langkah-langkah pemecahan optimal dengan metode simpleks!
+1 Jelaskan langkah-langkah pemecahan optimal dengan metode simpleks!
+1 Jelaskan langkah-langkah pemecahan optimal dengan metode simpleks!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-kalimat-simpleks">4.
+                                            Contoh kalimat simpleks</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#gunakan-metode-simpleks-dalam-menyelesaikan-maksimumkan-z-15x1-18x2-12x3">5.
+                                            Gunakan metode simpleks dalam menyelesaikan maksimumkan :z = 15x1 18x2 12x3</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kalimat-simpleks-yg-ada-di-cerita-dampak-internet-bagi-pelajar">6.
+                                            Kalimat simpleks yg ada di cerita dampak internet bagi pelajar</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-5-contoh-kalimat-simpleks-kalimat-simpleks">7.
+                                            Sebutkan 5 contoh kalimat simpleks kalimat simpleks </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-5-contoh-kalimat-simpleks-kalimat-simpleks">8.
+                                            Sebutkan 5 contoh kalimat simpleks kalimat simpleks </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#temukanlan-2-contoh-kalimat-simpleks-dan-kompleks-dalam-cerita-taman-nasional-baluran%e2%80%8b">9.
+                                            Temukanlan 2 contoh kalimat simpleks dan kompleks dalam cerita taman nasional baluran​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#carilah-kalimat-simpleks-dan-kompleks-pada-cerita-tersebut">10.
+                                            carilah kalimat simpleks dan kompleks pada cerita tersebut</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kalimat-simpleks-dan-kompleks-dari-cerita-cinderella">11.
+                                            Kalimat simpleks dan kompleks dari cerita cinderella </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kalimat-simpleks-dan-contohnya">12.
+                                            kalimat simpleks dan contohnya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kalimat-simpleks-dalam-cerita-dtopeng">13.
+                                            kalimat simpleks dalam cerita D'topeng</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-kalimat-simpleks">14.
+                                            contoh kalimat simpleks</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-kalimat-simpleks%e2%80%8b">15.
+                                            contoh kalimat simpleks​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#perbedaan-antara-linier-programing-metode-grafik-dengan-linier-programing-metode-simpleks-jelaskan-%e2%80%8b">16.
+                                             PERBEDAAN ANTARA LINIER PROGRAMING METODE GRAFIK DENGAN LINIER PROGRAMING METODE SIMPLEKS. JELASKAN.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#dalam-teks-cerita-sejarah-terdapat-kalimat-simpleks-dan-kompleks-berikan-contohnya-masing-masing%e2%80%8b">17.
+                                            dalam teks cerita sejarah terdapat kalimat simpleks dan kompleks berikan contohnya masing-masing​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-5-contoh-kalimat-simpleks-kalimat-simpleks">18.
+                                            Sebutkan 5 contoh kalimat simpleks kalimat simpleks </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-kalimat-simpleks-dan-berilah-contoh-satu-kalimat-simpleks">19.
+                                            Jelaskan pengertian kalimat Simpleks Dan Berilah Contoh satu kalimat simpleks</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apakah-nilai-kanan-nk-pada-tabel-metode-simpleks-dapat-bernilai-negatif-%e2%80%8b">20.
+                                            apakah nilai kanan (NK) pada tabel metode simpleks dapat bernilai negatif? ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#perbedaan-anatara-metode-simpleks-maksimum-dan-minimum">21.
+                                            Perbedaan anatara metode simpleks maksimum dan minimum</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-kalimat-simpleks-yaitu%e2%80%a6%e2%80%8b">22.
+                                            contoh kalimat simpleks yaitu…​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-5-contoh-kalimat-simpleks-kalimat-simpleks">23.
+                                            Sebutkan 5 contoh kalimat simpleks kalimat simpleks </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-kalimat-simpleks">24.
+                                            contoh kalimat simpleks</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-contoh-simpleks%e2%80%8b">25.
+                                            buatlah contoh simpleks​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-kalimat-simpleks">26.
+                                            contoh kalimat simpleks</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-kalimat-simpleks%e2%80%8b">27.
+                                            contoh kalimat simpleks​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cerita-taman-nasional-bakuran-tentukanb-2-contoh-kalimat-simpleks">28.
+                                            cerita taman nasional bakuran  tentukanb 2 contoh kalimat simpleks</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-dimaksud-dengan-kalimat-simpleks-dan-berikan-3-contoh-kalimat-simpleks">29.
+                                            apa yang dimaksud dengan kalimat simpleks dan berikan 3 contoh kalimat simpleks</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-kalimat-simpleks">30.
+                                            contoh kalimat simpleks</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-kalimat-simpleks">31.
+                                            contoh kalimat simpleks</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kalimat-simpleks-dari-cerita-pemulung-kelas-bawah-perkotaan">32.
+                                            kalimat simpleks dari cerita pemulung kelas bawah perkotaan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-kaliamat-simpleks">33.
+                                            Contoh kaliamat simpleks</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-kalimat-simpleks-dan-berilah-contoh-satu-kalimat-simpleks">34.
+                                            Jelaskan pengertian kalimat Simpleks Dan Berilah Contoh satu kalimat simpleks</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-langkah-langkah-pemecahan-optimal-dengan-metode-simpleks">35.
+                                            Jelaskan langkah-langkah pemecahan optimal dengan metode simpleks!.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-kalimat-simpleks">36.
+                                            contoh kalimat simpleks</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-kalomat-simpleks">37.
+                                            contoh kalomat simpleks</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#selesaikanlah-spltv-berikut-dengan-metode-simpleks-tolong-bantuannya-ya-kak">38.
+                                            selesaikanlah spltv berikut dengan metode simpleks! tolong bantuannya ya kak</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#carikan-kalimat-simpleks-di-teks-cerita-kejujuran">39.
+                                            carikan kalimat simpleks di teks cerita kejujuran</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-kalimat-simpleks-dan-kompleks-dan-pola-kalimatnya-simpleks-2-kompleks-2">40.
+                                            Contoh kalimat simpleks dan kompleks dan pola kalimatnya simpleks 2 kompleks 2</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="contoh-soal-kalimat-simpleks">
+                            1. contoh soal kalimat simpleks</h2><br />
+                        kucing itu makan ikan di rumahku<br />budi sedang membaca buku di kamarnya <br />danu tertidur saat jam pelajaran<br />susan sedang mencuci mobil di belakang rumah. <br />1.Andi sedang membaca buku di kamarnaya<br />2.Budi memancing disungai bersama ayahnya<br />3.Citra memukul lonceng dengan sangat keras<br />4.Danu tidur saat dihalaman kelas<br />5.Eki menonton film horor dibioskop malam ini.<br /><br />SEMOGA BENAR<br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-simpleks-dan-kompleks">
+                            2. contoh soal simpleks dan kompleks</h2><br />
+                        <p>contoh soal simpleks</p><p>1. Budi sedang membaca buku diperpustakaan.</p><p>2. Wati mencuci piring didapur</p><p>3. Erna menyapu dihalaman</p><p>contoh soal kompleks</p><p>1. Erna menyapu halaman sedangkan Wati mencuci piring.</p><p>2. Budi sedang membaca buku diperpustakaan sedangkan Ardi mengerjakan tugas dikelas</p><p>3. Iwan tidak masuk sekolah hari ini karena sakit.</p><br />contoh soal simpleks komplek MTK<br /><br />contoh soal simpleks<br />Maksimumkan : Z = 15 X1 + 18 X2 + 12 X3<br />kendala:<br />contoh soal kompleks<br />Apa maksud dan berapakah hasil dari 3 &lt; 30° + 5 &lt; 60° ??? | Catatan: "&lt;" adalah simbol sudut.<br />semoga membantu<br />
+                                            <h2 class="ez-toc-section" id="1-jelaskan-langkah-langkah-pemecahan-optimal-dengan-metode-simpleks1-jelaskan-langkah-langkah-pemecahan-optimal-dengan-metode-simpleks1-jelaskan-langkah-langkah-pemecahan-optimal-dengan-metode-sim">
+                            3. 1 Jelaskan langkah-langkah pemecahan optimal dengan metode simpleks!
+1 Jelaskan langkah-langkah pemecahan optimal dengan metode simpleks!
+1 Jelaskan langkah-langkah pemecahan optimal dengan metode simpleks!</h2><br />
+                        <p><strong>Jawaban:</strong></p>Langkah 1: mengubah fungsi tujuan. Fungsi tujuan diubah sedemikian rupa sehingga semua variabelyang belum diketahui nilainya berada disebelah kiri tanda sama dengan (=)Langkah 2: mengubah batasan-batasan .<p><strong>Penjelasan:</strong></p><p>Semoga bermanfaat </p><p></p><br />
+                                            <h2 class="ez-toc-section" id="contoh-kalimat-simpleks">
+                            4. Contoh kalimat simpleks</h2><br />
+                        - Ibu memakan roti di rumah sakit<br />- Mama menyiram tanaman<br />- Kakak membaca buku<br />- Ibu membeli terong<br /><br />
+                                            <h2 class="ez-toc-section" id="gunakan-metode-simpleks-dalam-menyelesaikan-maksimumkan-z-15x1-18x2-12x3">
+                            5. Gunakan metode simpleks dalam menyelesaikan maksimumkan :z = 15x1 18x2 12x3</h2><br />
+                        <p>Untuk dapat memecahkan kasus<strong> memaksimumkan</strong>: Z = 15 X1 + 18 X2 + 12 X3, bisa digunakan <strong>metode simpleks</strong>, sehingga didapatkan solusi sebagai berikut.</p><p>Z = 180</p><p>S3 = 15/2</p><p>X1 = 0</p><p>X2 = 15/2</p><p>X3 =15/4</p><p></p>Penjelasan dengan Langkah-langkah<p><strong>Diketahui:</strong></p><p><strong>Memaksimumkan</strong>: Z = 15 X1 + 18 X2 + 12 X3</p><p>Berdasarkan</p><p>18 X1 + 15 X2 + 6 X3 ≤ 135</p><p>10 X1 + 12 X2 + 8 X3 ≤ 120</p><p>12 X1 + 16 X2 + 6 X3 ≤ 150</p><p>Xi ≥ 0, dimana i = 1,2,3.</p><p><strong>Ditanyakan:</strong></p><p>Solusi untuk kasus <strong>maksimasi </strong>tersebut.</p><p><strong>Jawab:</strong></p><p>Ubah fungsi kendala dari pertidaksamaan menjadi persamaan dengan mensubstitusikan slack variable.</p><p>10 X1 + 12 X2 + 8 X3 + S1   = 120</p><p>18 X1 + 15 X2 + 6 X3  + S2  = 135</p><p>12 X1 + 16 X2 + 6 X3   + S3 = 150</p><p>Xi, Si ≥ 0, dimana i = 1,2,3.</p><p>Dengan cara OBE, dapat didapatkan <strong>solusi</strong> dari kasus <strong>maksimasi </strong>tersebut sebagai berikut.</p>Z = 180X1 = 0 (tafsiran: produk tidak diproduksi)X2 = 15/2X3 =15/4S3 = 15/2 (kapasitas yang menganggur dari batasan ke 3).<p></p>Pelajari Lebih Lanjut<p>Pelajari lebih lanjut materi tentang linear programming metode simpleks pada</p><p>https://brainly.co.id/tugas/35524719</p><p></p>#BelajarBersamaBrainly #SPJ1<br />
+                                            <h2 class="ez-toc-section" id="kalimat-simpleks-yg-ada-di-cerita-dampak-internet-bagi-pelajar">
+                            6. Kalimat simpleks yg ada di cerita dampak internet bagi pelajar</h2><br />
+                        10 kalimat simpleks<br />1. Internet telah banyak membantu manusia<br />2. Internet mempunyai andil penuh dalam kehidupan sosial<br />3. Kemajuan dunia informasi memberikan manfaat positif pada keberadaan internet<br />4. Tidak bisa dipungkiri adanya internet memberikan pengaruh kepada pelajar<br />5. Banyak siswa yang mendapatkan ilmu dengan bantuan internet<br />6. Banyak manfaat positif yang dapat diperoleh siswa dari internet<br />7. Setiap pengguna internet dapat berkomunikasi dengan pengguna lainnya di seluruh dunia<br />8. Pemerintah diharapkan dapat memblokir situs-situs yang tidak baik<br />9. Orang tua juga diharapkan dapat lebih memperhatikan anaknya<br />10 .Untuk menangkal pengaruh negatif internet pada siswa<br /><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-5-contoh-kalimat-simpleks-kalimat-simpleks">
+                            7. Sebutkan 5 contoh kalimat simpleks kalimat simpleks </h2><br />
+                        <p>Sean bermain futsal di lapangan</p><p>Joe sedang belajar di kamarnya</p><p>Elios bernyanyi bersama Sarah di panggung</p><p>Sarah berdandan di meja rias</p><p>Elios menjawab pertanyaan sulit dari guru sekolahnya</p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-5-contoh-kalimat-simpleks-kalimat-simpleks">
+                            8. Sebutkan 5 contoh kalimat simpleks kalimat simpleks </h2><br />
+                        <p>Budi sedang menulis cerita lucu di kamar.</p><p>Lola membakar sampah di halaman rumah.</p><p>Budi memukul adik Lola di bagian lengannya.</p><p>Lola tidur di kelas Budi. </p><p>Lola berbohong kepada ibu malam ini. </p><br />
+                                            <h2 class="ez-toc-section" id="temukanlan-2-contoh-kalimat-simpleks-dan-kompleks-dalam-cerita-taman-nasional-baluran%e2%80%8b">
+                            9. Temukanlan 2 contoh kalimat simpleks dan kompleks dalam cerita taman nasional baluran​</h2><br />
+                        <p><strong>Contoh kalimat simpleks pada teks Taman Nasional Baluran adalah</strong></p><p></p><p>1. Taman Nasional Baluran merupakan perwakilan ekosistem hutan spesifik kering di Pulau Jawa.</p><p>Taman Nasional Baluran = subjek</p><p>merupakan = predikat</p><p>perwakilan ekosistem hutan spesifik kering di Pulau Jawa = keterangan</p><p></p><p>2. Taman Nasional Baluran memiliki berbagai macam flora dan fauna dan ekosistem.</p><p>Taman Nasional Baluran = subjek</p><p>memiliki = predikat</p><p>berbagai macam flora dan fauna dan ekosistem = objek</p><p></p><p><strong>Contoh kalimat kompleks bertingkat pada teks Taman Nasional Baluran adalah</strong></p><p></p><p>1. Widoro bukol, mimba, dan pilang merupakan tumbuhan yang mampu beradaptasi dalam kondisi yang sangat kering (masih kelihatan hijau), walaupun tumbuhan lainnya sudah layu dan mengering.</p><p>Widoro bukol, mimba, dan pilang = subjek</p><p>merupakan = predikat</p><p>tumbuhan = objek</p><p>yang mampu beradaptasi dalam kondisi yang sangat kering (masih kelihatan hijau) = perluasan objek</p><p>walaupun tumbuhan lainnya sudah layu dan mengering = keterangan</p><p></p><p>2. Diperlukan suatu  bentuk kebijakan yang mampu mengatur pengalokasian sumber daya  dalam kaitannya dengan pemenuhan kebutuhan masyarakat dengan  tetap memperhatikan daya dukung lingkungan dan aspek sosial ekonomi  masyarakat sekitarnya.</p><p>Diperlukan suatu  bentuk kebijakan = subjek</p><p>yang mampu mengatur = predikat</p><p>pengalokasian sumber daya = objek</p><p>dalam kaitannya dengan pemenuhan kebutuhan masyarakat = keterangan</p><p>dengan tetap memperhatikan = predikat</p><p>daya dukung lingkungan dan aspek sosial ekonomi masyarakat sekitarnya = keterangan</p><p></p><p><strong>Contoh kalimat kompleks setara pada teks Taman Nasional Baluran adalah</strong></p><p></p><p>1.  Taman nasional memiliki beragam manfaat berupa produk jasa  lingkungan, seperti udara bersih dan pemandangan alam.</p><p>Taman nasional = subjek</p><p>memiliki = predikat</p><p>beragam manfaat = keterangan</p><p>berupa = predikat</p><p>produk jasa  lingkungan, seperti udara bersih dan pemandangan alam = keterangan</p><p></p><p>2.  Hutan di taman ini terdiri dari tipe vegetasi  savana, hutan mangrove, hutan musim, hutan pantai, hutan pegunungan  bawah, hutan rawa dan hutan yang selalu hijau sepanjang tahun.</p><p>Hutan = subjek</p><p>di taman ini = keterangan tempat</p><p>terdiri dari = predikat</p><p>tipe vegetasi  savana, hutan mangrove, hutan musim, hutan pantai, hutan pegunungan  bawah, hutan rawa = keterangan</p><p>dan hutan yang selalu hijau sepanjang tahun = keterangan</p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="carilah-kalimat-simpleks-dan-kompleks-pada-cerita-tersebut">
+                            10. carilah kalimat simpleks dan kompleks pada cerita tersebut</h2><br />
+                        Kalimat simpleks : <br />1. taman nasiona baluran merupakan perwakilan ekosistem hutan spesifik kering Pulau Jawa.<br />2. tumbuhan di taman nasional ini sebanyak 444 jenis.<br />
+                                            <h2 class="ez-toc-section" id="kalimat-simpleks-dan-kompleks-dari-cerita-cinderella">
+                            11. Kalimat simpleks dan kompleks dari cerita cinderella </h2><br />
+                        simplex<br />cinderella mendapat baju pesta<br />komplex<br />cinderella dan saudara tirinya pergi ke sebuah pesta kerajaan <br />
+                                            <h2 class="ez-toc-section" id="kalimat-simpleks-dan-contohnya">
+                            12. kalimat simpleks dan contohnya</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>-Wanita itu cantik</p><p>-Aku anak pintar</p><p>-dia sangat tampan</p><p><strong>Penjelasan:</strong></p><p>semoga membantu</p><p><strong>Jawaban:</strong></p><p>cowok itu pintar</p><p>anak itu manis</p><p>dia sangat cantik</p><p><strong>se</strong><strong>moga</strong><strong> membantu</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="kalimat-simpleks-dalam-cerita-dtopeng">
+                            13. kalimat simpleks dalam cerita D'topeng</h2><br />
+                        1)Topeng-topeng tersebut dapat dikelompokkan menjadi dua bagian yaitu bahan dasar kayu dan batu.<br />2)Yang mengisi etalase-etalase ini adalah senjata tradisional<br />
+                                            <h2 class="ez-toc-section" id="contoh-kalimat-simpleks">
+                            14. contoh kalimat simpleks</h2><br />
+                        contoh kalimat simplek : Adik membaca buku. kakak bermain bola<br />
+                                            <h2 class="ez-toc-section" id="contoh-kalimat-simpleks%e2%80%8b">
+                            15. contoh kalimat simpleks​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Kemarin aku bersama ibu dan ayah pergi berbelanja ke supermarket.
+</p><p>
+</p><p></p><p><strong>Penjelasan:</strong></p><p>kalimat simpleks adalah kalimat yang hanya memiliki satu struktur dengan satu verba utama atau satu subyek dan satu predikat. Kalimat simpleks berbeda dengan kalimat kompleks. Karena kalimat ini hanya memiliki satu fungsi kalimat saja. Sedangkan kalimat kompleks memiliki semua fungsi kalimat dan bersifat majemuk. Fungsi kalimat dalam kalimat simpleks ditandai dengan keberadaan fungsi predikat dalam sebuah susunan kalimat. Jika tidak ada predikat, kalimat simpleks tidak akan memiliki fungsi kalimat.
+</p><p>
+</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="perbedaan-antara-linier-programing-metode-grafik-dengan-linier-programing-metode-simpleks-jelaskan-%e2%80%8b">
+                            16.  PERBEDAAN ANTARA LINIER PROGRAMING METODE GRAFIK DENGAN LINIER PROGRAMING METODE SIMPLEKS. JELASKAN.​</h2><br />
+                        <p>Perbedaan metode grafik dan simpleks adalah <strong>metode grafik</strong> hanya sanggup dipakai untuk dua masalah saja. Sementara, <strong>metode simpleks</strong> sanggup menyelesaikan kendala lebih dari dua kendala, yang berarti metode ini mempunyai setidaknya tiga kendala didalamnya.</p><p></p><p><strong>Pembahasan</strong></p><strong>Program linear </strong>merupakan suatu program yang memiliki fungsi menyelesaikan berbagai masalah yang berhubungan dengan suatu variabel dan memiliki batasan dengan pertidaksamaan linear. <strong>Program linear</strong> juga disebut dengan metode matematika yang berfungsi memecahkan masalah berkaitan dengan optimasi linear (maksimum/minimum). Persoalan yang berkaitan dengan program linier selalu terkait dengan fungsi objektif berdasarkan kondisi yang membatasinya. Dalam hal ini, optimasi berupa memaksimalkan atau meminimalkan fungsi objektif.<strong>Metode grafik</strong> merupakan metode yang digunakan untuk menyelesaikan permasalahan program linear yang sering dipakai, karena mudah dan tidak menghabiskan banyak waktu. Hanya saja, metode ini hanya bisa dipakai untuk menyelesaikan permasalahan program linear dengan dua variabel saja. <strong>Metode simpleks</strong> merupakan teknik penentuan solusi optimal yang dipakai pada pemrograman linier yang dilakukan dengan memeriksa titik ekstrim satu persatu dengan perhitungan interaktif. Sehingga, penentuan solusi optimal dengan metode simpleks tersebut dilakukan dengan tahap demi tahap yang kita kenal dengan iterasi.<p>Persoalan<strong> linear programing</strong> yang diselesaikan dengan cara <strong>metode grafik</strong> dapat diselesaikan juga dengan <strong>metode simpleks</strong>. Namun sebaliknya, persoalan yang hanya dapat diselesaikan dengan <strong>metode simpleks</strong> tidak akan bisa diselesaikan dengan <strong>metode grafik. </strong></p><p></p><p><strong>Pelajari lebih lanjut</strong></p>Materi tentang pengertian program linear https://brainly.co.id/tugas/10975962Materi tentang manfaat mempelajari program linear https://brainly.co.id/tugas/25104075Materi tentang cara menghitung keuntungan maksimal dengan menggunakan metode grafik dan metode simpleks https://brainly.co.id/tugas/50563286<p></p><p><strong>Detail jawaban</strong></p><p>Mapel: B. Inggris</p><p>Kelas: SMA</p><p>Bab: -</p><p>Kode: -</p><p><strong>#AyoBelajar #SPJ2</strong></p><br />
+                                            <h2 class="ez-toc-section" id="dalam-teks-cerita-sejarah-terdapat-kalimat-simpleks-dan-kompleks-berikan-contohnya-masing-masing%e2%80%8b">
+                            17. dalam teks cerita sejarah terdapat kalimat simpleks dan kompleks berikan contohnya masing-masing​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Kalimat simpleks :</p>Makan roti tidak membuatku kenyang.Para siswa akan belajar lebih giat lagi di semester baru.Saya makan sate.Mereka ditegur guru dengan keras.Turis-turis berjemur di tepi pantai.<p></p><p>Kalimat kompleks :</p>Rani merapikan rumah dan mencuci semua piring kotor.Kakak mengajak adik untuk berangkat sekolah bersama, tetapi adik ingin berangkat sendiri.Mona rajin mengerjakan tugas sekolah agar mendapatkan nilai bagus.Roni sangat menyukai kucing walaupun pernah dicakar.Ayah mulai menyalakan lampu ketika hari mulai gelap.<p></p><p>Maaf kalau salah</p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-5-contoh-kalimat-simpleks-kalimat-simpleks">
+                            18. Sebutkan 5 contoh kalimat simpleks kalimat simpleks </h2><br />
+                        <p>Ayu memasang hiasan di kamarnya</p><p>Sua mengambil barangnya yang tertinggal di rumah</p><p>Ayu mencuci pakaian pada hari sabtu</p><p>Sua memasak opor ayam kemarin</p><p>Ayu bekerja di perusahaan tekstil</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-kalimat-simpleks-dan-berilah-contoh-satu-kalimat-simpleks">
+                            19. Jelaskan pengertian kalimat Simpleks Dan Berilah Contoh satu kalimat simpleks</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>kalimat simplek adalah suatu kalimat yang hanya memiliki 1 klausa saja. Penjelasan: contoh : Ibu memasak nasi di dapur.</p><p><strong>Penjelasan:</strong></p><p>beri jawaban terbaik</p><p><strong>Jawaban:</strong></p><p>Kalimat Simpleks contoh adalah : ibu sedang masak nasi dapur </p><p></p><p></p><p><strong>Penjelasan:</strong></p><p>Semoga membantu </p><br />
+                                            <h2 class="ez-toc-section" id="apakah-nilai-kanan-nk-pada-tabel-metode-simpleks-dapat-bernilai-negatif-%e2%80%8b">
+                            20. apakah nilai kanan (NK) pada tabel metode simpleks dapat bernilai negatif? ​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Tidak, nilai kanan (NK) fungsi kendala harus positif</p><br />
+                                            <h2 class="ez-toc-section" id="perbedaan-anatara-metode-simpleks-maksimum-dan-minimum">
+                            21. Perbedaan anatara metode simpleks maksimum dan minimum</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>ok</p><p><strong>Penjelasan:</strong></p><p>okhgggggfccygfddeeeeedddddddddddddd</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-kalimat-simpleks-yaitu%e2%80%a6%e2%80%8b">
+                            22. contoh kalimat simpleks yaitu…​</h2><br />
+                        <p><strong>Jawaban: ibu memasaka, ayah membaca koran, bibi membeli sayur sayuran dipasar</strong></p><p></p><p><strong>Penjelasan: Ibu memasak.
+</strong></p><p><strong>Pola kalimat: S-P, di mana S= ibu, dan P= memasak.
+</strong></p><p><strong>Ayah membaca koran.
+</strong></p><p><strong>Pola kalimat: S-P-O, di mana S= ayah, P= membaca, O= koran.
+</strong></p><p><strong>Bibi membeli sayur-sayuran di pasar.
+</strong></p><p><strong>Pola kalimat: S-P-O-K, di mana S= bibi, P= membeli, O= sayur-sayuran, K= di pasar.</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-5-contoh-kalimat-simpleks-kalimat-simpleks">
+                            23. Sebutkan 5 contoh kalimat simpleks kalimat simpleks </h2><br />
+                        1. ibu tidak memasak<br />2. tina sedang lapar<br />3. adik ku tidak pergi kesekolah<br />4. dava sedang gembira<br />5. balonku meletus<p>Ani sedang membaca cerita horor di kamar.
+</p><p>Ina membantu ibu di dapur.</p><p>
+Ani mencuci sepatu adik Budi di kamar mandi.</p><p>
+Ina sedang makan di kantin sekolah.  </p><p>
+Ani menyapu halaman rumahnya.</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-kalimat-simpleks">
+                            24. contoh kalimat simpleks</h2><br />
+                        <p>Andi sedang membaca buku di kamarnya. </p><p>Budi memancing di sungai bersama ayahnya. </p><p>Citra memukul lonceng dengan sangat keras. </p><p>Danu tidur saat di dalam kelas. </p><p>Eki menonton film horor di bioskop malam ini.</p><p>Fahri membakar semua sampah di belakang rumahnya. </p><p>Gilang memotret panorama alam dengan kamera DSLR-nya. </p><p>Heru menyeberang dengan hati-hati di jalan raya. </p><p>Ikbal membuat kerajinan tangan dari kertas koran. </p><p>Jaki memakai baju baru saat hari raya Idul Adha.
+</p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-contoh-simpleks%e2%80%8b">
+                            25. buatlah contoh simpleks​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p> Elfina sedang bermain bola voli di lapangan. 2. Nurwanto menendang bola itu.</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-kalimat-simpleks">
+                            26. contoh kalimat simpleks</h2><br />
+                        <p>Andi sedang membaca buku di kamarnya. </p><p>Budi memancing di sungai bersama ayahnya.</p><p> Citra memukul lonceng dengan sangat keras. </p><p>Danu tidur saat di dalam kelas. </p><p>Eki menonton film horor di bioskop malam ini.</p><p> Fahri membakar semua sampah di belakang rumahnya. </p><p>Gilang memotret panorama alam dengan kamera DSLR-nya. </p><p>Heru menyeberang dengan hati-hati di jalan raya. </p><p>Ikbal membuat kerajinan tangan dari kertas koran. </p><p>Jaki memakai baju baru saat hari raya Idul Adha.
+</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-kalimat-simpleks%e2%80%8b">
+                            27. contoh kalimat simpleks​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Ayu memasang hiasan di kamarnya</p><p>Sua mengambil barangnya yang tertinggal di rumah</p><p>Ayu mencuci pakaian pada hari Sabtu</p><p>Sua memasak opor ayam kemarin</p><p>Ayu bekerja di perusahaan tekstil</p><p></p><p></p><p><strong>Penjelasan:</strong></p><p>memsak nasik di dapur</p><p>ayak membaca koran di teras dan ibu</p><p>kalkelawar merupakan hewan unik</p><p>ada beragam topeng di meseum ini</p><p>adik belajar sedangkan kakak pergi makan semoga benar</p><br />
+                                            <h2 class="ez-toc-section" id="cerita-taman-nasional-bakuran-tentukanb-2-contoh-kalimat-simpleks">
+                            28. cerita taman nasional bakuran  tentukanb 2 contoh kalimat simpleks</h2><br />
+                        Kalimat simpleks : <br />1. taman nasiona baluran merupakan perwakilan ekosistem hutan spesifik kering Pulau Jawa.<br />2. tumbuhan di taman nasional ini sebanyak 444 jenis.<br />
+                                            <h2 class="ez-toc-section" id="apa-yang-dimaksud-dengan-kalimat-simpleks-dan-berikan-3-contoh-kalimat-simpleks">
+                            29. apa yang dimaksud dengan kalimat simpleks dan berikan 3 contoh kalimat simpleks</h2><br />
+                        Kalimat simpleks yang disebut juga dengan kalimat simple adalah kalimat yang hanya terdiri dari satu verba utama atau predikat karena kalimat ini hanya memiliki satu aksi, peristiwa, atau tindakan saja. Kalimat ini biasanya hanya berpola S P, S P O, S P O K, atau S P O K Pel.Contoh kalimat simpleks<br /> 1. Shinta menangis.<br />2. Ibu menyiram bunga.<br />3. Adik terjatuh dari atas mobilnya di jalanan itu.<br />4. Aku bertemu dengan gadis yang berambut keriting itu di pasar.<br />5. Harimau itu menerkam buruannya dengan sangat tajam seperti pisau.<br />
+                                            <h2 class="ez-toc-section" id="contoh-kalimat-simpleks">
+                            30. contoh kalimat simpleks</h2><br />
+                        kalimat simpleks yaitu kalimat yg hanya memiliki satu klausa , contoh : benda itu diklasifikasikan menurut jenisnya<br />
+                                            <h2 class="ez-toc-section" id="contoh-kalimat-simpleks">
+                            31. contoh kalimat simpleks</h2><br />
+                        adik memancing ikan di sungai.<br />ayah minum kopi di teras.<br />aku menyapu halaman saat sore hari<br />
+                                            <h2 class="ez-toc-section" id="kalimat-simpleks-dari-cerita-pemulung-kelas-bawah-perkotaan">
+                            32. kalimat simpleks dari cerita pemulung kelas bawah perkotaan</h2><br />
+                        kalimat utama dan unggul informasi<br />
+                                            <h2 class="ez-toc-section" id="contoh-kaliamat-simpleks">
+                            33. Contoh kaliamat simpleks</h2><br />
+                        1.Ani membaca buku di perpustakaan<br />2. Budi menulis pelajaran di kelasAdik bermain bola dilapangan<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-kalimat-simpleks-dan-berilah-contoh-satu-kalimat-simpleks">
+                            34. Jelaskan pengertian kalimat Simpleks Dan Berilah Contoh satu kalimat simpleks</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>kalimat simplek adalah suatu kalimat yang hanya memiliki 1 klausa saja.</p><p><strong>Penjelasan:</strong></p><p>contoh : Ibu memasak nasi di dapur.</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-langkah-langkah-pemecahan-optimal-dengan-metode-simpleks">
+                            35. Jelaskan langkah-langkah pemecahan optimal dengan metode simpleks!.</h2><br />
+                        <p>iaskkaallalalalalalwlwlw</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-kalimat-simpleks">
+                            36. contoh kalimat simpleks</h2><br />
+                        _ Kalimat Simpleks  Kalimat
+ simpleks adalah kalimat yang hanya terdiri atas satu verba utama yang 
+menggambarkan aksi, peristiwa, atau keadaan. Kalimat simpleks yang 
+sesungguhnya sama dengan kalimat tunggal (hanya mengandung satu 
+struktur: S-P-O-Ket-Pel). Unsur yang diletakan di dalam kurung belum 
+tentu ada dalam kalimat. Pada contoh berikut ini yang dimaksud verba 
+utama adalah membaca. Verba tinggal pada unsur subjek dianggap bukan 
+verba utama. Kalimat tersebut mempunyai satu struktur, yaitu S-P-Ket 
+tempat.<br /><br />
+                                            <h2 class="ez-toc-section" id="contoh-kalomat-simpleks">
+                            37. contoh kalomat simpleks</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Berikut contoh-contoh kalimat simpleks: Dewi belajar menari. Joni terjatuh dari sepeda. Burung bertengger di jendela kamar adik.</p><p></p><p></p><p>maaf klo salah </p><p>semoga membantu</p><p><strong>Jawaban:</strong></p><p>Berikut contoh-contoh kalimat simpleks: </p><p>Dewi belajar menari. </p><p>Joni terjatuh dari sepeda. </p><p>Burung bertengger di jendela kamar adik.</p><br />
+                                            <h2 class="ez-toc-section" id="selesaikanlah-spltv-berikut-dengan-metode-simpleks-tolong-bantuannya-ya-kak">
+                            38. selesaikanlah spltv berikut dengan metode simpleks! tolong bantuannya ya kak</h2><br />
+                        <p>x+y+2z = 9 •••¹</p><p>2x+4y-3z = 1 •••²</p><p>3x+6y-5z = 0 •••³</p><p></p><p>Persamaan ¹ dikali 2</p><p>2x+2y+4z = 18 •••⁴</p><p>2x+4y-3z = 1 •••²</p><p>Kurangkan! </p><p>-2y+7z = 17 •••⁵</p><p></p><p>Persamaan ¹ dikali 3</p><p>3x+3y+6z = 27 •••⁶</p><p>3x+6y-5z = 0 •••³</p><p>Kurangkan! </p><p></p><p>-3y+11z = 27 •••⁷</p><p>-2y+7z = 17 •••⁵</p><p>Persamaan ⁷ kali 2, Persamaan ⁵ kali 3!</p><p>-6y+22z = 54</p><p>-6y+21z = 51</p><p>Kurangkan! </p><p><strong>z = 3</strong></p><p></p><p>Substitusikan z = 3 ke Persamaan ⁵!</p><p>-2y + 7×3 = 17</p><p>-2y + 21 = 17</p><p>-2y = -4</p><p><strong>y = 2</strong></p><p></p><p>Substitusikan y = 2 dan z = 3 ke Persamaan ¹!</p><p>x + 2 + 2×3 = 9</p><p>x + 2 + 6 = 9</p><p><strong>x</strong><strong> </strong><strong>=</strong><strong> </strong><strong>1</strong></p><br />
+                                            <h2 class="ez-toc-section" id="carikan-kalimat-simpleks-di-teks-cerita-kejujuran">
+                            39. carikan kalimat simpleks di teks cerita kejujuran</h2><br />
+                        Anak itu mengambil apel<br />   S         p                    o<br />
+                                            <h2 class="ez-toc-section" id="contoh-kalimat-simpleks-dan-kompleks-dan-pola-kalimatnya-simpleks-2-kompleks-2">
+                            40. Contoh kalimat simpleks dan kompleks dan pola kalimatnya simpleks 2 kompleks 2</h2><br />
+                        <p>Kalimat Simpleks</p><p>Ardi Bermain Bola</p><p>   S         P          Pel</p><p>Adik sedang mengerjakan PR</p><p>   S                 P                        O</p><br /><p>Kalimat Kompleks</p><p>Andi bermain bola sampai sore sehingga malamnya, Andi tertidur pulas</p><p>   S         P         pel       ket.waktu   konjungsi   ket waktu   s      p</p><p>Andi sedang mengerjakan pr sedangkan Budi bermain pingpong</p><p>    s                 p                      o    konj.           s             p           pel</p><br /><p>CMIIW</p><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/9YKLXFqCy6E?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>b_indonesia</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-essay-bahasa-inggris-kelas-11-semester-2.html">Contoh Soal Essay Bahasa Inggris Kelas 11 Semester 2</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/kang-hoon-instagram.html">Kang Hoon Instagram</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-dioda-dan-pembahasannya.html">Contoh Soal Dioda Dan Pembahasannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-psikotes-pln.html">Contoh Soal Psikotes Pln</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/kucing-emas.html">Kucing Emas</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/72-22.html">72 22</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-banner-pilihan-ganda-beserta-jawabannya.html">Contoh Soal Banner Pilihan Ganda Beserta Jawabannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/ruang-lapang.html">Ruang Lapang</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/reyna-flash-hp.html">Reyna Flash Hp</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-manajemen-persediaan-dan-penyelesaiannya.html">Contoh Soal Manajemen Persediaan Dan Penyelesaiannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/dirham-to-rs.html">Dirham To Rs</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/rancid-lyrics-roots-radicals.html">Rancid Lyrics Roots Radicals</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/menulis-terus-menerus.html">Menulis Terus menerus</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/taqabbal-allah-minna-wa-minkum.html">Taqabbal Allah Minna Wa Minkum</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/vcs-bareng-pacar.html">Vcs Bareng Pacar</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/mastrans.html">Mastrans</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-hubungan.html">Contoh Soal Hubungan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-gre.html">Contoh Soal Gre</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/decent-of-the-sun.html">Decent Of The Sun</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/how-does-it-feel-lyrics-dangelo.html">How Does It Feel Lyrics Dangelo</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://webedukasi.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://webedukasi.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://webedukasi.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://webedukasi.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://webedukasi.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/1d/a7/d8/1da7d80839196eccc4a624ab91e5ccbf.js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>

@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoh Soal Perulangan Java - BELAJAR</title>
+    <meta name="description" content="Contoh Soal Perulangan Java, , , , , , , 0, , , , , , 0, contoh-soal-perulangan-java, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contoh Soal Perulangan Java - BELAJAR" />
+    <meta property="og:description" content="Contoh Soal Perulangan Java, , , , , , , 0, , , , , , 0, contoh-soal-perulangan-java, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contoh Soal Perulangan Java - BELAJAR" />
+    <meta name="twitter:description" content="Contoh Soal Perulangan Java, , , , , , , 0, , , , , , 0, contoh-soal-perulangan-java, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://webedukasi.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://webedukasi.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://webedukasi.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://webedukasi.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://webedukasi.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://webedukasi.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://webedukasi.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://webedukasi.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://webedukasi.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://webedukasi.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Contoh Soal Perulangan Java</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">ilham2003ramadhan</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Contoh+Soal+Perulangan+Java" alt="Contoh Soal Perulangan Java">
+                    </div>
+                    <p></p>
+                    <p>yang bukan statement perulangan yang ada  pada java​</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#yang-bukan-statement-perulangan-yang-ada-pada-java%e2%80%8b">1.
+                                            yang bukan statement perulangan yang ada  pada java​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-perulangan-for-pada-java-%e2%80%8b">2.
+                                            Jelaskan Perulangan For pada Java? ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contaoh-perulangan-java-dari-321211%e2%80%8b">3.
+                                            contaoh perulangan java dari 321211​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berikan-contoh-program-java-while-dan-jelaskan-fungsinya">4.
+                                            Berikan contoh program java while dan jelaskan fungsinya!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-program-java-looping-untuk-soal-dibawah-ini">5.
+                                            Buatlah program java looping untuk soal dibawah ini</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#teknik-yang-digunakan-untuk-mengulang-suatu-blok-kode-dalam-bahasa-pemograman-java-adalah">6.
+                                            Teknik yang digunakan untuk mengulang* suatu blok kode dalam bahasa pemograman java adalah?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-kode-program-java%e2%80%8b">7.
+                                            Contoh kode program java​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apakah-opera-van-java-merupakan-contoh-pertunjukan-teater-modernp%e2%80%8b">8.
+                                            Apakah Opera Van Java merupakan contoh pertunjukan teater modernp​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-program-gotoxy-di-java">9.
+                                            Contoh program gotoxy di java</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tolong-dijawab-dengan-benar-ini-soal-tentang-java-harus-sesuai-dengan-perintah-soal-diatas-apk-yang-digunakan-neatbens-%e2%80%8b%e2%80%8b">10.
+                                            tolong dijawab dengan benar ini soal tentang java, harus sesuai dengan perintah soal diatas!!! (apk yang digunakan neatbens) ​​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-program-java-pada-mahasiswa">11.
+                                            contoh program java pada mahasiswa</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#soal-no-25-dari-30-soalperusahaan-yang-menyediakan-sertifikasi-terkaitjava-ocjp-dan-scjp-adalah">12.
+                                            Soal No. 25 Dari 30 Soal
+Perusahaan yang menyediakan sertifikasi terkait
+Java, OCJP, dan SCJP adalah ...</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#java-tidak-bisa-mengerjakan-beberapa-soal-ketika-ulangan-dapat-tidak-mencontek-temannya-meskipun-tidak-bisa-mengerjakan-daffa-mengerjakan-ulangan-dengan-jujur-dafa-sudah-menunjukkan-sikap-yang-sesuai">13.
+                                            Java tidak bisa mengerjakan beberapa soal ketika ulangan dapat tidak mencontek temannya Meskipun tidak bisa mengerjakan Daffa mengerjakan ulangan dengan jujur Dafa sudah menunjukkan sikap yang sesuai dengan Pancasila sila ke​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-program-java-looping-untuk-soal-dibah">14.
+                                            buatlah program java looping untuk soal dibah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#fungsi-break-dan-continue-dan-contoh-scriptnya-dalam-java">15.
+                                            Fungsi Break dan continue dan contoh scriptnya dalam java ?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#saya-sedang-butuh-contoh-program-untuk-java-netbeans-apakah-ada-yang-punya">16.
+                                            saya sedang butuh contoh program untuk java / netbeans. apakah ada yang punya?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-sebuah-soal-pemrograman-yang-berkaitan-dengan-perulangan-beserta-solusinya-soal-terdiri-dari-pengantar-instruksi-spesifikasi-input-spesifikasi-output-contoh-input-1-contoh-output-1-cont">17.
+                                            Buatlah sebuah soal pemrograman yang berkaitan dengan perulangan beserta solusinya. Soal terdiri dari pengantar, instruksi, spesifikasi input, spesifikasi output, contoh input 1, contoh output 1, contoh input 2, contoh output 2, contoh input 3, contoh output 3. Tolong pemrogaman java.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#perulangan-java-untuk-menampilkan-angka">18.
+                                            Perulangan java untuk menampilkan angka :</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-pengertian-classnotfoundexception-dalam-java-apakah-fungsi-classnotfoundexception-dalam-java-apa-kelebihan-dan-kekurangan-classnotfoundexception-dalam-java-contoh-program-classnotfoundexcept">19.
+                                            apa pengertian ClassNotFoundException dalam java ?
+apakah fungsi ClassNotFoundException dalam java ?
+apa kelebihan dan kekurangan ClassNotFoundException dalam java ?
+contoh program ClassNotFoundException dalam java ?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-cara-belajar-javayo-jawab-ini-soal-computer%e2%80%8b">20.
+                                            Jelaskan cara belajar Javayo jawab Ini soal computer​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jong-javacelebesdan-sumatranen-bon-adalah-contoh-organisasi">21.
+                                            jong java,celebes,dan sumatranen bon adalah contoh organisasi</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-kode-program-java-script">22.
+                                            Contoh kode program java script</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-program-java-looping-untuk-soal-dibawah">23.
+                                            buatlah program java looping untuk soal dibawah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-java-dikenal-sebagai-bahasa-pemrograman-dengan-semboyan-%e2%80%9cbuild-oncedeploy-everywhere%e2%80%9d-jelaskan-apa-arti-semboyan-tersebut-jelaskan-pula-kenapa-java-bisa-menerapkan-semboyan-ters">24.
+                                            1. Java dikenal sebagai bahasa pemrograman dengan semboyan “build once,
+deploy everywhere”. Jelaskan apa arti semboyan tersebut? Jelaskan pula kenapa Java bisa menerapkan semboyan tersebut?
+2. Java mengenal konsep yang disebut Wrapper Class. Mengapa konsep
+ini diperlukan di Java? Berikan contoh mengenai penggunaan konsep Wrapper Class ini di dalam Java.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-3-contoh-java-framework%e2%80%8b">25.
+                                            Sebutkan 3 contoh Java framework​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#rumus-dari-lingkaran-pada-aplikasi-java-maupun-netbeans-pakai-contohnya-juga">26.
+                                            Rumus dari Lingkaran pada aplikasi java, maupun netbeans ??
+Pakai contohnya juga !</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-program-looping-java-untuk-soal-d-bawah%e2%80%8b">27.
+                                            buatlah program looping java untuk soal d bawah​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-program-java-looping-untuk-soal-dibawah">28.
+                                            buatlah program java looping untuk soal dibawah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#2-contoh-exception-di-java">29.
+                                            2 contoh exception di java?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-program-java-looping-untuk-soal-dibawah%e2%80%8b">30.
+                                            buatlah program java looping untuk soal dibawah​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#opera-van-java-salah-satu-contoh-drama-komedi">31.
+                                            opera van java salah satu contoh drama komedi</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-inputan-java-if-majemuk-dengan-menggunakan-switch-case">32.
+                                            Contoh inputan java if majemuk dengan menggunakan switch case</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-dua-soal-tentang-bahasa-pemrograman-java%e2%80%8b%e2%80%8b">33.
+                                            buatlah dua soal tentang bahasa pemrograman Java​​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-program-java-dealer-motor-dan-mobil">34.
+                                            Contoh program java dealer motor dan mobil</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-1-contoh-kode-program-java">35.
+                                            Tuliskan 1 contoh kode program Java</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-program-java-looping-untuk-soal-dibawah">36.
+                                            buatlah program java looping untuk soal dibawah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#ada-yang-tau-bagaimana-membuat-program-java-soal-dibawah-ini">37.
+                                            ada yang tau bagaimana membuat program java soal dibawah ini?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#penjelasan-tentang-while-loop-beserta-contoh-programnya-di-java">38.
+                                            penjelasan tentang while loop, beserta contoh programnya di java</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-program-java-untuk-soal-dibawah-ini">39.
+                                            Buatlah program java untuk soal dibawah ini</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-2-soal-tentang-bahasa-pemrograman-java%e2%80%8b">40.
+                                            buatlah 2 soal tentang bahasa pemrograman Java​</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="yang-bukan-statement-perulangan-yang-ada-pada-java%e2%80%8b">
+                            1. yang bukan statement perulangan yang ada  pada java​</h2><br />
+                        <p>Statement perulangan pada java ada 3 yaitu:</p><p>1. For</p><p>2.while</p><p>3. Do while</p><p></p><p>Jadi yang bukan termasuk statement perulangan pada java yaitu </p><p>Switch</p><p></p><p>Adapun perulangan lebih lanjut dengan menggunakan metode rekursiv</p><p></p><p>Semoga membantu mohon maaf kalo salah</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-perulangan-for-pada-java-%e2%80%8b">
+                            2. Jelaskan Perulangan For pada Java? ​</h2><br />
+                        <p>Jawaban:</p><p>Perulangan For Pada Java</p><p>Kondisi : Bagian untuk menetapkan suatu kondisi tertentu, ketika kondisi bernilai benar perulangan akan terus berjalan. Modifier : Bagian dimana kita dapat melakukan penambahan nilai (increment) atau bisa juga penurunan nilai (decrement) pada nilai awal yang telah di inisialisasi.</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="contaoh-perulangan-java-dari-321211%e2%80%8b">
+                            3. contaoh perulangan java dari 321211​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p> — Contoh Program Perulangan For. Silahkan buat class baru bernama Bintang , kemudian ikuti kode berikut: class Bintang{ ...</p><p><strong>Penjelasan:</strong></p><p>maaf kalau salah</p><br />
+                                            <h2 class="ez-toc-section" id="berikan-contoh-program-java-while-dan-jelaskan-fungsinya">
+                            4. Berikan contoh program java while dan jelaskan fungsinya!</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. <strong>counted</strong><strong> </strong><strong>loop</strong><strong> </strong><strong>:</strong></p><p>perulangan yang jumlah peluangannya terhitung atau tertentu</p><p>2. <strong>uncounted</strong><strong> </strong><strong>loop</strong><strong> </strong><strong>:</strong></p><p>perulangan yang jumlah perulangannya tidak terhitung atau tidak tentu</p><p><strong>Penjelasan:</strong></p><p><strong>jangan</strong><strong> lupa</strong><strong> klik</strong><strong> jawaban</strong><strong> terbaik</strong><strong> </strong><strong>t</strong></p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-program-java-looping-untuk-soal-dibawah-ini">
+                            5. Buatlah program java looping untuk soal dibawah ini</h2><br />
+                        <p><strong>Program dalam bahasa java</strong></p><p>// AUTHOR : LordRimuruTempest</p><p>public class main {</p><p>    public static void main(String[] args) {</p><p>        int temp = 1;</p><p>        for (int i = 1; i &lt;= 15; i++) {</p><p>            System.out.print(i + " ");</p><p>            if(i == ((temp + 1) * temp) / 2){</p><p>                System.out.println();</p><p>                temp += 1;</p><p>            }</p><p>        }</p><p>    }</p><p>}</p><p></p>Pembahasan<p>Untuk membuat output seperti pada soal, perlu diketahui dulu cara kerja dari program tersebut. Perhatikan bahwa bilangan terakhir pada tiap baris memiliki pola sebagai berikut</p><p>1 = 1</p><p>3 = 1 + 2</p><p>6 = 1 + 2 + 3</p><p>10 = 1 + 2 + 3 + 4</p><p>15 = 1 + 2 + 3 + 4 + 5</p><p>atau dengan kata lain, bilangan terakhir pada baris ke-n adalah</p><p>1 + 2 + 3 + ... + n = ((n + 1) x n) / 2</p><p>Sehingga alur program diatas dapat ditulis sebagai berikut :</p><p>1. Program dimulai</p><p>2. Buat variabel temp untuk menyimpan nomor baris</p><p>3. Beri nilai awal temp = 1</p><p>2. lakukan perulangan dari indeks i = 1 sampai i = 15</p>cetak i tanpa membuat baris barujika i = ((temp + 1) x temp) / 2 maka ganti baris, dan nomor baris bertambah 1 yaitu temp = temp + 1<p>5. Program selesai</p><p>Alur/algoritma program dapat ditulis dalam pseudocode sebagai berikut</p><p> </p><p>Algoritma program</p><p>program start</p><p>var temp : integer</p><p>temp &lt;-- 1</p><p>for i = 1 to i = 15 do</p><p>    print i  //no new line</p><p>    if(i = ((temp + 1) * temp) / 2) then</p><p>        //new line</p><p>        temp &lt;-- temp + 1</p><p>    end if</p><p>end for</p><p>program end</p><p></p><p>Untuk menerapkan algoritma diatas ke dalam program java, pertama-tama buat class java(nama kelas bebas) beserta main method-nya. Deklarasikan variabel temp dengan tipe integer dan beri nilai awal temp = 1. Kemudian lakukan perulangan(looping) menggunakan for sesuai dengan arahan dari algoritma/alur program. <strong>Program beserta output-nya dapat diamati pada foto yang sudah dilampirkan</strong>.</p><p></p>Pelajari lebih lanjut<p>Contoh program java sederhana</p>https://brainly.co.id/tugas/21929323<p>Program java untuk konversi detik ke hari, jam, menit, dan detik</p>https://brainly.co.id/tugas/36153988<p>Contoh pemrograman java</p>https://brainly.co.id/tugas/34072348<p></p><p>====================================</p>Detail Jawaban<p>Kelas : X SMA</p><p>Mapel : TI</p><p>Materi : Mengenal pemrograman komputer</p><p>Kode Kategorisasi : 10.11.6</p><p>Kata Kunci : Alur program, pemrograman bahasa java</p><br />
+                                            <h2 class="ez-toc-section" id="teknik-yang-digunakan-untuk-mengulang-suatu-blok-kode-dalam-bahasa-pemograman-java-adalah">
+                            6. Teknik yang digunakan untuk mengulang* suatu blok kode dalam bahasa pemograman java adalah?</h2><br />
+                        loop<br /><br /># mohon maaf bila kurang tepatbiasanya<br />LOOP<br />kalo salah dimaafkan<br />
+                                            <h2 class="ez-toc-section" id="contoh-kode-program-java%e2%80%8b">
+                            7. Contoh kode program java​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>python</p><p><strong>Penjelasan:</strong></p><p>itu alatjjjjjk</p><p><strong>Jawaban:</strong></p><p>1Menampilkan nama</p><p>2perhitungan, perjumblahan, pengurangan, perkalian dan, pembagian</p><p>3menghitung volume kubus</p><p>4Menghitung volume balok</p><p>5Menghitung volume prisma segi 8</p><p>6menghitung volume tabung</p><p>7 menghitung volume bola kerucut</p><p>8menghitung luas dan keliling lingkaran</p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="apakah-opera-van-java-merupakan-contoh-pertunjukan-teater-modernp%e2%80%8b">
+                            8. Apakah Opera Van Java merupakan contoh pertunjukan teater modernp​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Opera Van Java (disingkat OVJ) adalah acara komedi  Ide acaranya adalah pertunjukan wayang orang versi modern</p><p><strong>Penjelasan: maaf ya klo salah </strong></p><p><strong></strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="contoh-program-gotoxy-di-java">
+                            9. Contoh program gotoxy di java</h2><br />
+                        1. Zombie Infection<br />2. Crash Bendicut<br />3. Contra<br />4. Dll...<br /><br /><br />
+                                            <h2 class="ez-toc-section" id="tolong-dijawab-dengan-benar-ini-soal-tentang-java-harus-sesuai-dengan-perintah-soal-diatas-apk-yang-digunakan-neatbens-%e2%80%8b%e2%80%8b">
+                            10. tolong dijawab dengan benar ini soal tentang java, harus sesuai dengan perintah soal diatas!!! (apk yang digunakan neatbens) ​​</h2><br />
+                        <p>public class Tes {public static void main(String[] args){System.out.println("=== Selamat Datang ===");System.out.print("Masukkan Nama : ");Scanner sc0=new Scanner(System.in);String s0=sc0.nextLine();System.out.print("Masukkan No Absen : ");String absen=sc0.nextLine();System.out.print("Nilai Tugas : ");int i0=sc0.nextInt();System.out.print("Nilai Kuis : ");int i1=sc0.nextInt();System.out.print("Nilai UTS : ");int i2=sc0.nextInt();System.out.print("Nilai UAS : ");int i3=sc0.nextInt();System.out.println("=== Hasil Perhitungan Nilai Akhir ===");double d0=(i0+i1+i2+i3)/4;System.out.println(s0+" dengan no absen "+absen+" memiliki nilai akhir "+d0);}}</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-program-java-pada-mahasiswa">
+                            11. contoh program java pada mahasiswa</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Membuat program java input data mahasiswa dengan menggunakan netbeans, dengan bahasa java dasar yang berbasis console.</p><p></p><p>Contoh Program Java Input Data Mahasiswa</p><p></p><p>Dalam bahasa pemrograman java kita bisa membuat progam input, output, seperti yang kita tau ketika membuat program sederhana, output biasa menuliskannya dengan baris kode dibawah :</p><p>System.out.print("hello");</p><p>Maka tulisan hello tersebut akan menjadi output, dan tampil pada console netbeans anda bukan ?, sekarang bagaimana jika membuat program dengan menyertakan input dari usernya ?</p><p>tentu secara umum data-data akan dimasukan oleh user, bukan saat kita menuliskan baris program, jadi ikuti cara ini untuk mengetahuinya dengan mengambil contoh menginputkan data mahasiswa lalu menampilkan data mahasiswa tersebut.</p><p></p><p></p><p>CONTOH : PROGRAM INPUT DATA MAHASISWA (JAVA NETBEANS)</p><p>Buat Project baru dan harus menyertakan main class dalam project tersebut atau bisa juga langsung membuat main class baru pada project yang sudah anda buat sebelumnya.</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="soal-no-25-dari-30-soalperusahaan-yang-menyediakan-sertifikasi-terkaitjava-ocjp-dan-scjp-adalah">
+                            12. Soal No. 25 Dari 30 Soal
+Perusahaan yang menyediakan sertifikasi terkait
+Java, OCJP, dan SCJP adalah ...</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>142951429514295142951429514295142951429514295142951429514295142951429514295 soswkjanwna soswkjanwnasoswkjanwnasoswkjanwnasoswkjanwnasoswkjanwnasoswkjanwnasoswkjanwnasoswkjanwnasoswkjanwnasoswkjanwnasoswkjanwnasoswkjanwna</p><p><strong>Penjelasan:</strong></p><p>soswkjanwnasoswkjanwnasoswkjanwnasoswkjanwnasoswkjanwnasoswkjanwnasoswkjanwnasoswkjanwnasoswkjanwnasoswkjanwnasoswkjanwnasoswkjanwna</p><br />
+                                            <h2 class="ez-toc-section" id="java-tidak-bisa-mengerjakan-beberapa-soal-ketika-ulangan-dapat-tidak-mencontek-temannya-meskipun-tidak-bisa-mengerjakan-daffa-mengerjakan-ulangan-dengan-jujur-dafa-sudah-menunjukkan-sikap-yang-sesuai">
+                            13. Java tidak bisa mengerjakan beberapa soal ketika ulangan dapat tidak mencontek temannya Meskipun tidak bisa mengerjakan Daffa mengerjakan ulangan dengan jujur Dafa sudah menunjukkan sikap yang sesuai dengan Pancasila sila ke​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>ke dua kemanusiaan yang adil dan beradab</p><p><strong>Jawaban:</strong></p><p>pertama,  karena jujur berkaitan dengan perilaku kepada tuhan </p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-program-java-looping-untuk-soal-dibah">
+                            14. buatlah program java looping untuk soal dibah</h2><br />
+                        <p>Berikut jawabannya saya buat dalam code Java:</p><br /><p>import java.util.Scanner;</p><p>public class Main</p><p>{</p><p>	public static void main(String[] args) {</p><p>     Scanner scan = new Scanner(System.in);</p><p>     int x = 0;</p><p>     try</p><p>     {</p><p>         x = scan.nextInt();</p><p>     }</p><p>     catch(Exception e)</p><p>  {</p><p>      x = 0;</p><p>  }</p><p>  for(int i=0; i&lt;x; i++)</p><p>  {</p><p>      for(int j=x-i-1; j&gt;0; j--)</p><p>      {</p><p>          System.out.print(" ");</p><p>      }</p><p>      for(int k=0; k&lt;i*2+1; k++)</p><p>      {</p><p>          System.out.print("*");</p><p>      }</p><p>      System.out.println("");</p><p>  }</p><p>	}</p><p>}</p><br />
+                                            <h2 class="ez-toc-section" id="fungsi-break-dan-continue-dan-contoh-scriptnya-dalam-java">
+                            15. Fungsi Break dan continue dan contoh scriptnya dalam java ?</h2><br />
+                        dalam kemungkinan ada 2 Script <br />- Script Java allowed ?<br />- Script java not allowed <br />jadi, fungsi break dan continue adalahh <br />Continue : Misal ada halaman website/aplikasi yang tidak bisa dibaca oleh java! lalu java akan memberitahukan Script java allowed? jadi, continue berfungsi sebagai melanjutkan disaat java tidak membaca atau tidak memperbolehkan buka website/ aplikasi tersebut <br /><br />Break : ( Lawan Dari Continue ) <br />
+                                            <h2 class="ez-toc-section" id="saya-sedang-butuh-contoh-program-untuk-java-netbeans-apakah-ada-yang-punya">
+                            16. saya sedang butuh contoh program untuk java / netbeans. apakah ada yang punya?</h2><br />
+                        inshaaAllah aku punya :)<br />
+                                            <h2 class="ez-toc-section" id="buatlah-sebuah-soal-pemrograman-yang-berkaitan-dengan-perulangan-beserta-solusinya-soal-terdiri-dari-pengantar-instruksi-spesifikasi-input-spesifikasi-output-contoh-input-1-contoh-output-1-cont">
+                            17. Buatlah sebuah soal pemrograman yang berkaitan dengan perulangan beserta solusinya. Soal terdiri dari pengantar, instruksi, spesifikasi input, spesifikasi output, contoh input 1, contoh output 1, contoh input 2, contoh output 2, contoh input 3, contoh output 3. Tolong pemrogaman java.</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>dadwfwcwcajksndgajnknbsjahh</p><br />
+                                            <h2 class="ez-toc-section" id="perulangan-java-untuk-menampilkan-angka">
+                            18. Perulangan java untuk menampilkan angka :</h2><br />
+                        Code utk menampilkan gambar pertama:<br />int a=1;<br />for (int i=0; i&lt;5; i++)<br />{<br />   for (int j=0; j&lt;i; j++)<br />    {<br />     System.out.println(a);<br />     a+=1;<br />   }<br />   System.out.println("\n");<br />}<br /><br />code untuk menampilkan gambar kedua :<br />int a;<br />for (int i=5; i&gt;-1; i--)<br />{<br />   a=i;<br />    for (int j=0; j&lt;i; j++)<br />    {<br />      System.out.println(a);<br />      a+=1;<br />    }<br />   System.out.println("\n");<br />}<br /><br />Saya jarang menggunakan java, jadi maaf jika ada kesalahan syntax.<br /><br />
+                                            <h2 class="ez-toc-section" id="apa-pengertian-classnotfoundexception-dalam-java-apakah-fungsi-classnotfoundexception-dalam-java-apa-kelebihan-dan-kekurangan-classnotfoundexception-dalam-java-contoh-program-classnotfoundexcept">
+                            19. apa pengertian ClassNotFoundException dalam java ?
+apakah fungsi ClassNotFoundException dalam java ?
+apa kelebihan dan kekurangan ClassNotFoundException dalam java ?
+contoh program ClassNotFoundException dalam java ?</h2><br />
+                        1. ClassNotFoundException akan dilancarkan manakala terjadi pemanggilan instansi Class tertentu yang belum terdaftar atau ter-referensi.<br />2. Pertanyaan ini kok aneh ya -_-<br />Kelebihan: Dalam proses debugging, ini akan mencegah force termination program akibat kesalahan tadi.<br />Kekurangan: Tidak secara spesifik menampilkan class apa yang sedang bermasalah.<br />3. Misal: mAth.abs(-1);<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-cara-belajar-javayo-jawab-ini-soal-computer%e2%80%8b">
+                            20. Jelaskan cara belajar Javayo jawab Ini soal computer​</h2><br />
+                        <p><strong>jawaban</strong><strong>:</strong></p><p></p><p>Pernah tidak kamu berpikir:</p><p></p><p>“Bagaimana cara program komputer itu dibuat?”</p><p></p><p>“Bagaimana komputer mengeksekusi program?”</p><p></p><p>Jika, iya.. maka ini artikel yang harus kamu baca.</p><p></p><p>Pada kesempatan ini, kita akan membahas dari dasar.</p><p></p><p>Sehingga kamu akan paham dengan konsep pemrograman.</p><p></p><p>Baik itu di Java, maupun bahasa pemrograman lain.</p><p></p><p>Siap?</p><p></p><p>Mari kita mulai…</p><p></p><p>Apa itu Pemrograman?</p><p>Pemrograman adalah proses yang dilakukan untuk membuat program komputer.</p><p></p><p>Jadi, segala aktifitas yang kamu lakukan untuk kembuat program disebut pemrograman atau programming.</p><p></p><p>Biasanya aktivitas ini meliputi:</p><p></p><p>Analisis (analisis permasalahan);</p><p>Pembuatan Algoritma atau Solusi;</p><p>Coding (Implementasi algoritma ke dalam bahasa pemrograman).</p><p>Banyak orang yang salah saat awal mulai belajar pemrograman.</p><p></p><p>Mereka mempelajari coding terlebih dahulu, tanpa tahu cara menganalisis dan membuat algoritma.</p><p></p><p>Padahal coding adalah tahap akhir dari pemrograman.</p><p></p><p>Seperti katanya John Johnson:</p><p></p><p>solve-first-then-write-code</p><p>“Pertama-tama, pecahkan dulu masalahnya, lalu buat kodenya”</p><p></p><p>Banyak orang bisa coding, tapi tidak tahu mau buat apa, dan bahkan kesulitan membuat programnya sendiri. Ini bisa jadi karena ia cuma belajar coding saja.</p><p></p><p>Oleh sebab itu, ada baiknya belajar Algoirtma dan computational thinking terlebih dahulu sebelum mulai belajar coding.</p><p></p><p>Algoritma adalah cabang dari ilmu matematika yang mengajari kita berpikir logis untuk menyelesaikan masalah.</p><p></p><p>Setidaknya, setelah belajar algoritma.. kamu dapat menciptakan solusi sendiri dari permasalahan yang kamu ingin selesaikan.</p><p></p><p>Setelah itu, langkah berikutnya adalah coding dengan bahasa pemrograman.</p><p></p><p>Bagaimana Komputer Mengeksekusi Program?</p><p>Program komputer dibuat dengan bahasa pemrograman. Bahasa pemrograman umumnya menggunakan bahasa inggris. Bahasa ini mudah dipahami manusia. Tapi tidak bisa dipahami komputer.</p><p></p><p>Komputer hanya bisa paham sinyal 10101010, karena komputer merupakan rangkaian elektronik yang hanya bisa hidup dengan listrik. Sinyal ini juga disebut sinyal digital.</p><p></p><p>Sinyal Digital</p><p>Adapun angka 1 menyatakan sinyal hidup, sedangkan 0 menyatakan mati.</p><p></p><p>Atau kita bisa bilang.</p><p></p><p>1 = on</p><p>0 = off</p><p>Sinyal ini nantinya akan diproses oleh prosesor dan akan membangkitkan aliran listrik pada rangkain motherboard,</p><p></p><p>Simulasi CPU Intel 4004 (sumber: pixeljoint.com )</p><p>Simulasi CPU Intel 4004 (sumber: pixeljoint.com )</p><p>sehingga komputer akan dapat melakukan sesuatu seperti menampilkan teks ke layar, memutar musik, mencetak dokumen, dan lain sebagainya.</p><p></p><p>Tapi…</p><p></p><p>Manusia tidak bisa memberikan sinyal langsung dalam bentuk 10101010 ke prosesor. Oleh sebab itu, diciptakanlah bahasa assembly.</p><p></p><p>Bahasa assembly merupakan bahas rakitan yang dibuat dari kode mnemonic atau kode simbol.</p><p></p><p>Misal:</p><p></p><p>Untuk perintah cetak huruf A ke layar, kode simbolnya adalah mov 041,ah nanti kode ini akan diubah oleh assembler menjadi 10010011.</p><p></p><p>Coba perhatikan gambar berikut:</p><p></p><p>assembler</p><p>Berkat bahasa assembly, kita bisa memberikan instruksi ke prosesor.</p><p></p><p>Tapi, bahasa assembly cukup sulit dipahami manusia. Karena itu, diciptakanlah bahasa pemrograman yang dengan bahasa inggris.</p><p></p><p>Coba perhatikan gambar ini:</p><p></p><p>compiler</p><p>Compiler berfungsi untuk mengubah bahasa pemrograman menjadi bahasa assembly. Lalu assembler akan mengubah bahasa assembly menjadi sinyal 10101010.</p><p></p><p>Hore!!  kini kita sudah bisa memberikan instruksi ke prosesor dengan bahasa yang kita pahami.</p><p></p><p>Jika ingin mencetak huruf A ke layar, tinggal gunakan perintah:</p><p></p><p>print("A")</p><p>Ini sangat mudah dipahami, dibandingkan harus coding dengan bahasa assembly.</p><p></p><p>Mengapa Kita butuh JVM?</p><p>Kita tidak akan pernah puas dengan kecepatan prosesor saat ini, sehingga perushaan pencipta prosesor berlomba-lomba membuat prosesor terbaiknya.</p><p></p><p>Saat ini kita kenal beberapa vendor ternama seperti intel, AMD, IBM, dan ARM.</p><p></p><p>Tapi yang jadi masalah:</p><p></p><p>Beda vendor, beda juga kode register bahasa assembly yang dipakai.</p><p></p><p>Mau tidak mau, kita harus compile program untuk tiap-tiap prosesor.</p><p></p><p>compile-target</p><p>Kalau tidak..</p><p></p><p>Ya program yang kita buat hanya akan bisa dipakai pada komputer tertentu saja. Misalnya, komputer yang pakai intel saja.</p><p></p><p>Karena itu, diciptakanlah sebuah mesin virtual. Mesin virtual ini meniru cara kerja prosesor sehingga bisa mengeksekusi programa.</p><p></p><p>JVM (Java Virtual Machine) merupakan mesin virtual untuk menjalankan program Java.</p><p></p><p>jvm</p><p>Apapun prosesor yang kamu gunakan dan apapun sistem operasi yang kamu gunakan.. selama di sana sudah terinstal JVM, maka kamu akan bisa menjalankan program Java.</p><p></p><p>jvm-stack</p><p>Proses dalam Coding Java</p><p>Proses yang akan kita lakukan saat coding java adalah:</p><p></p><p>Menulis kode program Java;</p><p>Melakukan Compile;</p><p>Menjalankan Program.</p><p><strong>Penjelasan:</strong></p><p><strong>maaf</strong><strong> </strong><strong>ini</strong><strong> </strong><strong>saya</strong><strong> </strong><strong>tadi</strong><strong> </strong><strong>singkat kan</strong><strong> </strong><strong>biar</strong><strong> </strong><strong>mudah</strong><strong> </strong><strong>difahami</strong><strong> </strong><strong>hhehe</strong></p><p><strong>Penjelasan:</strong></p><p>liat di google ada kok hehehehe...</p><br />
+                                            <h2 class="ez-toc-section" id="jong-javacelebesdan-sumatranen-bon-adalah-contoh-organisasi">
+                            21. jong java,celebes,dan sumatranen bon adalah contoh organisasi</h2><br />
+                        organisasi pemuda pada saat proses kemerdekaanorganisasi pemuda indonesia<br />saat kemerdekaan<br />
+                                            <h2 class="ez-toc-section" id="contoh-kode-program-java-script">
+                            22. Contoh kode program java script</h2><br />
+                        &lt;marquee direction ="right" behavior="alternate"&gt; SELAMAT DATANG &lt;/marquee&gt;<br /><br />Kode java script diatas adalah kode membuat tulisan berjalan, misalnya pada sebuah blog.<br /><br />Ini merupakan contoh javascript.<br />
+                                            <h2 class="ez-toc-section" id="buatlah-program-java-looping-untuk-soal-dibawah">
+                            23. buatlah program java looping untuk soal dibawah</h2><br />
+                        <p>Berikut saya lampirkan jawabannya dalam kode Java:</p><br /><p>public class Main</p><p>{</p><p>	public static void main(String[] args) {</p><p>  for(int i=1; i&lt;=20; i++)</p><p>  {</p><p>      if(i%5==0)</p><p>          System.out.println(i);</p><p>      else</p><p>          System.out.printf("%-5d",i);</p><p>  }</p><p>	}</p><p>}</p><br /><br />
+                                            <h2 class="ez-toc-section" id="1-java-dikenal-sebagai-bahasa-pemrograman-dengan-semboyan-%e2%80%9cbuild-oncedeploy-everywhere%e2%80%9d-jelaskan-apa-arti-semboyan-tersebut-jelaskan-pula-kenapa-java-bisa-menerapkan-semboyan-ters">
+                            24. 1. Java dikenal sebagai bahasa pemrograman dengan semboyan “build once,
+deploy everywhere”. Jelaskan apa arti semboyan tersebut? Jelaskan pula kenapa Java bisa menerapkan semboyan tersebut?
+2. Java mengenal konsep yang disebut Wrapper Class. Mengapa konsep
+ini diperlukan di Java? Berikan contoh mengenai penggunaan konsep Wrapper Class ini di dalam Java.</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Hasil untuk Java dikenal sebagai bahasa pemrograman dengan semboyan “build once, deploy everywhere”. Jelaskan apa arti semboyan tersebut? Jelaskan pula kenapa Java bisa menerapkan semboyan tersebut? 2. Java mengenal konsep yang disebut Wrapper Class. Mengapa konsep ini diperlukan di Java? Berikan contoh mengenai penggunaan konsep Wrapper Class ini di dalam Java. tidak ditemukan.</p><p><strong>Jawaban:</strong></p><p>semboyan  “build once,
+</p><p>deploy everywhere”</p><p><strong>Penjelasan:</strong></p><p>SLSC: i see you boy</p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-3-contoh-java-framework%e2%80%8b">
+                            25. Sebutkan 3 contoh Java framework​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Gralis,spiring mvc,vaadin.</p><p><strong>Penjelasan:</strong></p><p>Semangat._.</p><br />
+                                            <h2 class="ez-toc-section" id="rumus-dari-lingkaran-pada-aplikasi-java-maupun-netbeans-pakai-contohnya-juga">
+                            26. Rumus dari Lingkaran pada aplikasi java, maupun netbeans ??
+Pakai contohnya juga !</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. Menghitung luas lingkaran di Java:</p><p>* `Math.PI` adalah konstanta PI</p><p>* `Math.pow()` adalah operator pangkat</p><p>* `Math.round()` adalah operator aritmatika bulat</p><p>java</p><p>double area = Math.PI * Math.pow(r, 2);</p><p>System.out.println("Area lingkaran = " + area);</p><p>Jika radius diketahui, luas lingkaran akan dihitung dengan menggunakan rumus tersebut.</p><p></p><p>example</p><p>Sure! Here's an example using code:</p><p></p><p>java</p><p>double r1 = 2.0; // Radius</p><p>double area = Math.PI * Math.pow(r1, 2);</p><p>System.out.println("Area is " + area);</p><p></p><p>This code outputs:</p><p></p><p></p><p>Area is 4pi</p><p></p><p>This calculates the area of a circle with radius r1, using the formula:</p><p></p><p>$$Area = \pi r^2$$</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-program-looping-java-untuk-soal-d-bawah%e2%80%8b">
+                            27. buatlah program looping java untuk soal d bawah​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>lihat gambar untuk code dan outputnya</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-program-java-looping-untuk-soal-dibawah">
+                            28. buatlah program java looping untuk soal dibawah</h2><br />
+                        <p>Berikut adalah program looping bentuk dalam bahasa Java:</p><br /><p>import java.util.Scanner;</p><br /><p>public class Main</p><p>{</p><p>	public static void main(String[] args) {</p><p>  int n;</p><p>  Scanner scan = new Scanner(System.in);</p><p>  try {</p><p>      n = scan.nextInt();</p><p>  } catch(Exception e) {</p><p>      n = 0;</p><p>  } </p><p>  for(int i=0; i&lt;n; i++)</p><p>  {</p><p>      for(int j=0; j&lt;n-i; j++)</p><p>      {</p><p>          if(j%2==0)</p><p>              System.out.print("X");</p><p>          else</p><p>              System.out.print("O");</p><p>      }</p><p>      System.out.println("");</p><p>  }</p><p>	}</p><p>}</p><br /><br />
+                                            <h2 class="ez-toc-section" id="2-contoh-exception-di-java">
+                            29. 2 contoh exception di java?</h2><br />
+                        An Error is a subclass of Throwable that indicates serious problems that a reasonable application should not try to catch. Most such errors are abnormal conditions<br /><br />Cuman itu aja yang aku tauException yang termasuk Subclass Run Time Exception<br />Exception yang bukan Subclass Run Time Exception<br /><br />
+                                            <h2 class="ez-toc-section" id="buatlah-program-java-looping-untuk-soal-dibawah%e2%80%8b">
+                            30. buatlah program java looping untuk soal dibawah​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>lihat gambar untuk code dan outputnya</p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="opera-van-java-salah-satu-contoh-drama-komedi">
+                            31. opera van java salah satu contoh drama komedi</h2><br />
+                        iya betul sekali...Opera Van Java ada di trans 7Opera van java yang ada dji Tran tv<br />
+                                            <h2 class="ez-toc-section" id="contoh-inputan-java-if-majemuk-dengan-menggunakan-switch-case">
+                            32. Contoh inputan java if majemuk dengan menggunakan switch case</h2><br />
+                        <p>untuk membuat program percabangan di java dengan fungsi if else cukup mudah karena sintaksnya tidak jauh berbeda dengan bahasa C++ jika anda mengetahui                                                       source code                                                                     if kondisi statement yang dieksekusi           else statement yang di eksekusi</p><p>Jawaban:</p><p>Int a = 0;</p><p>Scanner sc = new Scanner();</p><p>System.out.print("masukkan angka pilihan");</p><p>Int = sc.nextInt();</p><p>// Input 1</p><p>Switch(a)</p><p>{</p><p>case 1:</p><p>System.out.print("1");</p><p>break;</p><p>case 2:</p><p>System.out.print("2);</p><p>break;</p><p>}</p><p>Output = 1</p><p></p><p>Penjelasan:</p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-dua-soal-tentang-bahasa-pemrograman-java%e2%80%8b%e2%80%8b">
+                            33. buatlah dua soal tentang bahasa pemrograman Java​​</h2><br />
+                        <p>Perhatikan source code dibawah ini!</p><p>public class Break {</p><p>public static void main( String args[] ) {</p><p>String cetak = "";</p><p> int x;</p><p>for ( x = 1; x &lt;= 10; x++ ) {</p><p> if ( x == 5 )</p><p>break;</p><p>cetak = cetak + x + " ";</p><p> }</p><p>System.out.println(cetak);</p><p> }</p><p> }</p><p></p><p>1. Jika program di atas dijalankan maka akan menghasilkan output?</p><p>Jawab = 1 2 3 4</p><p></p><p>2. Jika baris ke-7 dari program diubah dengan perintah continue; maka akan menghasilkan output?</p><p>Jawab = 1 2 3 4 6 7 8 9 10</p><p></p><p>Semoga membantu :)</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="contoh-program-java-dealer-motor-dan-mobil">
+                            34. Contoh program java dealer motor dan mobil</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Program Kendaraan Menggunakan Java</p><p> </p><p></p><p>Langsung saja, berikut source codenya :</p><p></p><p>package kendaraan_bermotor;</p><p></p><p>public class Kendaraan_bermotor {</p><p>     String pemilik,warna,merk;</p><p>     int roda , speed;</p><p>  </p><p></p><p>    void Pemilik(String p , int r)</p><p>    {</p><p>      pemilik = p;</p><p>      roda = r;</p><p>    }</p><p>    void type(String w , String m , int s )</p><p>    {</p><p>      warna = w;</p><p>      merk = m ;</p><p>      speed = s;</p><p>    }</p><p>    static void garis(){</p><p>        System.out.println("___________________________________________");</p><p>    }</p><p>    void tampilkan(){</p><p>      garis();</p><p>      System.out.println("Pemilik Kendaraan     = "+pemilik);</p><p>      System.out.println("Kendaraan Roda        = "+roda);</p><p>      System.out.println("Warna                 = "+warna);</p><p>      System.out.println("Merk Kendaraan        = "+merk);</p><p>      System.out.println("Speed / CC            = "+speed+" Km / Jam");</p><p>    }</p><p></p><p>public static void main(String[] args) {</p><p></p><p>    Kendaraan_bermotor Motor = new Kendaraan_bermotor();</p><p>    Motor.Pemilik ("Dinanto Al Yusuf",2);</p><p>    Motor.type("Merah","CBR",250);</p><p>    Motor.tampilkan();</p><p>  </p><p>    Kendaraan_bermotor Mobil = new Kendaraan_bermotor();</p><p>    Mobil.Pemilik ("Imam Zaenudin",4);</p><p>    Mobil.type("Putih","Honda Jazz",450);</p><p>    Mobil.tampilkan();</p><p>    System.out.println("___________________________________________");</p><p>    for(int i =0; i&lt;= 100; i++){</p><p>    System.out.println("Mobil Tersebut Bejalan Dengan Kecepatan :"+i+" km / jam");</p><p>    if (i==100){</p><p>        break;</p><p>        // Berhenti Di Kecepatan Seratus Km / Jam</p><p>    }</p><p>    }</p><p>    System.out.println();</p><p>        // Pengereman</p><p>    for(int a = 100; a &gt;= 0 ; a--){</p><p>    System.out.println("Kecepatan Mobil Tersebut Menurun Hingga :"+a+" km / jam");</p><p>    if (a==0){</p><p>        break;</p><p>    }</p><p>    }</p><p>    }</p><p>    }</p><p></p><p>Tampilan ketika running :</p><br />
+                                            <h2 class="ez-toc-section" id="tuliskan-1-contoh-kode-program-java">
+                            35. Tuliskan 1 contoh kode program Java</h2><br />
+                        berikut Salah satu code program if else dalam java :<br /><br />public class IfElseDemo<br /><br />{<br /><br /> <br /><br />   public static void main(String args[])<br /><br />   {<br /><br />      int x = 30;<br /><br /> <br /><br />      if( x == 10 )<br /><br />      {<br /><br />         System.out.print("Value of X is 10");<br /><br />      }<br /><br />      else if( x == 20 )<br /><br />      {<br /><br />         System.out.print("Value of X is 20");<br /><br />      }<br /><br />      else if( x == 30 )<br /><br />      {<br /><br />         System.out.print("Value of X is 30");<br /><br />      }<br /><br />      else<br /><br />      {<br /><br />         System.out.print("This is else statement");<br /><br />      }<br /><br />   }<br /><br />}<br /><br /><br />
+                                            <h2 class="ez-toc-section" id="buatlah-program-java-looping-untuk-soal-dibawah">
+                            36. buatlah program java looping untuk soal dibawah</h2><br />
+                        <p>Berikut saya sertakan jawabannya dalam bentuk Java:</p><br /><p>import java.util.Scanner;</p><p>public class Main</p><p>{</p><p>    public static void SegitigaBintang(int x)</p><p>    {</p><p>        for(int i=0; i&lt;x; i++)</p><p>  {</p><p>      for(int j=x-i-1; j&gt;0; j--)</p><p>      {</p><p>          System.out.print(" ");</p><p>      }</p><p>      for (int j=0; j&lt;=i; j++)</p><p>      {</p><p>          System.out.print("*");</p><p>      }</p><p>      System.out.println("");</p><p>  }</p><p>    }</p><p>    public static void SegitigaBintang2(int x)</p><p>    {</p><p>        for(int i=0; i&lt;x; i++)</p><p>  {</p><p>      for(int j=x-i-1; j&gt;0; j--)</p><p>      {</p><p>          System.out.print(" ");</p><p>      }</p><p>      for (int j=0; j&lt;=i; j++)</p><p>      {</p><p>          System.out.print("*");</p><p>      }</p><p>      System.out.print(" "+(x-i-1)+" + "+(i+1));</p><p>      System.out.println("");</p><p>  }</p><p>    }</p><p>	public static void main(String[] args) {</p><p>     Scanner scan = new Scanner(System.in);</p><p>     int x = 0;</p><p>     try</p><p>     {</p><p>         x = scan.nextInt();</p><p>     }</p><p>     catch(Exception e)</p><p>  {</p><p>      x = 0;</p><p>  }</p><p>  SegitigaBintang(x);</p><p>        SegitigaBintang2(x);</p><p>        </p><p>	}</p><p>}</p><br /><br />
+                                            <h2 class="ez-toc-section" id="ada-yang-tau-bagaimana-membuat-program-java-soal-dibawah-ini">
+                            37. ada yang tau bagaimana membuat program java soal dibawah ini?</h2><br />
+                        <p>Berikut jawabannya dalam bahasa Java:</p><p>import java.util.Scanner;</p><p>public class Main</p><p>{</p><br /><p>    public static void SegitigaBintang(int x)</p><p>    {</p><p>        for(int i=0; i&lt;x; i++)</p><p>  {</p><p>      for (int j=0; j&lt;=i; j++)</p><p>      {</p><p>          System.out.print("*");</p><p>      }</p><p>      System.out.println("");</p><p>  }</p><p>    }</p><p>	public static void main(String[] args) {</p><p>     Scanner scan = new Scanner(System.in);</p><p>     int x = 0;</p><p>     try</p><p>     {</p><p>         x = scan.nextInt();</p><p>     }</p><p>     catch(Exception e)</p><p>  {</p><p>      x = 0;</p><p>  }</p><p>        SegitigaBintang(x);</p><p>	}</p><p>}</p><br /><br />
+                                            <h2 class="ez-toc-section" id="penjelasan-tentang-while-loop-beserta-contoh-programnya-di-java">
+                            38. penjelasan tentang while loop, beserta contoh programnya di java</h2><br />
+                        While loop adalah perulangan yang akan terus berjalan selagi kondisinya TRUE <br /><br />contoh:<br /><br />public class perulangan {<br />    public static void main(String[]args){<br />   int i = 0;<br />   while(i &lt; 5){<br />   System.out.println("I sekarang " + i);<br />   i++;<br />   }<br />  }<br />}<br /><br /><br /><br />
+                                            <h2 class="ez-toc-section" id="buatlah-program-java-untuk-soal-dibawah-ini">
+                            39. Buatlah program java untuk soal dibawah ini</h2><br />
+                        <p>Berikut jawabannya dalam bahasa Java:</p><p>import java.util.Scanner;</p><p>public class Main</p><p>{</p><br /><p>    public static void SegitigaBintang2(int x)</p><p>    {</p><p>        for(int i=0; i&lt;x; i++)</p><p>  {</p><p>      for (int j=0; j&lt;x-i; j++)</p><p>      {</p><p>          System.out.print("*");</p><p>      }</p><p>      System.out.println("");</p><p>  }</p><p>    }</p><p>	public static void main(String[] args) {</p><p>     Scanner scan = new Scanner(System.in);</p><p>     int x = 0;</p><p>     try</p><p>     {</p><p>         x = scan.nextInt();</p><p>     }</p><p>     catch(Exception e)</p><p>  {</p><p>      x = 0;</p><p>  }</p><p>        SegitigaBintang2(x);</p><p>	}</p><p>}</p><br /><br />
+                                            <h2 class="ez-toc-section" id="buatlah-2-soal-tentang-bahasa-pemrograman-java%e2%80%8b">
+                            40. buatlah 2 soal tentang bahasa pemrograman Java​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. Tulislah Program untuk menampilkan output ”Halo”</p><p>2. Bagaimanna cara menulis komentar dalam Java?</p><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/LK8ntv5xQUo?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>ti</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/mukilteo-boeing.html">Mukilteo Boeing</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-psikotes-bank-dan-jawabannya.html">Contoh Soal Psikotes Bank Dan Jawabannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-keliling-dan-luas-trapesium.html">Contoh Soal Keliling Dan Luas Trapesium</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-diagram-pohon.html">Contoh Soal Diagram Pohon</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/450-275.html">450 275</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/i-do-adore.html">I Do Adore</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/chi-chang-chong.html">Chi Chang Chong</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-dfd-dan-jawabannya.html">Contoh Soal Dfd Dan Jawabannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-animasi-3d.html">Contoh Soal Animasi 3d</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-factual-report.html">Contoh Soal Factual Report</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/i-swear-by-the-moon-and-stars.html">I Swear By The Moon And Stars</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/sepertiga-malam-itu-jam-berapa.html">Sepertiga Malam Itu Jam Berapa</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-reading-comprehension-dan-pembahasannya.html">Contoh Soal Reading Comprehension Dan Pembahasannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/lenovo-tablet-screenshot.html">Lenovo Tablet Screenshot</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/shorelle.html">Shorelle</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/wanita-terlanjang.html">Wanita Terlanjang</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-bidang-miring-dan-pembahasannya.html">Contoh Soal Bidang Miring Dan Pembahasannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-akuntansi-keuangan-lanjutan-1-persekutuan.html">Contoh Soal Akuntansi Keuangan Lanjutan 1 Persekutuan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/superga-disaster.html">Superga Disaster</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/fyyft.html">Fyyft</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://webedukasi.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://webedukasi.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://webedukasi.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://webedukasi.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://webedukasi.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/1d/a7/d8/1da7d80839196eccc4a624ab91e5ccbf.js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>

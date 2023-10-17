@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoh Soal Anova Dua Arah Dengan Interaksi - BELAJAR</title>
+    <meta name="description" content="Contoh Soal Anova Dua Arah Dengan Interaksi, , , , , , , 0, , , , , , 0, contoh-soal-anova-dua-arah-dengan-interaksi, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contoh Soal Anova Dua Arah Dengan Interaksi - BELAJAR" />
+    <meta property="og:description" content="Contoh Soal Anova Dua Arah Dengan Interaksi, , , , , , , 0, , , , , , 0, contoh-soal-anova-dua-arah-dengan-interaksi, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contoh Soal Anova Dua Arah Dengan Interaksi - BELAJAR" />
+    <meta name="twitter:description" content="Contoh Soal Anova Dua Arah Dengan Interaksi, , , , , , , 0, , , , , , 0, contoh-soal-anova-dua-arah-dengan-interaksi, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://webedukasi.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://webedukasi.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://webedukasi.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://webedukasi.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://webedukasi.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://webedukasi.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://webedukasi.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://webedukasi.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://webedukasi.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://webedukasi.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Contoh Soal Anova Dua Arah Dengan Interaksi</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">adhityazumarulhaq</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Contoh+Soal+Anova+Dua+Arah+Dengan+Interaksi" alt="Contoh Soal Anova Dua Arah Dengan Interaksi">
+                    </div>
+                    <p></p>
+                    <p>2.	Kapan menggunakan Analisis ragam (Anova) dua arah dengan interaksi?</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#2-kapan-menggunakan-analisis-ragam-anova-dua-arah-dengan-interaksi">1.
+                                            2.	Kapan menggunakan Analisis ragam (Anova) dua arah dengan interaksi?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-perbedaan-anova-satu-arah-dan-dua-arah%e2%80%8b">2.
+                                            jelaskan perbedaan anova satu arah dan dua arah​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pada-anova-satu-arah-hipotesa-null-selalu">3.
+                                            Pada anova satu arah hipotesa null selalu?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#seorang-peneliti-kedokteran-ingin-mempelajari-hubungan-dosis-obat-x-dengan-berat-badan-y-untuk-itu-dilakukan-percobaan-pada-7-binatang-coba-di-suatu-laboratorium-dengan-hasil-sebagai-berikut-asumsi">4.
+                                            Seorang peneliti Kedokteran ingin mempelajari hubungan dosis obat X dengan berat badan Y. Untuk itu dilakukan percobaan pada 7 binatang coba di suatu laboratorium dengan hasil sebagai berikut (asumsi data berdistribusi normal)No 		dosis			BB dalam gram1		0				2.4572		10				2.4823		20				2.7404		30				2.8355		40				2.2776		50				3.4157		60				3.762Selanjutnya diketahui : Ʃ X2 = 9100			ƩY  = 64.2954			ƩXY = 642.220Pertanyaan:A. Carilah persamaan regresi linearnya dengan metode least squareB. Ujilah apakah dosis berpengaruh terhadap BB dengan menggunakan Uji F dan Uji T pada alpha = 0.01 dan buatlah tabel anova regresinyaC.Hitunglah koofisien determinasinya dan inteprestasi hasil yang didapat​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tolong-bantu-saya-untuk-menerjemahkan-kalimat-dibawah-ini-mohon-tidak-pakai-google-translate-ya1-the-hard-turning-process-has-been-attracting-interest-in-different-industrial-sectors-for-finishing">5.
+                                            tolong bantu saya untuk menerjemahkan kalimat dibawah ini, mohon tidak pakai google translate ya!
+1. The hard turning process has been attracting interest in different industrial sectors for finishing operations of hard materials at its hardened state.
+2. Surface roughness is investigated in hard turning of AISI D3 and AISI H13 stells of same hardness 62HRC.
+3. The combined effects hree machining parameters such as cutting speed, feed rate and depth of cut are investigated for main performance characteristic that is surface roughness.
+4. RSM based Central Composite Design (CCD) is applied as an experimental design.
+5. The acceptability of the developed models is checked using Analysis of Variance (ANOVA).</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#obat-yang-terkenal-dari-perusahaan-farmasi-inggris-yang-mampu-menahan-perkembangan-virus-alds-adalah-a-azidot-hynidine-b-betadine-c-sulfur-hynidine-d-amoba-hynidine-e-anova-hynidine">6.
+                                            Obat yang terkenal dari perusahaan farmasi Inggris yang mampu menahan perkembangan virus AlDS adalah. A. Azidot hynidine b. Betadine c. Sulfur hynidine d. Amoba hynidine e. Anova hynidine</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#seorang-peneliti-ingin-mengetahui-perbedaan-prestasi-belajar-untuk-mata-kuliah-statistika-antara-mahasiswa-yang-tinggal-di-asrama-indekos-dan-pulang-pergi-data-diambil-dari-nilai-uas-adalah-sebagai">7.
+                                            Seorang peneliti ingin mengetahui perbedaan prestasi belajar untuk mata kuliah statistika antara mahasiswa yang tinggal di asrama, indekos, dan pulang pergi.
+Data diambil dari nilai UAS adalah sebagai berikut:
+Tinggal di asrama (A1) Indekost (A2)
+Pulang pergi (A3)
+= 6,8,5,7,7,6,6,8,7,6,7 = 11 orang = 5,6,6,7,5,5,5,6,5,6,8,7 = 12 orang = 6,9,8,7,8,9,6,6,9,8,6,8 = 12 orang
+Dengan tabel ringkasan ANOVA satu arah sebagai berikut:
+      Sumber Varian (SV)
+Antar Group (A) Dalam group (D) Total
+Jumlah Kuadrat ( JK)
+15, 07
+36, 47 ..........
+Derajat Bebas (DB)
+......... .........
+Kuadrat Rerata ( KR)
+......... ........
+Fhitung
+.........
+Taraf Sigifikan
+........
+Ftabel .........
+                        Pertanyaan:
+Lengkapilah ringkasan tabel tersebut kemudian tunjukkan apakah ada perbedaan atau tidak, dengan taraf sigifikansi 5%!
+(Petunjuk pengerjaan: setelah melengkapi tabel, gunakan langkah, rumusan hipotesis, taraf signifikansi, F hitung dan F tabel, kriteria pengujian, dan kesimpulan)</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#seorang-guru-sd-ingin-mengetahui-hubungan-antara-gaya-belajar-siswa-dengan-nilai-prestasi-matematikatabel-gaya-belajar-siswa-dan-nilai-prestasi-mathematik-a-uji-hipotesa-data-tersebut-b-buat-kesim">8.
+                                            seorang guru SD ingin mengetahui hubungan antara gaya belajar siswa dengan nilai prestasi matematika,tabel gaya belajar siswa dan nilai prestasi Mathematik. a uji hipotesa data tersebut . b.buat kesimpulan dari tabel anova c. hitung indeks determinasi dari data tersebut</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#translate-bahasa-inggrispenelitian-ini-bertujuan-untuk-mengetahui-karakteristik-sertaformulasi-cookies-dengan-perbandingan-tepung-mocaf-dan-tepung-beras-merah-serta-mengetahui-pengaruh-perbedaan-gula">9.
+                                            translate bahasa inggris
+Penelitian ini bertujuan untuk mengetahui karakteristik sertaformulasi cookies dengan perbandingan tepung mocaf dan tepung beras merah serta mengetahui pengaruh perbedaan gula yang ditambahkan. Jenis gula yang digunakan dalam penelitian ini yaitu sukrosa, fruktosa dan palm sugar. Rancangan percobaan yang digunakan adalah Rancangan Acak Lengkap (RAL) dengan dua perlakuan sebanyak tiga kali ulangan. Perlakuan pertama dalam penelitian ini adalah perbandingan tepung mocaf dan tepung beras merah yaitu 1:1, 1:2 dan 2:1 dan perlakuan kedua yaitu perbedaan jenis gula yang digunakan. Analisis data yang digunakan yaitu Analisis of Varian (ANOVA) pada taraf signifikasi 5%.
+Hasil perbandingan tepung mocaf dan tepung beras merah 1:2 pada penggunaan gula sukrosa menunjukkan formulasi yang berpengaruh terhadap sensoris cookies. Pada karakteritik kimia pada cookies menghasilkan nilai yang sesuai SNI adalah kadar air 3,60%, kadar abu 0,62%, kadar lemak 28,23%, protein 5,21% dan karbohidrat by difference 43,41%. Semakin banyak tepung mocaf yang digunakan jika dibandingkan tepung beras merah maka akan menghasilkan cookies dengan analisis fisik teksturyang keras serta warna cookies yang cerah. Sebaliknya semakin banyak tepung beras merah yang ditambahkan jika dibandingkan tepung mocaf maka akan menghasilkan tekstur yang renyah dan warana cookies yang gelap.
+Kata kunci: cookies, gula, tepung beras merah, tepung mocaf</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-apa-yang-ada-ketahui-tentang-analisis-of-variance-anova-dan-kondisi-seperti-apa-tipe-analisis-ini-digunakan-uraikan-disertai-contoh-2-jelaskan-tentang-anova-one-way-dan-two-way">10.
+                                            1. Apa yang ada ketahui tentang Analisis of Variance (Anova) dan kondisi seperti apa tipe analisis ini digunakan? Uraikan disertai contoh.
+2. Jelaskan tentang Anova One Way dan Two Way.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-dari-suatu-penelitian-mengetahui-hasil-penjualan-dua-toko-sepatu-disampling-secara-independen-hasil-observasinya-sebagai-berikut-jumlah-penjualan-jutaan-toko-%e2%80%9ca%e2%80%9dtoko-%e2%80%9c">11.
+                                            1.	Dari suatu penelitian mengetahui hasil penjualan dua toko sepatu disampling secara independen. Hasil observasinya sebagai berikut : Jumlah penjualan (jutaan) Toko “A”	Toko “B” 8	12 7	11 10	16 19	10 11	12 Hitunglah tabel ANOVAnya, tentukan juga nilai probabilitasnya bagi Hipotesa Nolnya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-penelitian-ini-dilakukan-untuk-mengetahui-hubungan-antara-tingkat-pendidikan-masyarkat-dengan-jenis-bank-untuk-menyimpan-uang-sampeljenis-bankjumlah-samplelulusan-slta601070bukan-lulusan-slta15153">12.
+                                            1. Penelitian ini dilakukan untuk mengetahui hubungan antara tingkat pendidikan masyarkat dengan jenis  bank untuk menyimpan uang.sampelJenis bankJumlah sampleLulusan SLTA601070Bukan Lulusan SLTA151530Jumlah7525100     Dengan alfa 0.05 hitunglah apakah ada hubungan antara tingkat pendidikan masyarakat dengan jenis Bank untuk menyimpan uang.2.  Dilakukan penelitian untuk mengetahui adakah perbedaan kualitas manajemen antara bank yang faforit dengan bank yang tidak faforit. Bank yang faforit ada (A) 12 bank dan yang tidak (B) 15 bank skor tertinggi dianggap baik dan yang rendah dianggap kurangA  11 13 15 16  18  22  23  14  9  7 17 25B  8 7 6  24  28 29 30 5  12 10 21 20 30 31 32,  Dengan alfa 0.05 hitunglah apakah ada perbedaan kualitas manajemen antara bank yang faforit dengan bank yang tidak faforit3.Suatu penelitian percobaan ingin mengetahui perbandingan efektifitas 3 macam obat A, B dan C terhadap penyakit jantung koroner. Dalam percobaan ini pasien dibagi secara random dalam 3 kelompok dan masing-masing kelompok memperoleh obat yang berbeda dan sebagai paraameter keberhasilan adalah rata-rata lama kesembuhan dalam hari dengan hasil sebagai berikut:Kelompok			X			NI				20			15II				22			15III				14			15Tabel Anova:Sumber variasi			SS			DF		MS		F			PB. G				496.04				W.G				2155.20Total				2351.24Pertanyaan :A.  Lengkapi tabel Anova diatas (tunjukan cara perhitungannya)B.  Carilah kelompok yang berbeda dan interpretasikan hasil. Gunakan alpha 0.05​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-perbedaan-pengujian-hipotesis-anova-dan-chi-square">13.
+                                            Apa perbedaan Pengujian Hipotesis Anova dan Chi Square?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#suatau-penelitian-berjudul-hubungan-antara-kecerdasan-emosional-siswa-sd-dengan-prestasi-belajar-matematika-dengan-data-sebagai-berikuthipotesa-h0-%ce%b21-0-ha-%ce%b21-%e2%89%a0-0-dengan">14.
+                                            Suatau penelitian berjudul: Hubungan Antara Kecerdasan Emosional Siswa SD Dengan Prestasi Belajar Matematika, dengan data sebagai berikut:
+Hipotesa: H0 : β1 = 0
+ Ha : β1 ≠ 0 ; Dengan taraf nyata α = 5%
+No
+Kecerdasan Emosional (X)
+Nilai Prestasi Belajar Matematika
+(Y)
+1
+80
+85
+2
+60
+75
+3
+67
+65
+4
+60
+66
+5
+78
+85
+6
+65
+70
+7
+85
+80
+8
+65
+60
+9
+78
+75
+10
+78
+75
+11
+78
+85
+12
+70
+75
+13
+77
+75
+14
+80
+90
+15
+78
+80
+16
+66
+75
+17
+80
+70
+18
+70
+65
+19
+68
+75
+20
+70
+80
+Uji hipotesa data tersebut
+Buat kesimpulan data tersebut berdasarkan Tabel ANOVA
+Hitung indeks determinasi dari data tersebut.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-analisis-hubungan-tingkat-kepuasan-pasien-terhadap-pelayanan-kefarmasian-di-instalasi-farmasi-di-rumah-sakit-x-tahun-2019%e2%80%a6berdasarkan-judul-penelitian-diatas-uji-apakah-yang-sesuai%e2%80%a6">15.
+                                            1.Analisis hubungan tingkat kepuasan pasien terhadap pelayanan kefarmasian di instalasi farmasi di rumah sakit x tahun 2019…berdasarkan judul penelitian diatas ,uji apakah yang sesuai…a.wilcoxon b.one way anovac.chi squared. t independen e. chochran 2.pemberian perlakuan dengan metode sebelum ( pre test) dan sesudah (post test)a.Wilcoxon b.One way anovac.Chi squared. T independen e. Chochran​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cara-ngitung-analisis-varians-anova-gimana-sih">16.
+                                            cara ngitung analisis varians (anova) gimana sih?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#head-together-apakah-mempunyai-efek-terhadap-kemampuan-penalaran-siswa-mts-terhadap-baca-tulis-alquran-untuk-itu-sebuah-sampel-yang-terdiri-dari-36-siswa-masing-masing-di-ukur-semangat-belajarnya-d">17.
+                                            Head Together apakah mempunyai efek terhadap kemampuan penalaran siswa MTs terhadap baca tulis Alquran?. Untuk itu sebuah sampel yang terdiri dari 36 siswa masing-masing di ukur semangat belajarnya (dengan skala Likert), Dari data di bawah ini ujilah Normalitas, Homogenitas dan Uji Oneway Anova dengan menggunakan SPSS apakah pendekatan pembelajaran kooperatif learning melalui model tipe Number Head Together tersebut dapat mempengaruhi terhadap kemampuan penalaran siswa MTs terhadap baca tulis Alquran? Gunakan (taraf sig 0,05) Subjek 	12 MIPA 1 	12 MIPA 2 S3 	39 	32 S7 	42 	43 S35 	47 	47 S8 	48 	50 S23 	52 	52 S13 	53 	52 S18 	54 	54 S11 	55 	55 S21 	55 	57 S24 	62 	59 S32 	62 	60 S1 	63 	64 S2 	63 	65 S17 	64 	69 S4 	65 	70 S6 	65 	70 S10 	65 	70 S9 	67 	72 S20 	67 	73 S29 	67 	73 S28 	70 	74 S19 	72 	75 S16 	73 	75 S26 	73 	76 S14 	75 	77 S25 	75 	78 S31 	75 	78 S12 	76 	79 S15 	78 	80 S5 	79 	82 S27 	80 	83 S36 	81 	86 S22 	82 	87 S30 	82 	87 S34 	92 	88 S33 	94 	94​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#anova-is-one-of-the-most-powerful-and-most-common-tests-employed-in-the-social-science-and-education-and-suitable-for-interval-ratio-level-distributions-why-please-explain-help-me-guys">18.
+                                            ANOVA is one of the most powerful and most common tests employed in the social science and education, and suitable for interval/ ratio level distributions! Why? Please explain? 
+Help me guys :)</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#obat-yang-terkenal-dari-perusahaan-farmasi-inggris-yang-mampu-menahan-perkembangan-virus-alds-adalah-a-azidot-hynidineb-betadinec-sulfur-hynidined-amoba-hynidinee-anova-hynidine">19.
+                                            obat yang terkenal dari perusahaan farmasi Inggris yang mampu menahan perkembangan virus AlDS adalah..a. azidot hynidineb. betadinec. sulfur hynidined. amoba hynidinee. anova hynidine</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tinggal-di-asrama-a1-indekost-a2-pulang-pergi-a3-dengan-tabel-ringkasan-anova-satu-arah-sebagai-berikut-sumber-varian-sv-antar-group-a-dalam-group-d-total-jumlah-kuadrat-jk-15-07-36-4">20.
+                                            Tinggal di asrama (A1) Indekost (A2) Pulang pergi (A3) Dengan tabel ringkasan ANOVA satu arah sebagai berikut: Sumber Varian (SV) Antar Group (A) Dalam group (D) Total Jumlah Kuadrat (JK) 15, 07 36, 47 ********** = 6,8,5,7,7,6,6,8,7,6,7 = 11 orang = 5,6,6,7,5,5,5,6,5,6,8,7= 12 orang = 6,9,8,7,8,9,6,6,9,8,6,8 = 12 orang Derajat Bebas (DB) ******* ********* Kuadrat Rerata (KR) ********* ******** Fhitung **** Taraf Sigifikan ********* Fabel ********* Pertanyaan: engkapilah ringkasan tabel tersebut kemudian tunjukkan apakah ada perbedaan at engan taraf sigifikansi 5%!..​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apakah-uji-t-secara-simultan-itu-ada-tabel-anovanya">21.
+                                            apakah uji T secara simultan itu ada tabel anovanya? </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#seorang-guru-ingin-mengetahui-hubungan-antara-hasil-nilai-partisipasi-di-rumah-pr-dengan-nilai-prestasi-matematika-data-yang-didapat-sebagai-berikuthipotesa-h0-%ce%b21-0-ha-%ce%b21">22.
+                                            Seorang guru ingin mengetahui hubungan antara hasil nilai partisipasi di rumah (PR) dengan nilai prestasi matematika, data yang didapat sebagai berikut:Hipotesa: H0 : β1 = 0 Ha : β1 ≠ 0 ; Dengan taraf nyata α = 5%N0 Nilai PR(X)Nilai Prestasi(Y)1 78 852 60 703 57 654 40 455 78 856 65 707 75 808 66 609 68 7510 58 6011 78 8512 70 7513 57 6514 40 4515 78 8016 55 7017 70 8018 66 6019 68 7520 58 60a. Uji hipotesa data tersebutb. Buat kesimpulan dari Tabel ANOVAc. Hitung indeks determinasi dari data tersebut hi ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pemseorang-guru-ingin-mengetahui-hubungan-antara-hasil-nilai-partisipasi-di-rumah-pr-denganilai-prestasi-matematika-data-yang-didapat-sebagai-berikuthipotesa-ho-b1-0h-b1-0-dengan-taraf-nyat">23.
+                                            PEMSeorang guru ingin mengetahui hubungan antara hasil nilai partisipasi di rumah (PR) denganilai prestasi matematika, data yang didapat sebagai berikut:Hipotesa: Ho: B1 = 0H :B1 #0; Dengan taraf nyata a = 5%NilaiPrestasiNilai PR(X)NO781234567.891011121314151617181920605740786575666858787057407855706668588570654585708060756085756545807080607560a. Uji hipotesa data tersebutb. Buat kesimpulan dari Tabel ANOVAc. Hitung indeks determinasi dari data tersebut.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-dimaksud-dengan-anova">24.
+                                            apa yang dimaksud dengan anova?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#seorang-guru-ingin-mengetahui-hubungan-antara-hasil-nilai-partisipasi-di-rumah-pr-dengannilai-prestasi-macruutika-data-yang-didapat-schayai-berikuthipotesa-hbh-10-dengan-taral-nyata-a-598na329">25.
+                                            Seorang guru ingin mengetahui hubungan antara hasil nilai partisipasi di rumah (PR) dengannilai prestasi macruutika, data yang didapat schayai berikut:Hipotesa HBH.-10. Dengan taral nyata a = 598NA3292296299232Uji hipotesa data wersebutb. Buni kesimpulan dari Tabel ANOVAc. Hining indeks deremunas dan data tersebut.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-anda-ketahui-tentang-anova-dan-kondisi-seperti-apa-tipe-analisis-ini-digunakan-uraikan-disertai-contoh">26.
+                                            Apa yang anda ketahui tentang anova dan kondisi seperti apa tipe analisis ini digunakan? Uraikan disertai contoh</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#seorang-guru-ingin-mengetahui-hubungan-antara-hasil-nilai-partisipasi-di-rumah-pr-dengannilai-prestasi-matematika-data-yang-didapat-sebagai-berikuthipotesa-ho-bi-0h-b-30-dengan-taraf-nyata-a">27.
+                                            Seorang guru ingin mengetahui hubungan antara hasil nilai partisipasi di rumah (PR) dengannilai prestasi matematika data yang didapat sebagai berikut:Hipotesa. Ho Bi= 0)H, B, 30. Dengan taraf nyata a 5%NilaNila PRNO78123704056857066970751213458016557018198060756858a. Uji hipotesa data tersebutb. Buat kesimpulan dari Tabel ANOVAc. Hitung indeks determinasi dari data tersebut.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-tentang-anova-one-way-dan-two-way">28.
+                                            Jelaskan tentang anova one way dan two way</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#obat-yang-mampu-menahan-perkembangan-hiv-dari-perusahaan-farmasi-inggris-yaitu-obata-azidot-hynidineb-sulfur-hynidinec-amoba-hynidined-anova-hynidine">29.
+                                            obat yang mampu menahan perkembangan HIV dari perusahaan farmasi inggris yaitu obata. azidot hynidineb. sulfur hynidinec. amoba hynidined. anova hynidine</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-itu-pengujian-hipotesis-anova-dan-chi-square">30.
+                                            apa itu Pengujian Hipotesis Anova dan Chi Square?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#lima-sampel-acak-dipilih-masing-masing-tiga-populasi-penjumlahan-total-kuadrat-sebesar-100-penjumlahan-kuadrat-akibat-perlakuan-adalah-40-a-nyatakan-hipotesis-nol-dan-hipotesis-alternatifnyab-a">31.
+                                            Lima sampel acak dipilih masing-masing tiga populasi. Penjumlahan total kuadrat sebesar 100. Penjumlahan kuadrat akibat perlakuan adalah 40. 
+a. Nyatakan hipotesis nol dan hipotesis alternatifnya
+b. Apa kaidah keputusannya? Gunakan tingkat signifikansi 0,05 
+c. Lengkapi tabel ANOVA. Berapa nilai F? 
+d. Apa keputusan anda mengenai hipotesis nol nya? </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#seorang-peneliti-ingin-mengetahui-perbedaan-prestasi-belajar-untuk-mata-kuliah-statistika-antara-mahasiswa-yang-tinggal-di-asrama-indekos-dan-pulang-pergi-data-diambil-dari-nilai-uas-adalah-sebagai">32.
+                                            Seorang peneliti ingin mengetahui perbedaan prestasi belajar untuk mata kuliah statistika antara mahasiswa yang tinggal di asrama, indekos, dan pulang pergi. Data diambil dari nilai UAS adalah sebagai berikut: Tinggal di asrama (A1) = 6,8,5,7,7,6,6,8,7,6,7 = 11 orang Indekost (A2) = 5,6,6,7,5,5,5,6,5,6,8,7 = 12 orang Pulang pergi (A3) = 6,9,8,7,8,9,6,6,9,8,6,8 = 12 orang Dengan tabel ringkasan ANOVA satu arah sebagai berikut: Sumber Varian (SV) Jumlah Kuadrat ( JK) Derajat Bebas (DB) Kuadrat Rerata ( KR) Fhitung Taraf Sigifikan Antar Group (A) 15, 07 ……… ……… ……… …….. Dalam group (D) 36, 47 ……… …….. Ftabel ……… Total ………. Pertanyaan: Lengkapilah ringkasan tabel tersebut kemudian tunjukkan apakah ada perbedaan atau tidak, dengan taraf sigifikansi 5%! ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#gunakan-metode-two-way-anova-seorang-peneliti-ingin-mengetahui-bagaimana-pengaruh-usia-untuk-suatu-metode-diet-terhadap-penurunan-berat-badan-penelitian-dilakukan-pada-empat-metode-diet-yaitu-metode">33.
+                                            Gunakan metode Two Way Anova Seorang peneliti ingin mengetahui bagaimana pengaruh usia untuk suatu metode diet terhadap penurunan berat badan. Penelitian dilakukan pada empat metode diet yaitu metode I, II, III, dan IV. Dalam penelitian tersebut menggunakan tiga kelompok usia yaitu kurang dari 20 tahun (&lt; 20 tahun), antara 20 tahun sampai 40 tahun (20 - 40 tahun), dan lebih dari 40 tahun (&gt; 40 tahun). Penelitian disusun berdasarkan desain rancangan acak kelompok dan rata-rata penurunan berat badan (dalam kg) yang menjadi parameter. Setelah dilakukan pengukuran terhadap rata-rata penurunan untuk tiga kelompok usia dengan empat metode diet diperoleh data seperti tabel berikut. Metode Diet || ||| 6 2 7 5 3 4 Rentang Usia &lt;&lt; 20 20-40 &gt; 40 I 5 2 7 IV 3 3 3​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#adari-data-di-table-tentukanlah-apa-faktor-dalam-percobaan-ini-dan-berapa-level-dari-faktor-tersebut-apa-satuan-percobaan-dan-satuan-pengamatannya-tulisalah-model-linier-dan-penjelasannya-bag">34.
+                                            Adari data di table, tentukanlah :
+apa faktor dalam percobaan ini dan berapa level dari faktor tersebut ?
+apa satuan percobaan dan satuan pengamatannya ?
+tulisalah model linier dan penjelasannya ?
+bagaimana hipotesis yang akan di uji ?
+lakukan pengujian dengan anova dengan alpha 5 % ?
+tariklah kesimpulan ?
+dosis (lt/ha)
+ulangan
+1
+2
+3
+0
+5.4
+4.4
+4.6
+30
+6.6
+5.4
+5.9
+60
+7.9
+8.1
+7.9
+90
+4.2
+5.2
+3.9</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#seorang-peneliti-ingin-mengetahui-perbedaan-prestasi-belajar-untuk-mata-kuliah-statistika-antara-mahasiswa-yang-anggal-di-asrama-indekos-dan-pulang-pergi-data-diambil-dari-nilai-uas-adalah-sebagai-b">35.
+                                            Seorang peneliti ingin mengetahui perbedaan prestasi belajar untuk mata kuliah statistika antara mahasiswa yang anggal di asrama, indekos, dan pulang pergi Data diambil dari nilai UAS adalah sebagai berikut Tinggal di asrama (A1) Indekost (A2) Pulang pergi (A3) Dengan tabel ringkasan ANOVA satu arah sebagai berikut Sumber Varian (SV) Antar Group (A) Dalam group (D) Total Jumlah Kuadrat (JK) 15.07 -6.8.5.7.7.6.6.8.7.6.7 -11 orang -56675.55.65.68.7-12 orang -6.9.8.7.8.9.6.6.9.8.6.8-12 orang 36. 47 Derajat Bebas (DB) Kuadrat (KR) Fung Taraf Sigifikan Skor Total Fue Pertanyaan Lengkapilah ringkasan tabel tersebut kemudian tunjukkan apakah ada perbedaan atau tidak, dengan taraf sigifikansi 5%! (Petunjuk pengerjaan setelah melengkapi tabel, gunakan langkah, rumusan hipotesis, taraf signifikansi, F hitung dan F tabel, kriteria pengujian, dan kesimpulan) 100​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sekolah-menengah-atas-%c2%b7-b-inggris-%c2%b7-53-poin-%c2%b7tolong-bantu-saya-untuk-menerjemahkan-kalimat-dibawah-ini-mohon-tidak-pakai-google-translate-ya-1-the-hard-turning-process-h">36.
+                                            
+ Sekolah Menengah Atas  ·
+  B. inggris  ·
+  5+3 poin  ·
+Tolong bantu saya untuk menerjemahkan kalimat dibawah ini, mohon tidak pakai google translate ya!
+ 1. The hard turning process has been attracting interest in different industrial sectors for finishing operations of hard materials at its hardened state.
+ 2. Surface roughness is investigated in hard turning of AISI D3 and AISI H13 stells of same hardness 62HRC.
+ 3. The combined effects three machining parameters such as cutting speed, feed rate and depth of cut are investigated for main performance characteristic that is surface roughness.
+ 4. RSM based Central Composite Design (CCD) is applied as an experimental design.
+ 5. The acceptability of the developed models is checked using Analysis of Variance (ANOVA).</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#seorang-manager-research-suatu-bank-melakukan-pengamatan-terhadap-jumlah-customer-per-jam-yang-dapat-dilayani-oleh-4-orang-teller-data-hasil-beberapa-pengamatan-ditunjukkan-pada-tabel-berikut-teller">37.
+                                            seorang manager research suatu bank melakukan pengamatan terhadap jumlah customer per jam yang dapat dilayani oleh 4 orang teller. Data hasil beberapa pengamatan ditunjukkan pada tabel berikut :Teller A Teller B Teller C Teller D19 14 11 2421 16 14 1926 14 21 2124 13 13 2618 17 16 2013 18Dengan tingkat signifikansi 5%, ujilah H0 bahwa rata-rata jumlah customer per jam yang dilayani masing2 teller adalah sama. Asumsikan bahwa seluruh asumsi untuk uji anova satu arah telah terpenuhi.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#perbedaan-yang-mendasar-uji-t-dan-anova-atau-uji-t-dan-anova-itu-hampir-sama">38.
+                                            perbedaan yang mendasar uji t dan anova? Atau uji t dan Anova itu hampir sama?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#seorang-peneliti-ingin-mengetahui-perbedaan-prestasi-belajar-untuk-mata-kuliah-statistika-antara-mahasiswa-yang-tinggal-di-asrama-indekos-dan-pulang-pergi-data-diambil-dari-nilai-uas-adalah-sebagai">39.
+                                            Seorang peneliti ingin mengetahui perbedaan prestasi belajar untuk mata kuliah statistika antara mahasiswa yang tinggal di asrama, indekos, dan pulang pergi. Data diambil dari nilai uas adalah sebagai berikut: tinggal di asrama (a1) = 6,8,5,7,7,6,6,8,7,6,7 = 11 orang indekost (a2) = 5,6,6,7,5,5,5,6,5,6,8,7 = 12 orang pulang pergi (a3) = 6,9,8,7,8,9,6,6,9,8,6,8 = 12 orang dengan tabel ringkasan anova satu arah sebagai berikut: sumber varian (sv) jumlah kuadrat ( jk) derajat bebas (db) kuadrat rerata ( kr) fhitung taraf sigifikan antar group (a) 15, 07 ……… ……… ……… ……. Dalam group (d) 36, 47 ……… ……. Ftabel ……… total ………. Pertanyaan: lengkapilah ringkasan tabel tersebut kemudian tunjukkan apakah ada perbedaan atau tidak, dengan taraf sigifikansi 5%! (petunjuk pengerjaan: setelah melengkapi tabel, gunakan langkah, rumusan hipotesis, taraf signifikansi, f hitung dan f tabel, kriteria pengujian, dan kesimpulan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-gunanya-anovanskskskssksksks">40.
+                                            Apa gunanya ANOVA?nskskskssksksks</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="2-kapan-menggunakan-analisis-ragam-anova-dua-arah-dengan-interaksi">
+                            1. 2.	Kapan menggunakan Analisis ragam (Anova) dua arah dengan interaksi?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Kapan menggunakan Analisis ragam (Anova) dua arah dengan interaksi? Anova digunakan untuk melihat perbandingan rata-rata beberapa kelompok biasanya lebih dari dua kelompok. Anova dua arah digunakan pada kelompok yang digunakan berasal dari sampel yang sama tiap kelompok.</p><p><strong>Jawaban:</strong></p><p>anova digunakan untuk melihat perbandingan rata2 beberapa kelompok biasanya lebih dari dua kelompok.anova dua arah digunakan pada kelompok yang digunakan berasal dari sampel yang sama tiap kelompok.</p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>semoga membantu </p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-perbedaan-anova-satu-arah-dan-dua-arah%e2%80%8b">
+                            2. jelaskan perbedaan anova satu arah dan dua arah​</h2><br />
+                        ~~~USER RAYYAN~~~<p><strong>MAPEL : Biologi</strong></p><p><strong>Kategori</strong><strong> </strong><strong>:</strong><strong> </strong><strong>Anova</strong><strong> </strong><strong>arah</strong><strong> </strong><strong>sebuah</strong><strong> </strong><strong>metelogi</strong><strong> </strong><strong>peneli</strong><strong>tian</strong></p><p><strong>Kelas</strong><strong> </strong><strong>:</strong><strong> </strong><strong>-</strong><strong> </strong><strong>(</strong><strong>Pelajaran</strong><strong> </strong><strong>SMA</strong><strong>)</strong></p><p></p><p></p><p><strong>Anova satu arah </strong>hanya memperhitungkan 1 faktor yang menimbulkan variasi,</p><p><strong>Sedangkan Anova dua arah</strong> memperhitungkan dua faktor yang menimbulkan variasi. </p><p></p><p></p>Semoga menjawab pertanyaanmu<p></p><br />
+                                            <h2 class="ez-toc-section" id="pada-anova-satu-arah-hipotesa-null-selalu">
+                            3. Pada anova satu arah hipotesa null selalu?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>jabshxidirjk dan keluargaku Amin  dan</p><p><strong>Penjelasan:</strong></p><p>na abahzjsj</p><br />
+                                            <h2 class="ez-toc-section" id="seorang-peneliti-kedokteran-ingin-mempelajari-hubungan-dosis-obat-x-dengan-berat-badan-y-untuk-itu-dilakukan-percobaan-pada-7-binatang-coba-di-suatu-laboratorium-dengan-hasil-sebagai-berikut-asumsi">
+                            4. Seorang peneliti Kedokteran ingin mempelajari hubungan dosis obat X dengan berat badan Y. Untuk itu dilakukan percobaan pada 7 binatang coba di suatu laboratorium dengan hasil sebagai berikut (asumsi data berdistribusi normal)No 		dosis			BB dalam gram1		0				2.4572		10				2.4823		20				2.7404		30				2.8355		40				2.2776		50				3.4157		60				3.762Selanjutnya diketahui : Ʃ X2 = 9100			ƩY  = 64.2954			ƩXY = 642.220Pertanyaan:A. Carilah persamaan regresi linearnya dengan metode least squareB. Ujilah apakah dosis berpengaruh terhadap BB dengan menggunakan Uji F dan Uji T pada alpha = 0.01 dan buatlah tabel anova regresinyaC.Hitunglah koofisien determinasinya dan inteprestasi hasil yang didapat​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p>A. Persamaan regresi linear dapat dicari dengan menggunakan persamaan:</p><p>Y = a + bX</p><p></p><p>dengan a = (ƩY - b(ƩX))/n</p><p>dan b = (n(ƩXY) - (ƩX)(ƩY)) / (n(ƩX2) - (ƩX)^2)</p><p></p><p>Jika diubah ke dalam notasi yang lebih sederhana, maka persamaan regresi linear yang didapat adalah:</p><p>Y = 64.2954 - 0.03947 X</p><p></p><p>B. Uji F dapat dilakukan dengan menghitung nilai F-hitung dengan rumus:</p><p>F-hitung = ((SSR/1) / SSE/(n-2))</p><p></p><p>dan F-tabel pada alpha = 0.01 dan df regresi = 1 dan df residu = n-2 adalah 3.89. Jika F-hitung &gt; F-tabel, maka terdapat pengaruh yang signifikan antara X dan Y.</p><p></p><p>Uji T dapat dilakukan dengan menghitung nilai T-hitung untuk setiap variabel X dengan rumus:</p><p>T-hitung = b / (S.E b)</p><p></p><p>dan T-tabel pada alpha = 0.01 dan df = n-2 adalah 2.89. Jika T-hitung &gt; T-tabel, maka terdapat pengaruh yang signifikan antara variabel X tersebut dengan Y.</p><p></p><p>Tabel ANOVA regresi adalah sebagai berikut:</p><p></p><p>| | SS | df | MS | F</p><p></p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>Untuk menjawab pertanyaan ini, kita perlu menggunakan persamaan regresi linear yang dapat dituliskan sebagai:</p><p><strong>Y = a + bX</strong></p><p></p><p>dimana Y adalah variabel terikat (berat badan), X adalah variabel bebas (dosis obat), a adalah konstanta (intersep), dan b adalah koefisien regresi (slope).</p><p></p><p>A. Untuk mencari persamaan regresi linearnya dengan metode least square, kita perlu menghitung koefisien a dan b. Koefisien a dapat dihitung dengan menggunakan rumus:</p><p><strong>a = (∑Y - b∑X) / n</strong></p><p></p><p>sedangkan koefisien b dapat dihitung dengan menggunakan rumus:</p><p><strong>b = (∑XY - ∑X∑Y / n) / (∑X2 - (∑X)2 / n)</strong></p><p></p><p>Dengan menggunakan data yang disediakan, kita dapat menghitung koefisien a dan b sebagai berikut:</p><p>a = (64.2954 - (9.846∑X)) / 7 = 2.457</p><p>b = (642.220 - (9.846)(64.2954)) / (9100 - (9.846)2) = 0.0109</p><p></p><p>Jadi, persamaan regresi linearnya adalah:</p><p>Y = 2.457 + 0.0109X</p><p></p><p>B. Untuk menguji apakah dosis berpengaruh terhadap berat badan dengan menggunakan Uji F dan Uji T pada alpha = 0.01, kita perlu menghitung nilai F dan T terlebih dahulu. Nilai F dapat dihitung dengan menggunakan rumus:</p><p><strong>F = (SSM / dfM) / (SSR / dfR)</strong></p><p></p><p>dimana SSM adalah sum of squares model (kuadrat jumlah model), dfM adalah degrees of freedom model (derajat kebebasan model), SSR adalah sum of squares residual (kuadrat jumlah residual), dan dfR adalah degrees of freedom residual (derajat kebebasan residual).</p><p></p><p>Sedangkan nilai T dapat dihitung dengan menggunakan rumus:</p><p><strong>T = b / SEb</strong></p><p></p><p>dimana b adalah koefisien regresi (slope) dan SEb adalah standar error koefisien regresi.</p><p></p><p>Dengan menggunakan data yang disediakan, kita dapat menghitung nilai F dan T sebagai berikut:</p><p>F = (SSM / 1) / (SSR / 5) = 31.36</p><p>T = 0.0109 / 0.0044 = 2.47</p><p></p><p>Untuk Uji F, kita perlu membandingkan nilai F yang didapat dengan nilai F pada tabel distribusi F dengan derajat kebebasan 1 dan 5 pada alpha = 0.01. Jika nilai F yang didapat lebih besar dari nilai F pada tabel, maka Ho ditolak dan Ha diterima, yang berarti dosis berpengaruh terhadap berat badan. Sebaliknya, jika nilai F yang didapat lebih kecil dari nilai F pada tabel, maka Ho diterima dan Ha ditolak, yang berarti dosis tidak berpengaruh terhadap berat badan.</p><p></p><p>Untuk Uji T, kita perlu membandingkan nilai T yang didapat dengan nilai T pada tabel distribusi T dengan derajat kebebasan 5 pada alpha = 0.01. Jika nilai T yang didapat lebih besar dari nilai T pada tabel, maka Ho ditolak dan Ha diterima, yang berarti dosis berpengaruh terhadap berat badan. Sebaliknya, jika nilai T yang didapat lebih kecil dari nilai T pada tabel, maka Ho diterima dan Ha ditolak, yang berarti dosis tidak berpengaruh terhadap berat badan.</p><p></p><p>C. Koefisien determinasi (r2) adalah ukuran seberapa besar variasi dari variabel terikat (Y) dapat dijelaskan oleh variasi dari variabel bebas (X). Koefisien determinasi dapat dihitung dengan menggunakan rumus:</p><p><strong>r2 = SSM / SST</strong></p><p></p><p>dimana SSM adalah sum of squares model (kuadrat jumlah model) dan SST adalah sum of squares total (kuadrat jumlah total).</p><p></p><p>Dengan menggunakan data yang disediakan, kita dapat menghitung koefisien determinasi sebagai berikut:</p><p>r2 = SSM / SST = (31.36 / (31.36 + 35.74)) = 0.47</p><p></p><p>Nilai r2 yang didapat adalah 0.47 atau 47%. Ini berarti 47% variasi dari variabel terikat (berat badan) dapat dijelaskan oleh variasi dari variabel bebas (dosis obat). Jadi, ada 53% variasi lain yang mungkin dipengaruhi oleh faktor-faktor lain yang tidak diuji dalam penelitian ini.</p><br />
+                                            <h2 class="ez-toc-section" id="tolong-bantu-saya-untuk-menerjemahkan-kalimat-dibawah-ini-mohon-tidak-pakai-google-translate-ya1-the-hard-turning-process-has-been-attracting-interest-in-different-industrial-sectors-for-finishing">
+                            5. tolong bantu saya untuk menerjemahkan kalimat dibawah ini, mohon tidak pakai google translate ya!
+1. The hard turning process has been attracting interest in different industrial sectors for finishing operations of hard materials at its hardened state.
+2. Surface roughness is investigated in hard turning of AISI D3 and AISI H13 stells of same hardness 62HRC.
+3. The combined effects hree machining parameters such as cutting speed, feed rate and depth of cut are investigated for main performance characteristic that is surface roughness.
+4. RSM based Central Composite Design (CCD) is applied as an experimental design.
+5. The acceptability of the developed models is checked using Analysis of Variance (ANOVA).</h2><br />
+                        1. Proses peralihan sulit menarik minat berbagai sektor industri untuk menyelesaikan operasi bahan keras pada keadaan yang mengeras.<br /><br />2. Permukaan kekasaran diselidiki dengan kerasnya putaran AISI D3 dan AISI H13 dengan kekerasan yang sama dengan 62HRC.<br /><br />3. Parameter gabungan dari parameter permesinan seperti kecepatan potong, laju umpan dan kedalaman potong diselidiki untuk karakteristik kinerja utama yaitu kekasaran permukaan.<br /><br />4. RSM berbasis Central Composite Design (CCD) diterapkan sebagai desain eksperimental.<br /><br />5. Akseptabilitas model yang dikembangkan diperiksa dengan menggunakan Analisis Varians (ANOVA).<br />#semoga membantu<br />
+                                            <h2 class="ez-toc-section" id="obat-yang-terkenal-dari-perusahaan-farmasi-inggris-yang-mampu-menahan-perkembangan-virus-alds-adalah-a-azidot-hynidine-b-betadine-c-sulfur-hynidine-d-amoba-hynidine-e-anova-hynidine">
+                            6. Obat yang terkenal dari perusahaan farmasi Inggris yang mampu menahan perkembangan virus AlDS adalah. A. Azidot hynidine b. Betadine c. Sulfur hynidine d. Amoba hynidine e. Anova hynidine</h2><br />
+                        <p><strong>Jawaban:</strong></p><p> A.azidot hynidine</p><p></p><p>smg membantu</p><br />
+                                            <h2 class="ez-toc-section" id="seorang-peneliti-ingin-mengetahui-perbedaan-prestasi-belajar-untuk-mata-kuliah-statistika-antara-mahasiswa-yang-tinggal-di-asrama-indekos-dan-pulang-pergi-data-diambil-dari-nilai-uas-adalah-sebagai">
+                            7. Seorang peneliti ingin mengetahui perbedaan prestasi belajar untuk mata kuliah statistika antara mahasiswa yang tinggal di asrama, indekos, dan pulang pergi.
+Data diambil dari nilai UAS adalah sebagai berikut:
+Tinggal di asrama (A1) Indekost (A2)
+Pulang pergi (A3)
+= 6,8,5,7,7,6,6,8,7,6,7 = 11 orang = 5,6,6,7,5,5,5,6,5,6,8,7 = 12 orang = 6,9,8,7,8,9,6,6,9,8,6,8 = 12 orang
+Dengan tabel ringkasan ANOVA satu arah sebagai berikut:
+      Sumber Varian (SV)
+Antar Group (A) Dalam group (D) Total
+Jumlah Kuadrat ( JK)
+15, 07
+36, 47 ..........
+Derajat Bebas (DB)
+......... .........
+Kuadrat Rerata ( KR)
+......... ........
+Fhitung
+.........
+Taraf Sigifikan
+........
+Ftabel .........
+                        Pertanyaan:
+Lengkapilah ringkasan tabel tersebut kemudian tunjukkan apakah ada perbedaan atau tidak, dengan taraf sigifikansi 5%!
+(Petunjuk pengerjaan: setelah melengkapi tabel, gunakan langkah, rumusan hipotesis, taraf signifikansi, F hitung dan F tabel, kriteria pengujian, dan kesimpulan)</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Berikut adalah tabel ANOVA satu arah yang telah dilengkapi:</p><p></p><p>Sumber Varian (SV)</p><p>Antar Group (A) Dalam Group (D) Total</p><p>Jumlah Kuadrat ( JK)</p><p>15, 07 36, 47 51, 54</p><p>Derajat Bebas (DB)</p><p>2 60 62</p><p>Kuadrat Rerata (KR)</p><p>7,535 0,609</p><p>Fhitung</p><p>12,34</p><p>Taraf Sigifikan</p><p>0,005</p><p>Ftabel</p><p>3,15</p><p></p><p>Rumusan hipotesis:</p><p>H0: Tidak ada perbedaan prestasi belajar antara mahasiswa yang tinggal di asrama, indekos, dan pulang pergi.</p><p>Ha: Ada perbedaan prestasi belajar antara mahasiswa yang tinggal di asrama, indekos, dan pulang pergi.</p><p></p><p>Taraf sigifikansi: 5%</p><p></p><p>F hitung = 12,34</p><p>F tabel = 3,15</p><p></p><p>Kriteria pengujian: Jika F hitung &gt; F tabel, maka H0 ditolak. Jika F hitung &lt; F tabel, maka H0 diterima.</p><p></p><p>Kesimpulan: Dari tabel di atas, F hitung &gt; F tabel, sehingga H0 ditolak. Ini berarti ada perbedaan prestasi belajar antara mahasiswa yang tinggal di asrama, indekos, dan pulang pergi dengan taraf sigifikansi 5%.</p><p></p><p>Perlu dicatat bahwa ini hanya merupakan kesimpulan sementara dan perlu dilakukan analisis lebih lanjut untuk mengetahui sumber perbedaan tersebut.</p><br />
+                                            <h2 class="ez-toc-section" id="seorang-guru-sd-ingin-mengetahui-hubungan-antara-gaya-belajar-siswa-dengan-nilai-prestasi-matematikatabel-gaya-belajar-siswa-dan-nilai-prestasi-mathematik-a-uji-hipotesa-data-tersebut-b-buat-kesim">
+                            8. seorang guru SD ingin mengetahui hubungan antara gaya belajar siswa dengan nilai prestasi matematika,tabel gaya belajar siswa dan nilai prestasi Mathematik. a uji hipotesa data tersebut . b.buat kesimpulan dari tabel anova c. hitung indeks determinasi dari data tersebut</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>A.uji hipotesa data</p><p><strong>Penjelasan:</strong></p><p>gada penjelasan tapi gw yakin jawabannya itu</p><br />
+                                            <h2 class="ez-toc-section" id="translate-bahasa-inggrispenelitian-ini-bertujuan-untuk-mengetahui-karakteristik-sertaformulasi-cookies-dengan-perbandingan-tepung-mocaf-dan-tepung-beras-merah-serta-mengetahui-pengaruh-perbedaan-gula">
+                            9. translate bahasa inggris
+Penelitian ini bertujuan untuk mengetahui karakteristik sertaformulasi cookies dengan perbandingan tepung mocaf dan tepung beras merah serta mengetahui pengaruh perbedaan gula yang ditambahkan. Jenis gula yang digunakan dalam penelitian ini yaitu sukrosa, fruktosa dan palm sugar. Rancangan percobaan yang digunakan adalah Rancangan Acak Lengkap (RAL) dengan dua perlakuan sebanyak tiga kali ulangan. Perlakuan pertama dalam penelitian ini adalah perbandingan tepung mocaf dan tepung beras merah yaitu 1:1, 1:2 dan 2:1 dan perlakuan kedua yaitu perbedaan jenis gula yang digunakan. Analisis data yang digunakan yaitu Analisis of Varian (ANOVA) pada taraf signifikasi 5%.
+Hasil perbandingan tepung mocaf dan tepung beras merah 1:2 pada penggunaan gula sukrosa menunjukkan formulasi yang berpengaruh terhadap sensoris cookies. Pada karakteritik kimia pada cookies menghasilkan nilai yang sesuai SNI adalah kadar air 3,60%, kadar abu 0,62%, kadar lemak 28,23%, protein 5,21% dan karbohidrat by difference 43,41%. Semakin banyak tepung mocaf yang digunakan jika dibandingkan tepung beras merah maka akan menghasilkan cookies dengan analisis fisik teksturyang keras serta warna cookies yang cerah. Sebaliknya semakin banyak tepung beras merah yang ditambahkan jika dibandingkan tepung mocaf maka akan menghasilkan tekstur yang renyah dan warana cookies yang gelap.
+Kata kunci: cookies, gula, tepung beras merah, tepung mocaf</h2><br />
+                        <p><strong>Jawaban</strong><strong>:</strong></p><p><strong>Teks</strong><strong> </strong><strong>tersebut</strong><strong> </strong><strong>akan</strong><strong> </strong><strong>menjadi</strong><strong> </strong><strong>bahasa</strong><strong> </strong><strong>Inggris</strong><strong> </strong><strong>:</strong></p><p></p><p><strong>This study aims to determine the characteristics and formulation of cookies with a comparison of mocaf flour and brown rice flour and to determine the effect of differences in added sugars. The types of sugars used in this study are sucrose, fructose and palm sugar. The experimental design used was a completely randomized design (CRD) with two treatments of three replications. The first treatment in this study was the ratio of mocaf flour and brown rice flour, namely 1: 1, 1: 2 and 2: 1 and the second treatment was the difference in the type of sugar used. The data analysis used was the Analysis of Variance (ANOVA) at the 5% significance level.The results of the ratio of mocaf flour and brown rice flour 1: 2 on the use of sucrose sugar showed that the formulation had an effect on the sensory of cookies. In the chemical characteristics of cookies, the values according to SNI are 3.60% moisture content, 0.62% ash content, 28.23% fat content, 5.21% protein and 43.41% carbohydrates by difference. The more mocaf flour used when compared to brown rice flour, the cookies will be produced with a hard physical analysis of the texture and the bright color of the cookies. Conversely, the more brown rice flour you add when compared to mocaf flour, the crunchy texture and dark color of the cookies will be.Key words: cookies, sugar, brown rice flour, mocaf flour</strong></p><br />
+                                            <h2 class="ez-toc-section" id="1-apa-yang-ada-ketahui-tentang-analisis-of-variance-anova-dan-kondisi-seperti-apa-tipe-analisis-ini-digunakan-uraikan-disertai-contoh-2-jelaskan-tentang-anova-one-way-dan-two-way">
+                            10. 1. Apa yang ada ketahui tentang Analisis of Variance (Anova) dan kondisi seperti apa tipe analisis ini digunakan? Uraikan disertai contoh.
+2. Jelaskan tentang Anova One Way dan Two Way.</h2><br />
+                        <p> </p><p>1.Anova adalah sebuah analisis statistik yang menguji perbedaan rerata antar grup. Grup disini bisa berarti kelompok atau jenis perlakuan. Anova ditemukan dan diperkenalkan oleh seorang ahli statistik bernama Ronald Fisher.</p><p></p><p>Analisis ANOVA sering digunakan pada penelitian eksperimen dimana terdapat beberapa perlakuan. Peneliti ingin menguji, apakah ada perbedaan bermakna antar perlakuan tersebut.</p><p></p><p>Contohnya adalah seorang peneliti ingin menilai adakah perbedaan model pembelajaran A, B dan C terhadap hasil pembelajaran mata pelajaran fisika pada kelas 6. Dimana dalam penelitian tersebut, kelas 6A diberi perlakuan A, kelas 6B diberi perlakuan B dan kelas 6C diberi perlakuan C. Setelah adanya perlakuan selama satu semester, kemudian dibandingkan hasil belajar semua kelas 6 (A, B dan C). Masing-masing kelas jumlahnya berkisar antara 40 sampai dengan 50 siswa.Hasil akhir yang didapatkan adalah nilai f hitung. Nilai tersebut dibandingkan dengan nilai dalam tabel f pada derajat kebebasan tertentu (degree of freedom). Jika F hitung &gt; F Tabel, maka disimpulkan bahwa menerima H1 atau yang berarti ada perbedaan secara nyata atau signifikan hasil ujian siswa antar perlakuan model pembelajaran.</p><p></p><p>2.-ANOVA one way sering pula disebut COMPLETELY RANDOMIZED DESIGN (CRD) karena berlaku jika variabel-variabel yang digunakan dalam penelitian diambil secara acak dari setiap kelompok. Dalam menganalisis perbedaan tiga variabel atau lebih, ANAVA satu jalur sangat berguna untuk dimanfaatkan. Jika variabel-variabel tiap kelompok tidak diambil secara acak melainkan ditempatkan dalam cluster-cluster tertentu sesuai dengan karakteristik yang mungkin ada dalam variabel itu, maka teknik analisisnya adalah two way ANOVA.</p><p>-ANOVA two way disebut juga dengan Anova 2 Arah atau Analisis Varian 2 Faktor. ANOVA dua arah membandingkan perbedaan rata-rata antara kelompok yang telah dibagi pada dua variabel independen (disebut faktor). Anda perlu memiliki dua variabel independen berskala data kategorik dan satu variabel terikat berskala data kuantitatif/numerik (interval atau rasio).</p><br />
+                                            <h2 class="ez-toc-section" id="1-dari-suatu-penelitian-mengetahui-hasil-penjualan-dua-toko-sepatu-disampling-secara-independen-hasil-observasinya-sebagai-berikut-jumlah-penjualan-jutaan-toko-%e2%80%9ca%e2%80%9dtoko-%e2%80%9c">
+                            11. 1.	Dari suatu penelitian mengetahui hasil penjualan dua toko sepatu disampling secara independen. Hasil observasinya sebagai berikut : Jumlah penjualan (jutaan) Toko “A”	Toko “B” 8	12 7	11 10	16 19	10 11	12 Hitunglah tabel ANOVAnya, tentukan juga nilai probabilitasnya bagi Hipotesa Nolnya</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p>...........................</p><br />
+                                            <h2 class="ez-toc-section" id="1-penelitian-ini-dilakukan-untuk-mengetahui-hubungan-antara-tingkat-pendidikan-masyarkat-dengan-jenis-bank-untuk-menyimpan-uang-sampeljenis-bankjumlah-samplelulusan-slta601070bukan-lulusan-slta15153">
+                            12. 1. Penelitian ini dilakukan untuk mengetahui hubungan antara tingkat pendidikan masyarkat dengan jenis  bank untuk menyimpan uang.sampelJenis bankJumlah sampleLulusan SLTA601070Bukan Lulusan SLTA151530Jumlah7525100     Dengan alfa 0.05 hitunglah apakah ada hubungan antara tingkat pendidikan masyarakat dengan jenis Bank untuk menyimpan uang.2.  Dilakukan penelitian untuk mengetahui adakah perbedaan kualitas manajemen antara bank yang faforit dengan bank yang tidak faforit. Bank yang faforit ada (A) 12 bank dan yang tidak (B) 15 bank skor tertinggi dianggap baik dan yang rendah dianggap kurangA  11 13 15 16  18  22  23  14  9  7 17 25B  8 7 6  24  28 29 30 5  12 10 21 20 30 31 32,  Dengan alfa 0.05 hitunglah apakah ada perbedaan kualitas manajemen antara bank yang faforit dengan bank yang tidak faforit3.Suatu penelitian percobaan ingin mengetahui perbandingan efektifitas 3 macam obat A, B dan C terhadap penyakit jantung koroner. Dalam percobaan ini pasien dibagi secara random dalam 3 kelompok dan masing-masing kelompok memperoleh obat yang berbeda dan sebagai paraameter keberhasilan adalah rata-rata lama kesembuhan dalam hari dengan hasil sebagai berikut:Kelompok			X			NI				20			15II				22			15III				14			15Tabel Anova:Sumber variasi			SS			DF		MS		F			PB. G				496.04				W.G				2155.20Total				2351.24Pertanyaan :A.  Lengkapi tabel Anova diatas (tunjukan cara perhitungannya)B.  Carilah kelompok yang berbeda dan interpretasikan hasil. Gunakan alpha 0.05​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p>Penelitian ini dilakukan untuk mengetahui hubungan antara tingkat pendidikan masyarakat dengan jenis bank untuk menyimpan uang.</p><p>Untuk menguji apakah ada hubungan antara tingkat pendidikan masyarakat dengan jenis bank yang dipilih untuk menyimpan uang, Anda dapat menggunakan Anova satu arah (one-way Anova). Langkah-langkahnya adalah sebagai berikut:</p><p></p><p>Lengkapi tabel Anova dengan menghitung SS (sum of squares) untuk setiap sumber variasi. SS bisa dihitung dengan menggunakan rumus:</p><p>SS = Σ(X - X̄)^2</p><p>Dimana:</p><p></p><p>X adalah data yang telah dikumpulkan</p><p>X̄ adalah rata-rata sampel</p><p>Untuk menghitung SS total, Anda dapat menggunakan rumus:</p><p>SS total = Σ(X - X̄ total)^2</p><p></p><p>Dimana:</p><p></p><p>X̄ total adalah rata-rata total dari semua sampel</p><p></p><p>Hitung DF (degree of freedom) untuk setiap sumber variasi dengan rumus:</p><p>DF = n - 1</p><p></p><p>Dimana:</p><p></p><p>n adalah jumlah sampel</p><p>Untuk DF total, Anda dapat menggunakan rumus:</p><p>DF total = N - 1</p><p></p><p>Dimana:</p><p></p><p>N adalah jumlah total sampel</p><p></p><p>Hitung MS (mean squares) untuk setiap sumber variasi dengan rumus:</p><p>MS = SS / DF</p><p></p><p>Hitung F dengan rumus:</p><p>F = MS b / MS w</p><p></p><p>Dimana:</p><p></p><p>MS b adalah mean squares between groups (rata-rata kuadrat antar kelompok)</p><p></p><p>MS w adalah mean squares within groups (rata-rata kuadrat dalam kelompok)</p><p></p><p>Bandingkan nilai F yang diperoleh dengan nilai F tabel pada tingkat signifikansi yang telah ditentukan (dalam kasus ini, α = 0.05). Nilai F tabel dapat dicari di tabel statistik atau di software statistik.</p><p></p><p>Jika nilai F yang diperoleh lebih besar dari nilai F tabel, maka terdapat perbedaan yang signifikan antara rata-rata kelompok. Sebaliknya, jika nilai F yang diperoleh lebih kecil dari nilai F tabel, maka tidak terdapat perbedaan yang signifikan</p><br />
+                                            <h2 class="ez-toc-section" id="apa-perbedaan-pengujian-hipotesis-anova-dan-chi-square">
+                            13. Apa perbedaan Pengujian Hipotesis Anova dan Chi Square?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Chi square dan Analysis of Variance (ANOVA) keduanya merupakan uji statistik inferensial. Statistik inferensial digunakan untuk menentukan apakah data yang diamati yang kami peroleh dari sampel (yaitu, data yang kami kumpulkan) berbeda dari apa yang diharapkan secara kebetulan. Jawaban yang lebih sederhana adalah bahwa kita ingin menentukan apakah hubungan antara variabel atau perbedaan antara kelompok yang kita lihat dalam data sampel kita terjadi di seluruh populasi.</p><p></p><p>Yang mengatakan, chi square digunakan ketika kita memiliki dua variabel kategori (misalnya, jenis kelamin dan hidup / mati) dan ingin menentukan apakah satu variabel terkait dengan yang lain. Dalam ANOVA, kami memiliki dua atau lebih rata-rata kelompok (rata-rata) yang ingin kami bandingkan. Dalam ANOVA, satu variabel harus kategoris dan yang lainnya harus kontinu. Sebagai contoh, kami mungkin ingin memeriksa apakah penggunaan ganja (0 hingga 25 kali) berbeda berdasarkan tingkat kelas (kelas 9, kelas 10, kelas 11).</p><p>ANOVA adalah singkatan dari analysis of variance. Ini membandingkan 3 atau lebih cara berdasarkan pada 1 atau lebih faktor. Ini melakukan ini dengan membandingkan varians dalam kelompok dengan varians antara kelompok. Jika yang terakhir jauh lebih besar dari yang pertama, maka Anda menyimpulkan bahwa ada perbedaan cara antara kelompok. Ini sama dengan regresi linier.</p><p></p><p>Chi square digunakan untuk berbagai hal. Ada tes chi-square satu arah, dua arah, dan lebih dari dua arah. Tetapi mereka memiliki kesamaan bahwa semua variabel adalah kategorikal dan tidak ada yang merupakan variabel dependen. Jika Anda memiliki variabel dependen kategorikal, Anda mungkin menginginkan beberapa bentuk regresi logistik.</p><p></p><p></p><p></p><p>Jawaban 3:</p><p>Tes Anova dan Chi-Square sama sekali berbeda.</p><p></p><p>Uji Chi-Sqaure didasarkan pada proporsi dari dua atau lebih kelompok. Secara sederhana ini berhubungan dengan variabel kategori (Skala Nominal). Misalnya. Hubungan antara Merokok (Ya / Tidak) vs Minum Kopi (Ya / Tidak)</p><p></p><p>Anova didasarkan pada cara lebih dari dua kelompok (gunakan uji-t ketika ada dua kelompok). Ini berkaitan dengan variabel dependen kuantitatif (Skala Interval) dengan variabel pengelompokan kategoris untuk membandingkan. Asumsi normalitas sering diperiksa. Misalnya. Apakah pendapatan rata-rata staf Manajerial, Teknis dan Administrasi berbeda atau sama.</p><p></p><p></p><p></p><p>Jawaban 4:</p><p>Tes chi-square sebagian besar digunakan untuk menemukan "goodness of fit" atau "menguji independensi" dari variabel kategori. Dalam kasus uji “goodness of fit”, tujuan uji chi-square adalah untuk melihat apakah variabel tersebut sesuai dengan distribusi yang diasumsikan atau tidak (Diamati - logika yang diharapkan jika Anda bisa). Dalam hal uji independensi, tujuannya adalah untuk menguji apakah dua variabel kategori tidak independen.</p><p></p><p>ANOVA atau Analysis of Variance adalah teknik yang digunakan untuk membandingkan berbagai cara. Teknik ini menganalisis rata-rata yang dibandingkan berdasarkan di antara dan di dalam varian kelompok. Hipotesis di sini adalah,</p><p></p><p>Ho: Mu1 = Mu2 = .. = Muk</p><p></p><p>Hasil ANOVA hanya mengatakan bahwa setidaknya salah satu cara yang dibandingkan berbeda dan bukan yang mana dari mereka.</p><p></p><p>Terima kasih</p><p></p><p>Krithika</p><p></p><p></p><p></p><p>Jawaban 5:</p><p>Anova adalah analisis varian.</p><p></p><p>Umumnya digunakan untuk mengecek perbedaan proporsional dalam perawatan intra dan varians antar perawatan yang dikatakan adalah varians antara perawatan sampel yang sebanding dengan varians dalam setiap perawatan sampel. Ini adalah pertanyaan yang sangat penting.</p><p></p><p>Anda mungkin tahu bahwa varians normal sampel diperkirakan mendekati chi square sehingga ANOVA adalah tes distribusi F.</p><p></p><p>Tetapi dengan demikian chi square digunakan untuk data kategori dan pemeriksaan kecocokan.</p><p></p><p></p><p></p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="suatau-penelitian-berjudul-hubungan-antara-kecerdasan-emosional-siswa-sd-dengan-prestasi-belajar-matematika-dengan-data-sebagai-berikuthipotesa-h0-%ce%b21-0-ha-%ce%b21-%e2%89%a0-0-dengan">
+                            14. Suatau penelitian berjudul: Hubungan Antara Kecerdasan Emosional Siswa SD Dengan Prestasi Belajar Matematika, dengan data sebagai berikut:
+Hipotesa: H0 : β1 = 0
+ Ha : β1 ≠ 0 ; Dengan taraf nyata α = 5%
+No
+Kecerdasan Emosional (X)
+Nilai Prestasi Belajar Matematika
+(Y)
+1
+80
+85
+2
+60
+75
+3
+67
+65
+4
+60
+66
+5
+78
+85
+6
+65
+70
+7
+85
+80
+8
+65
+60
+9
+78
+75
+10
+78
+75
+11
+78
+85
+12
+70
+75
+13
+77
+75
+14
+80
+90
+15
+78
+80
+16
+66
+75
+17
+80
+70
+18
+70
+65
+19
+68
+75
+20
+70
+80
+Uji hipotesa data tersebut
+Buat kesimpulan data tersebut berdasarkan Tabel ANOVA
+Hitung indeks determinasi dari data tersebut.</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1205</p><p><strong>Penjelasan dengan langkah-langkah:</strong></p>banyak banget ini soal sangka susah kahapal<br />
+                                            <h2 class="ez-toc-section" id="1-analisis-hubungan-tingkat-kepuasan-pasien-terhadap-pelayanan-kefarmasian-di-instalasi-farmasi-di-rumah-sakit-x-tahun-2019%e2%80%a6berdasarkan-judul-penelitian-diatas-uji-apakah-yang-sesuai%e2%80%a6">
+                            15. 1.Analisis hubungan tingkat kepuasan pasien terhadap pelayanan kefarmasian di instalasi farmasi di rumah sakit x tahun 2019…berdasarkan judul penelitian diatas ,uji apakah yang sesuai…a.wilcoxon b.one way anovac.chi squared. t independen e. chochran 2.pemberian perlakuan dengan metode sebelum ( pre test) dan sesudah (post test)a.Wilcoxon b.One way anovac.Chi squared. T independen e. Chochran​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>tarik sis semongko </p><p>maap mau ngumpulin koin nya</p><br />
+                                            <h2 class="ez-toc-section" id="cara-ngitung-analisis-varians-anova-gimana-sih">
+                            16. cara ngitung analisis varians (anova) gimana sih?</h2><br />
+                        Anova dipakai untuk menghitung nilai adj R square dan juga nilai uji t-statistik, saran saya gunakan saja aplikasi yang ada di software stata atau eviews, atau spss, nilai yang diberikan oleh adj R square ini menggambarkan seberapa besar sebuah model dapat merepresentasikan nilai variable dependen <br />contoh nih ya<br />bila adj R square 75 % dalam model <br />hujan = angin muson + error <br />artinya angin muson menjelaskan 75% dari hujan itu, dan 25% dijelaskan oleh variable lain <br /><br />
+                                            <h2 class="ez-toc-section" id="head-together-apakah-mempunyai-efek-terhadap-kemampuan-penalaran-siswa-mts-terhadap-baca-tulis-alquran-untuk-itu-sebuah-sampel-yang-terdiri-dari-36-siswa-masing-masing-di-ukur-semangat-belajarnya-d">
+                            17. Head Together apakah mempunyai efek terhadap kemampuan penalaran siswa MTs terhadap baca tulis Alquran?. Untuk itu sebuah sampel yang terdiri dari 36 siswa masing-masing di ukur semangat belajarnya (dengan skala Likert), Dari data di bawah ini ujilah Normalitas, Homogenitas dan Uji Oneway Anova dengan menggunakan SPSS apakah pendekatan pembelajaran kooperatif learning melalui model tipe Number Head Together tersebut dapat mempengaruhi terhadap kemampuan penalaran siswa MTs terhadap baca tulis Alquran? Gunakan (taraf sig 0,05) Subjek 	12 MIPA 1 	12 MIPA 2 S3 	39 	32 S7 	42 	43 S35 	47 	47 S8 	48 	50 S23 	52 	52 S13 	53 	52 S18 	54 	54 S11 	55 	55 S21 	55 	57 S24 	62 	59 S32 	62 	60 S1 	63 	64 S2 	63 	65 S17 	64 	69 S4 	65 	70 S6 	65 	70 S10 	65 	70 S9 	67 	72 S20 	67 	73 S29 	67 	73 S28 	70 	74 S19 	72 	75 S16 	73 	75 S26 	73 	76 S14 	75 	77 S25 	75 	78 S31 	75 	78 S12 	76 	79 S15 	78 	80 S5 	79 	82 S27 	80 	83 S36 	81 	86 S22 	82 	87 S30 	82 	87 S34 	92 	88 S33 	94 	94​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>S22 82 87</p><p><strong>Penjelasan:</strong></p><p>karna banyak siswa</p><br />
+                                            <h2 class="ez-toc-section" id="anova-is-one-of-the-most-powerful-and-most-common-tests-employed-in-the-social-science-and-education-and-suitable-for-interval-ratio-level-distributions-why-please-explain-help-me-guys">
+                            18. ANOVA is one of the most powerful and most common tests employed in the social science and education, and suitable for interval/ ratio level distributions! Why? Please explain? 
+Help me guys :)</h2><br />
+                        Because Anova has Social science and education<br />
+                                            <h2 class="ez-toc-section" id="obat-yang-terkenal-dari-perusahaan-farmasi-inggris-yang-mampu-menahan-perkembangan-virus-alds-adalah-a-azidot-hynidineb-betadinec-sulfur-hynidined-amoba-hynidinee-anova-hynidine">
+                            19. obat yang terkenal dari perusahaan farmasi Inggris yang mampu menahan perkembangan virus AlDS adalah..a. azidot hynidineb. betadinec. sulfur hynidined. amoba hynidinee. anova hynidine</h2><br />
+                        jawaban a.<br /><br />.........  <br />
+                                            <h2 class="ez-toc-section" id="tinggal-di-asrama-a1-indekost-a2-pulang-pergi-a3-dengan-tabel-ringkasan-anova-satu-arah-sebagai-berikut-sumber-varian-sv-antar-group-a-dalam-group-d-total-jumlah-kuadrat-jk-15-07-36-4">
+                            20. Tinggal di asrama (A1) Indekost (A2) Pulang pergi (A3) Dengan tabel ringkasan ANOVA satu arah sebagai berikut: Sumber Varian (SV) Antar Group (A) Dalam group (D) Total Jumlah Kuadrat (JK) 15, 07 36, 47 ********** = 6,8,5,7,7,6,6,8,7,6,7 = 11 orang = 5,6,6,7,5,5,5,6,5,6,8,7= 12 orang = 6,9,8,7,8,9,6,6,9,8,6,8 = 12 orang Derajat Bebas (DB) ******* ********* Kuadrat Rerata (KR) ********* ******** Fhitung **** Taraf Sigifikan ********* Fabel ********* Pertanyaan: engkapilah ringkasan tabel tersebut kemudian tunjukkan apakah ada perbedaan at engan taraf sigifikansi 5%!..​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Berdasarkan tabel ringkasan ANOVA satu arah yang tersedia, terdapat perbedaan yang signifikan antara tinggal di asrama (A1), indekost (A2), dan pulang pergi (A3) dengan taraf signifikansi 5%.</p><p></p><p><strong>Penjelasan:</strong></p><p>Tabel ringkasan ANOVA satu arah merupakan tabel yang digunakan untuk menganalisis variasi antar kelompok (antar group) dan variasi dalam kelompok (dalam group).</p><p>Sumber varian (SV) adalah jumlah varian yang diperoleh dari hasil pengukuran, yang terdiri dari varian antar group (A) dan varian dalam group (D). Derajat bebas (DB) adalah jumlah kelompok yang diuji, sedangkan kuadrat rerata (KR) adalah nilai yang diperoleh dari perhitungan varian antar group dan varian dalam group. </p><p>Fhitung adalah nilai yang diperoleh dari perbandingan kuadrat rerata antar group dan kuadrat rerata dalam group, sedangkan Fabel adalah nilai yang terdapat di tabel distribusi F dengan taraf signifikansi yang ditentukan (dalam hal ini adalah 5%).</p><p>Dari tabel yang tersedia, terlihat bahwa Fhitung (4,944) lebih besar dari Fabel (3,10). Berdasarkan hal tersebut, dapat disimpulkan bahwa terdapat perbedaan yang signifikan antara tinggal di asrama (A1), indekost (A2), dan pulang pergi (A3) dengan taraf signifikansi 5%.</p><p>Selain itu, dapat dilihat bahwa nilai Fhitung lebih besar dari 1, yang menunjukkan bahwa varian antar group (A) lebih besar daripada varian dalam group (D). Ini berarti bahwa perbedaan antara tinggal di asrama (A1), indekost (A2), dan pulang pergi (A3) cukup besar, sehingga dapat dikatakan bahwa terdapat perbedaan yang signifikan antara ketiganya dengan taraf signifikansi 5%.</p><p>Untuk memastikan kebenaran hasil tersebut, sebaiknya juga dilakukan uji post-hoc dengan menggunakan alat bantu seperti Tukey HSD atau Bonferroni, agar dapat diketahui dengan pasti kelompok mana yang mengalami perbedaan yang signifikan dengan kelompok lainnya.</p><p></p><p>Note: Maaf jika terdapat kesalahan dalam perhitungan ataupun model penyelesaiannya.</p><br />
+                                            <h2 class="ez-toc-section" id="apakah-uji-t-secara-simultan-itu-ada-tabel-anovanya">
+                            21. apakah uji T secara simultan itu ada tabel anovanya? </h2><br />
+                        seperti nya tdk ada tabel anovanya<br />
+                                            <h2 class="ez-toc-section" id="seorang-guru-ingin-mengetahui-hubungan-antara-hasil-nilai-partisipasi-di-rumah-pr-dengan-nilai-prestasi-matematika-data-yang-didapat-sebagai-berikuthipotesa-h0-%ce%b21-0-ha-%ce%b21">
+                            22. Seorang guru ingin mengetahui hubungan antara hasil nilai partisipasi di rumah (PR) dengan nilai prestasi matematika, data yang didapat sebagai berikut:Hipotesa: H0 : β1 = 0 Ha : β1 ≠ 0 ; Dengan taraf nyata α = 5%N0 Nilai PR(X)Nilai Prestasi(Y)1 78 852 60 703 57 654 40 455 78 856 65 707 75 808 66 609 68 7510 58 6011 78 8512 70 7513 57 6514 40 4515 78 8016 55 7017 70 8018 66 6019 68 7520 58 60a. Uji hipotesa data tersebutb. Buat kesimpulan dari Tabel ANOVAc. Hitung indeks determinasi dari data tersebut hi ​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>saya tdk tau jawaban nya dan saya <strong>juga </strong><strong>tdk </strong><strong>mengerti </strong><strong>dengan </strong><strong>pertanyaan </strong><strong>anda</strong></p><br />
+                                            <h2 class="ez-toc-section" id="pemseorang-guru-ingin-mengetahui-hubungan-antara-hasil-nilai-partisipasi-di-rumah-pr-denganilai-prestasi-matematika-data-yang-didapat-sebagai-berikuthipotesa-ho-b1-0h-b1-0-dengan-taraf-nyat">
+                            23. PEMSeorang guru ingin mengetahui hubungan antara hasil nilai partisipasi di rumah (PR) denganilai prestasi matematika, data yang didapat sebagai berikut:Hipotesa: Ho: B1 = 0H :B1 #0; Dengan taraf nyata a = 5%NilaiPrestasiNilai PR(X)NO781234567.891011121314151617181920605740786575666858787057407855706668588570654585708060756085756545807080607560a. Uji hipotesa data tersebutb. Buat kesimpulan dari Tabel ANOVAc. Hitung indeks determinasi dari data tersebut.​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>maksudnya apa sih kok aku gak ngerti ya</p><br />
+                                            <h2 class="ez-toc-section" id="apa-yang-dimaksud-dengan-anova">
+                            24. apa yang dimaksud dengan anova?</h2><br />
+                        Analisis varians adalah suatu metode analisis statistika yang termasuk ke dalam cabang statistika inferensi. <br /><br /><br />semoga membantu..<br />ikuti aku ya kkaak..<br />
+                                            <h2 class="ez-toc-section" id="seorang-guru-ingin-mengetahui-hubungan-antara-hasil-nilai-partisipasi-di-rumah-pr-dengannilai-prestasi-macruutika-data-yang-didapat-schayai-berikuthipotesa-hbh-10-dengan-taral-nyata-a-598na329">
+                            25. Seorang guru ingin mengetahui hubungan antara hasil nilai partisipasi di rumah (PR) dengannilai prestasi macruutika, data yang didapat schayai berikut:Hipotesa HBH.-10. Dengan taral nyata a = 598NA3292296299232Uji hipotesa data wersebutb. Buni kesimpulan dari Tabel ANOVAc. Hining indeks deremunas dan data tersebut.​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>A=598 Na 3 292296299232</p><br />
+                                            <h2 class="ez-toc-section" id="apa-yang-anda-ketahui-tentang-anova-dan-kondisi-seperti-apa-tipe-analisis-ini-digunakan-uraikan-disertai-contoh">
+                            26. Apa yang anda ketahui tentang anova dan kondisi seperti apa tipe analisis ini digunakan? Uraikan disertai contoh</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Anova adalah sebuah analisis statistik yang menguji perbedaan rerata antar grup. Grup disini bisa berarti kelompok atau jenis perlakuan. Anova ditemukan dan diperkenalkan oleh seorang ahli statistik bernama Ronald Fisher.</p><p></p><p>Analisis ANOVA sering digunakan pada penelitian eksperimen dimana terdapat beberapa perlakuan. Peneliti ingin menguji, apakah ada perbedaan bermakna antar perlakuan tersebut.</p><p></p><p>Contohnya adalah seorang peneliti ingin menilai adakah perbedaan model pembelajaran A, B dan C terhadap hasil pembelajaran mata pelajaran fisika pada kelas 6. Dimana dalam penelitian tersebut, kelas 6A diberi perlakuan A, kelas 6B diberi perlakuan B dan kelas 6C diberi perlakuan C. Setelah adanya perlakuan selama satu semester, kemudian dibandingkan hasil belajar semua kelas 6 (A, B dan C). Masing-masing kelas jumlahnya berkisar antara 40 sampai dengan 50 siswa.</p><p>Hasil akhir yang didapatkan adalah nilai f hitung. Nilai tersebut dibandingkan dengan nilai dalam tabel f pada derajat kebebasan tertentu (degree of freedom). Jika F hitung &gt; F Tabel, maka disimpulkan bahwa menerima H1 atau yang berarti ada perbedaan secara nyata atau signifikan hasil ujian siswa antar perlakuan model pembelajaran.</p><br />
+                                            <h2 class="ez-toc-section" id="seorang-guru-ingin-mengetahui-hubungan-antara-hasil-nilai-partisipasi-di-rumah-pr-dengannilai-prestasi-matematika-data-yang-didapat-sebagai-berikuthipotesa-ho-bi-0h-b-30-dengan-taraf-nyata-a">
+                            27. Seorang guru ingin mengetahui hubungan antara hasil nilai partisipasi di rumah (PR) dengannilai prestasi matematika data yang didapat sebagai berikut:Hipotesa. Ho Bi= 0)H, B, 30. Dengan taraf nyata a 5%NilaNila PRNO78123704056857066970751213458016557018198060756858a. Uji hipotesa data tersebutb. Buat kesimpulan dari Tabel ANOVAc. Hitung indeks determinasi dari data tersebut.​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>a, uji hipotesa sata tersebut </p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-tentang-anova-one-way-dan-two-way">
+                            28. Jelaskan tentang anova one way dan two way</h2><br />
+                        <p>ANAVA satu jalur sering pula disebut COMPLETELY RANDOMIZED DESIGN (CRD) karena berlaku jika variabel-variabel yang digunakan dalam penelitian diambil secara acak dari setiap kelompok. Dalam menganalisis perbedaan tiga variabel atau lebih, ANAVA satu jalur sangat berguna untuk dimanfaatkan. Jika variabel-variabel tiap kelompok tidak diambil secara acak melainkan ditempatkan dalam cluster-cluster tertentu sesuai dengan karakteristik yang mungkin ada dalam variabel itu, maka teknik analisisnya adalah two way ANOVA.</p><p>
+</p><p>jadikan jwbn terbaik ya:)</p><p>semoga membantu</p><p>makasii huhuu</p><br />
+                                            <h2 class="ez-toc-section" id="obat-yang-mampu-menahan-perkembangan-hiv-dari-perusahaan-farmasi-inggris-yaitu-obata-azidot-hynidineb-sulfur-hynidinec-amoba-hynidined-anova-hynidine">
+                            29. obat yang mampu menahan perkembangan HIV dari perusahaan farmasi inggris yaitu obata. azidot hynidineb. sulfur hynidinec. amoba hynidined. anova hynidine</h2><br />
+                        c.amoba hynidine itu jawaban nya gan<br />
+                                            <h2 class="ez-toc-section" id="apa-itu-pengujian-hipotesis-anova-dan-chi-square">
+                            30. apa itu Pengujian Hipotesis Anova dan Chi Square?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Chi square dan Analysis of Variance (ANOVA) keduanya merupakan uji statistik inferensial. ... Dalam ANOVA, kami memiliki dua atau lebih rata-rata kelompok (rata-rata) yang ingin kami bandingkan. Dalam ANOVA, satu variabel harus kategoris dan yang lainnya harus kontinu.</p><p></p><p><strong>Jawaban:</strong></p><p>Anova adalah sebuah analisis statistik yang menguji perbedaan rerata antar grup. Grup disini bisa berarti kelompok atau jenis perlakuan. Anova ditemukan dan diperkenalkan oleh seorang ahli statistik bernama Ronald Fisher.</p><p>Anova merupakan singkatan dari Analysis of variance. Merupakan prosedur uji statistik yang mirip dengan t test. Namun kelebihan dari Anova adalah dapat menguji perbedaan lebih dari dua kelompok. Berbeda dengan independent sample t test yang hanya bisa menguji perbedaan rerata dari dua kelompok saja.</p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>semoga membantu</p><br />
+                                            <h2 class="ez-toc-section" id="lima-sampel-acak-dipilih-masing-masing-tiga-populasi-penjumlahan-total-kuadrat-sebesar-100-penjumlahan-kuadrat-akibat-perlakuan-adalah-40-a-nyatakan-hipotesis-nol-dan-hipotesis-alternatifnyab-a">
+                            31. Lima sampel acak dipilih masing-masing tiga populasi. Penjumlahan total kuadrat sebesar 100. Penjumlahan kuadrat akibat perlakuan adalah 40. 
+a. Nyatakan hipotesis nol dan hipotesis alternatifnya
+b. Apa kaidah keputusannya? Gunakan tingkat signifikansi 0,05 
+c. Lengkapi tabel ANOVA. Berapa nilai F? 
+d. Apa keputusan anda mengenai hipotesis nol nya? </h2><br />
+                        <p><strong>Jawaban:</strong></p><p>d) apa keputusan anda bos Qu</p><br />
+                                            <h2 class="ez-toc-section" id="seorang-peneliti-ingin-mengetahui-perbedaan-prestasi-belajar-untuk-mata-kuliah-statistika-antara-mahasiswa-yang-tinggal-di-asrama-indekos-dan-pulang-pergi-data-diambil-dari-nilai-uas-adalah-sebagai">
+                            32. Seorang peneliti ingin mengetahui perbedaan prestasi belajar untuk mata kuliah statistika antara mahasiswa yang tinggal di asrama, indekos, dan pulang pergi. Data diambil dari nilai UAS adalah sebagai berikut: Tinggal di asrama (A1) = 6,8,5,7,7,6,6,8,7,6,7 = 11 orang Indekost (A2) = 5,6,6,7,5,5,5,6,5,6,8,7 = 12 orang Pulang pergi (A3) = 6,9,8,7,8,9,6,6,9,8,6,8 = 12 orang Dengan tabel ringkasan ANOVA satu arah sebagai berikut: Sumber Varian (SV) Jumlah Kuadrat ( JK) Derajat Bebas (DB) Kuadrat Rerata ( KR) Fhitung Taraf Sigifikan Antar Group (A) 15, 07 ……… ……… ……… …….. Dalam group (D) 36, 47 ……… …….. Ftabel ……… Total ………. Pertanyaan: Lengkapilah ringkasan tabel tersebut kemudian tunjukkan apakah ada perbedaan atau tidak, dengan taraf sigifikansi 5%! ​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p><strong>Penjelasan:</strong></p><p>Untuk menyelesaikan tabel ringkasan ANOVA satu arah yang diberikan, kita perlu menambahkan beberapa kolom yang hilang. Berikut adalah tabel ringkasan ANOVA satu arah yang telah dilengkapi:</p><p></p><p>Sumber Varian (SV) Jumlah Kuadrat ( JK) Derajat Bebas (DB) Kuadrat Rerata (KR) Fhitung Taraf Sigifikan</p><p></p><p>Antar Group (A) 15,07 3 15,07 4,02 ……..</p><p>Dalam Group (D) 36,47 33 1,10 …….. ……..</p><p>Total 51,54 36 …….. …….. ……..</p><p></p><p>Setelah tabel ringkasan ANOVA satu arah tersebut dilengkapi, kita dapat mengecek apakah ada perbedaan atau tidak antara prestasi belajar mahasiswa yang tinggal di asrama, indekos, dan pulang pergi dengan taraf sigifikansi 5%. Caranya adalah dengan membandingkan nilai Fhitung dengan nilai Ftabel. Nilai Ftabel dapat dicari dengan menggunakan tabel F distribution sesuai dengan derajat bebas yang tersedia.</p><p></p><p>Jika nilai Fhitung &gt; Ftabel, maka ada perbedaan yang signifikan antara prestasi belajar mahasiswa yang tinggal di asrama, indekos, dan pulang pergi. Sebaliknya, jika nilai Fhitung &lt; Ftabel, maka tidak ada perbedaan yang signifikan antara prestasi belajar mahasiswa yang tinggal di asrama, indekos, dan pulang pergi.</p><p></p><p>Dari tabel ringkasan ANOVA satu arah yang dilengkapi, nilai Fhitung adalah 4,02. Jika kita membandingkannya dengan nilai Ftabel sesuai dengan derajat bebas yang tersedia, maka kita dapat menyimpulkan bahwa ada perbedaan yang signifikan antara prestasi belajar mahasiswa yang tinggal di asrama, indekos, dan pulang pergi dengan taraf sigifikansi 5%.</p><br />
+                                            <h2 class="ez-toc-section" id="gunakan-metode-two-way-anova-seorang-peneliti-ingin-mengetahui-bagaimana-pengaruh-usia-untuk-suatu-metode-diet-terhadap-penurunan-berat-badan-penelitian-dilakukan-pada-empat-metode-diet-yaitu-metode">
+                            33. Gunakan metode Two Way Anova Seorang peneliti ingin mengetahui bagaimana pengaruh usia untuk suatu metode diet terhadap penurunan berat badan. Penelitian dilakukan pada empat metode diet yaitu metode I, II, III, dan IV. Dalam penelitian tersebut menggunakan tiga kelompok usia yaitu kurang dari 20 tahun (&lt; 20 tahun), antara 20 tahun sampai 40 tahun (20 - 40 tahun), dan lebih dari 40 tahun (&gt; 40 tahun). Penelitian disusun berdasarkan desain rancangan acak kelompok dan rata-rata penurunan berat badan (dalam kg) yang menjadi parameter. Setelah dilakukan pengukuran terhadap rata-rata penurunan untuk tiga kelompok usia dengan empat metode diet diperoleh data seperti tabel berikut. Metode Diet || ||| 6 2 7 5 3 4 Rentang Usia &lt;&lt; 20 20-40 &gt; 40 I 5 2 7 IV 3 3 3​</h2><br />
+                        <p>Jawab:</p><p></p><p>Penjelasan dengan langkah-langkah:</p><p>Untuk menganalisis pengaruh usia dan metode diet terhadap penurunan berat badan, dapat menggunakan metode Two-Way ANOVA. Two-Way ANOVA digunakan untuk menguji pengaruh dua faktor (usia dan metode diet) terhadap variabel respons (penurunan berat badan).</p><p></p><p>Berikut adalah tabel data yang diberikan:</p><p></p><p>Metode Diet   || &lt; 20 || 20-40 || &gt; 40</p><p>-------------------------------------</p><p>I             || 5    || 2     || 7</p><p>IV            || 3    || 3     || 3</p><p></p><p>Langkah-langkah untuk melakukan Two-Way ANOVA:</p><p></p><p>1. Menentukan hipotesis nol (H0) dan hipotesis alternatif (H1):</p><p>   - H0: Tidak ada pengaruh signifikan usia dan metode diet terhadap penurunan berat badan.</p><p>   - H1: Terdapat pengaruh signifikan usia dan metode diet terhadap penurunan berat badan.</p><p></p><p>2. Menentukan tingkat signifikansi (α), misalnya 0.05.</p><p></p><p>3. Menghitung rata-rata dan varians dalam setiap kelompok:</p><p></p><p>   a. Rata-rata penurunan berat badan untuk setiap kelompok usia dan metode diet:</p><p>   </p><p>      Metode Diet   || &lt; 20 || 20-40 || &gt; 40</p><p>      -------------------------------------</p><p>      I             || 5    || 2     || 7</p><p>      IV            || 3    || 3     || 3</p><p></p><p>   b. Varians dalam setiap kelompok:</p><p>   </p><p>      Varians untuk kelompok usia &lt; 20 tahun:</p><p>      (5 - (5+3)/2)² + (2 - (5+3)/2)² + (7 - (5+3)/2)² / (3-1) = 6</p><p>      </p><p>      Varians untuk kelompok usia 20-40 tahun:</p><p>      (2 - (2+3)/2)² + (3 - (2+3)/2)² + (3 - (2+3)/2)² / (3-1) = 0.67</p><p>      </p><p>      Varians untuk kelompok usia &gt; 40 tahun:</p><p>      (7 - (7+3)/2)² + (3 - (7+3)/2)² + (3 - (7+3)/2)² / (3-1) = 6</p><p>      </p><p>4. Menghitung jumlah total variasi dan jumlah variasi antar kelompok:</p><p></p><p>   Jumlah variasi antar kelompok (SSA) = (6*(3/2)² + 0.67*(3/2)² + 6*(3/2)²) * 2 = 58.5</p><p>   </p><p>   Jumlah variasi dalam kelompok (SSE) = ((6-1)*6 + (3-1)*0.67 + (6-1)*6) = 64</p><p>   </p><p>   Jumlah variasi total (SST) = SSA + SSE = 58.5 + 64 = 122.5</p><p>   </p><p>5. Menghitung derajat kebebasan antar kelompok (dA) dan dalam kelompok (dE):</p><p></p><p>   dA = jumlah kelompok - 1 = 4 - 1 = 3</p><p>   </p><p>   dE = jumlah observasi - jumlah kelompok = 12 - 4 = 8</p><p>   </p><p>6. Menghitung mean square antar kelompok (MSA) dan dalam kelompok (MSE):</p><p></p><p>   MSA = SSA / dA = 58.5 / 3 = 19.5</p><p>   </p><p>   MSE = SSE / dE = 64 / 8 = 8</p><p>   </p><p>7. Menghitung nilai uji F:</p><p></p><p>   F = MSA / MSE = 19.5 / 8 = 2.4375</p><p>   </p><p>8. Membandingkan nilai uji F dengan nilai kritis:</p><p></p><p>   Dengan menggunakan tabel distribusi F atau dengan bantuan perangkat lunak statistik, kita dapat menentukan nilai kritis untuk tingkat signifikansi α = 0.05 dengan dA = 3 dan dE = 8. Misalnya, jika nilai kritis F pada tingkat signifikansi α = 0.05 adalah 3.10, maka karena nilai uji F kita (2.4375) lebih kecil dari nilai kritis (3.10), kita tidak dapat menolak hipotesis nol.</p><p></p><p>9. Kesimpulan:</p><p></p><p>   Berdasarkan analisis Two-Way ANOVA, tidak ada pengaruh signifikan usia dan metode diet terhadap penurunan berat badan pada tingkat signifikansi α = 0.05. Ini berarti bahwa penelitian tidak menunjukkan perbedaan yang signifikan dalam penurunan berat badan antara kelompok usia dan metode diet yang diteliti.</p><br />
+                                            <h2 class="ez-toc-section" id="adari-data-di-table-tentukanlah-apa-faktor-dalam-percobaan-ini-dan-berapa-level-dari-faktor-tersebut-apa-satuan-percobaan-dan-satuan-pengamatannya-tulisalah-model-linier-dan-penjelasannya-bag">
+                            34. Adari data di table, tentukanlah :
+apa faktor dalam percobaan ini dan berapa level dari faktor tersebut ?
+apa satuan percobaan dan satuan pengamatannya ?
+tulisalah model linier dan penjelasannya ?
+bagaimana hipotesis yang akan di uji ?
+lakukan pengujian dengan anova dengan alpha 5 % ?
+tariklah kesimpulan ?
+dosis (lt/ha)
+ulangan
+1
+2
+3
+0
+5.4
+4.4
+4.6
+30
+6.6
+5.4
+5.9
+60
+7.9
+8.1
+7.9
+90
+4.2
+5.2
+3.9</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>5.4</p><p><strong>Penjelasan:</strong></p><p>mohon maaf kalo salah</p><br />
+                                            <h2 class="ez-toc-section" id="seorang-peneliti-ingin-mengetahui-perbedaan-prestasi-belajar-untuk-mata-kuliah-statistika-antara-mahasiswa-yang-anggal-di-asrama-indekos-dan-pulang-pergi-data-diambil-dari-nilai-uas-adalah-sebagai-b">
+                            35. Seorang peneliti ingin mengetahui perbedaan prestasi belajar untuk mata kuliah statistika antara mahasiswa yang anggal di asrama, indekos, dan pulang pergi Data diambil dari nilai UAS adalah sebagai berikut Tinggal di asrama (A1) Indekost (A2) Pulang pergi (A3) Dengan tabel ringkasan ANOVA satu arah sebagai berikut Sumber Varian (SV) Antar Group (A) Dalam group (D) Total Jumlah Kuadrat (JK) 15.07 -6.8.5.7.7.6.6.8.7.6.7 -11 orang -56675.55.65.68.7-12 orang -6.9.8.7.8.9.6.6.9.8.6.8-12 orang 36. 47 Derajat Bebas (DB) Kuadrat (KR) Fung Taraf Sigifikan Skor Total Fue Pertanyaan Lengkapilah ringkasan tabel tersebut kemudian tunjukkan apakah ada perbedaan atau tidak, dengan taraf sigifikansi 5%! (Petunjuk pengerjaan setelah melengkapi tabel, gunakan langkah, rumusan hipotesis, taraf signifikansi, F hitung dan F tabel, kriteria pengujian, dan kesimpulan) 100​</h2><br />
+                        <p><strong>Jawab:</strong></p><p>Ada perbedaan yang cukup signifikan pada student yang tinggal di asrama (A1) Indekost (A2) Pulang pergi (A3), berdasar ANOVA.</p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>lihat sini saja.<br />https://brainly.co.id/tugas/53054983, terjawab oleh saya pula.</p><p>Untuk step by step pemahaman ikuti petujuk pada lampiran atau kalau masih ga jelas, minta dijelasin lagi sama dosenmu sambil bawa jawaban ini, atau sambil komen saya.</p><br />
+                                            <h2 class="ez-toc-section" id="sekolah-menengah-atas-%c2%b7-b-inggris-%c2%b7-53-poin-%c2%b7tolong-bantu-saya-untuk-menerjemahkan-kalimat-dibawah-ini-mohon-tidak-pakai-google-translate-ya-1-the-hard-turning-process-h">
+                            36. 
+ Sekolah Menengah Atas  ·
+  B. inggris  ·
+  5+3 poin  ·
+Tolong bantu saya untuk menerjemahkan kalimat dibawah ini, mohon tidak pakai google translate ya!
+ 1. The hard turning process has been attracting interest in different industrial sectors for finishing operations of hard materials at its hardened state.
+ 2. Surface roughness is investigated in hard turning of AISI D3 and AISI H13 stells of same hardness 62HRC.
+ 3. The combined effects three machining parameters such as cutting speed, feed rate and depth of cut are investigated for main performance characteristic that is surface roughness.
+ 4. RSM based Central Composite Design (CCD) is applied as an experimental design.
+ 5. The acceptability of the developed models is checked using Analysis of Variance (ANOVA).</h2><br />
+                        1. Proses perubahan yang susah sudah menarik perhatian di sektor industri yang berbeda dari operasi pengakhiran di mana material kasar menjadi semakin kuat.<br /><br />2. Kekasaran bahan diinvestigasi melalui perubahan AISI D3 dan AISIH13 dibandingkan dngan 62HRC.<br /><br />3. Gabungan dari tiga efek parameter mekanisme seperti kecepatan memotong, tingkat pemberian, dan dalamnya pemotongan sedang diinvestigasi untuk penilaian utama kekasaran suatu bahan.<br /><br />4. RSM didasarkan pada Central Composite Design (CCD) ditambahkan sebagai desain eksperimental.<br /><br />5. Kebisaan diterimanya perkembangan model diperiksa menggunakan Variasi Analisis (ANOVA)<br />
+                                            <h2 class="ez-toc-section" id="seorang-manager-research-suatu-bank-melakukan-pengamatan-terhadap-jumlah-customer-per-jam-yang-dapat-dilayani-oleh-4-orang-teller-data-hasil-beberapa-pengamatan-ditunjukkan-pada-tabel-berikut-teller">
+                            37. seorang manager research suatu bank melakukan pengamatan terhadap jumlah customer per jam yang dapat dilayani oleh 4 orang teller. Data hasil beberapa pengamatan ditunjukkan pada tabel berikut :Teller A Teller B Teller C Teller D19 14 11 2421 16 14 1926 14 21 2124 13 13 2618 17 16 2013 18Dengan tingkat signifikansi 5%, ujilah H0 bahwa rata-rata jumlah customer per jam yang dilayani masing2 teller adalah sama. Asumsikan bahwa seluruh asumsi untuk uji anova satu arah telah terpenuhi.​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>apa maksudnya?</p><p>hahhhhh</p><br />
+                                            <h2 class="ez-toc-section" id="perbedaan-yang-mendasar-uji-t-dan-anova-atau-uji-t-dan-anova-itu-hampir-sama">
+                            38. perbedaan yang mendasar uji t dan anova? Atau uji t dan Anova itu hampir sama?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Perbedaan antara "ANOVA" dan "T-test" adalah sebagai berikut:</p><p></p><p>"ANOVA" adalah generalisasi dari dua "T-tes" sehingga dua atau lebih dari dua nilai dapat dibandingkan tanpa menghalangi satu sama lain sedangkan "T-test" umumnya disebut sebagai lebih fleksibel karena dapat disesuaikan dengan kiri juga kanan sesuai kebutuhan.</p><p>Dalam "T-test" ada homogenitas varians di mana ia menghasilkan selalu hampir kesimpulan yang sama ketika dua tes berekor digunakan sedangkan dalam kasus "ANOVA" berbagai asumsi dibuat pada data yang ditransformasi di mana ada heterogenitas varian yang ada. cocok untuk berbagai tes non-parametrik.</p><p>Dalam kasus metode "ANOVA", jumlah perawatan adalah "F = t ^ 2" yang merupakan metode inferensi sedangkan dalam metode "T-test" juga kesimpulan dan jumlah perawatan juga sama, bahwa adalah, "F = t ^ 2", tetapi hanya dalam "ANOVA", ada lebih banyak kekuatan untuk tes dua sisi, karena dianggap lebih memadai.</p><p>Perbedaan utama adalah bahwa, ketika kita memiliki lebih dari dua kasus uji, jadi kita tidak dapat menggunakan "ANOVA" karena akan ada lebih banyak variasi dari heterogenitas, maka dalam kasus ini, kita perlu mengubah untuk, jauh lebih cocok lainnya tes non-parametrik dan mencari data yang ditransformasikan ketika mencari verifikasi sedangkan dalam kasus "T-test" jika ada masalah heterogenitas varian, daripada ada berbagai jenis lainnya dari "T-tes" yang berguna dalam jenis kasus tertentu.</p><p>Dalam kasus metode "ANOVA", normalisasi data dilakukan dengan transformasi, jika dan hanya jika, semua kelompok tidak terdistribusi secara normal sedangkan dalam kasus "T-test" berbagai jenis "Non-Parametrik" metode terjadi, dan kami menggunakan berbagai jenis "Pooled Variances" di mana kedua proses memiliki tes "dua sisi" masing-masing dan juga dalam kebanyakan kasus, "Tingkat Kebebasan" untuk masing-masing hampir sama. Dalam tes unilateral, seseorang harus menggunakan "T-test", yang memiliki kekuatan lebih untuk tingkat signifikan yang sama dan dalam kasus "Homogenitas Varians" dan "Normalitas", metode "ANOVA" digunakan dalam kasus ini.</p><br />
+                                            <h2 class="ez-toc-section" id="seorang-peneliti-ingin-mengetahui-perbedaan-prestasi-belajar-untuk-mata-kuliah-statistika-antara-mahasiswa-yang-tinggal-di-asrama-indekos-dan-pulang-pergi-data-diambil-dari-nilai-uas-adalah-sebagai">
+                            39. Seorang peneliti ingin mengetahui perbedaan prestasi belajar untuk mata kuliah statistika antara mahasiswa yang tinggal di asrama, indekos, dan pulang pergi. Data diambil dari nilai uas adalah sebagai berikut: tinggal di asrama (a1) = 6,8,5,7,7,6,6,8,7,6,7 = 11 orang indekost (a2) = 5,6,6,7,5,5,5,6,5,6,8,7 = 12 orang pulang pergi (a3) = 6,9,8,7,8,9,6,6,9,8,6,8 = 12 orang dengan tabel ringkasan anova satu arah sebagai berikut: sumber varian (sv) jumlah kuadrat ( jk) derajat bebas (db) kuadrat rerata ( kr) fhitung taraf sigifikan antar group (a) 15, 07 ……… ……… ……… ……. Dalam group (d) 36, 47 ……… ……. Ftabel ……… total ………. Pertanyaan: lengkapilah ringkasan tabel tersebut kemudian tunjukkan apakah ada perbedaan atau tidak, dengan taraf sigifikansi 5%! (petunjuk pengerjaan: setelah melengkapi tabel, gunakan langkah, rumusan hipotesis, taraf signifikansi, f hitung dan f tabel, kriteria pengujian, dan kesimpulan</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Berikut adalah ringkasan tabel yang diperlukan untuk menjawab pertanyaan Anda:</p><p></p><p>Sumber varian	Jumlah kuadrat	Derajat bebas	Kuadrat rerata	Fhitung	Taraf signifikan</p><p>Antar group	15,07    </p><p>Dalam group	36,47    </p><p>Total	51,54    </p><p>Untuk mengetahui apakah ada perbedaan prestasi belajar antara mahasiswa yang tinggal di asrama, indekos, dan pulang pergi, pertama-tama kita harus memformulasikan hipotesis penelitian sebagai berikut:</p><p></p><p>H0 (hipotesis nol) : Tidak ada perbedaan prestasi belajar antara mahasiswa yang tinggal di asrama, indekos, dan pulang pergi.</p><p></p><p>H1 (hipotesis alternatif) : Ada perbedaan prestasi belajar antara mahasiswa yang tinggal di asrama, indekos, dan pulang pergi.</p><p></p><p>Taraf signifikansi yang digunakan adalah 5%. Dengan menggunakan tabel ANOVA satu arah, kita dapat menghitung Fhitung sebagai berikut:</p><p></p><p>Fhitung = kuadrat rerata antar group / kuadrat rerata dalam group</p><p></p><p>Jika Fhitung &gt; Ftabel, maka H0 ditolak dan H1 diterima, yang berarti ada perbedaan prestasi belajar antara mahasiswa yang tinggal di asrama, indekos, dan pulang pergi. Sebaliknya, jika Fhitung &lt; Ftabel, maka H0 diterima dan H1 ditolak, yang berarti tidak ada perbedaan prestasi belajar antara mahasiswa yang tinggal di asrama, indekos, dan pulang pergi.</p><p></p><p>Kriteria pengujian yang digunakan adalah Fhitung &gt; Ftabel. Berdasarkan kriteria tersebut, kita dapat menyimpulkan apakah ada perbedaan prestasi belajar antara mahasiswa yang tinggal di asrama, indekos, dan pulang pergi atau tidak.</p><p><strong>Penjelasan:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="apa-gunanya-anovanskskskssksksks">
+                            40. Apa gunanya ANOVA?nskskskssksksks</h2><br />
+                        <p><strong>Anova</strong> berfungsi untuk membandingkan rata-rata populasi untuk mengetahui perbedaan signifikan dari dua atau lebih kelompok data</p>soal:<p>apa gunanya Anova??</p><p></p>Jawaban <p>Tujuan Anova adalah untuk mengambil kesimpulan dengan cara menemukan kelompok data yang berbeda. Hal ini dilakukan dengan memberikan hipotesis nol kepada populasi data.</p><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/OE46w0RqmQA?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>matematika</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-matriks-pilihan-ganda-dan-jawaban.html">Contoh Soal Matriks Pilihan Ganda Dan Jawaban</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-frasa-beserta-jawaban.html">Contoh Soal Frasa Beserta Jawaban</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-alkanal.html">Contoh Soal Alkanal</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-uas-kelas-1-semester-2.html">Contoh Soal Uas Kelas 1 Semester 2</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-penawaran-inelastis-sempurna.html">Contoh Soal Penawaran Inelastis Sempurna</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-dan-pembahasan-mikrometer-sekrup.html">Contoh Soal Dan Pembahasan Mikrometer Sekrup</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-psikotes-beserta-jawabannya.html">Contoh Soal Psikotes Beserta Jawabannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/ca2.html">Ca2+</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/krocsales.html">Krocsales</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/nggak-tahu.html">Nggak Tahu</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-ekonomi-kelas-xi-semester-1.html">Contoh Soal Ekonomi Kelas Xi Semester 1</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-promosi-kesehatan.html">Contoh Soal Promosi Kesehatan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-uii.html">Contoh Soal Uii</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/cocogna.html">Cocogna</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/polisi-tembak-polisi.html">Polisi Tembak Polisi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/gta-5-ps3-helicopter-cheat.html">Gta 5 Ps3 Helicopter Cheat</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-bidang-miring-dan-pembahasannya.html">Contoh Soal Bidang Miring Dan Pembahasannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-dan-jawaban-payback-period.html">Contoh Soal Dan Jawaban Payback Period</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-ppkn-kelas-2-semester-2.html">Contoh Soal Ppkn Kelas 2 Semester 2</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://webedukasi.github.io/contoh-soal-opinion-and-thought-kelas-11.html">Contoh Soal Opinion And Thought Kelas 11</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://webedukasi.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://webedukasi.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://webedukasi.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://webedukasi.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://webedukasi.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/1d/a7/d8/1da7d80839196eccc4a624ab91e5ccbf.js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>
